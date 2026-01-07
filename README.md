@@ -48,7 +48,7 @@ Exercises that work with slicing, formatting, masking, and rebuilding text.
 - Truncate String - shorten long strings & append "..."  
   [`string-manipulation/truncate-string.js`](./string-manipulation/truncate-string.js)
 
-📁 Folder: [`string-manipulation/`](./string-manipulation)
+<sub>📂 Folder: [`string-manipulation/`](./string-manipulation)</sub>
 ---
 
 ### ➗ Math Basics
@@ -63,7 +63,7 @@ Practical exercises using arithmetic, formulas, and logical rules.
 - Leap Year Checker - logic & modulo math  
   [`math-basics/is-leap-year.js`](./math-basics/is-leap-year.js)
 
-📁 Folder: [`math-basics/`](./math-basics)
+<sub>📂 Folder: [`math-basics/`](./math-basics)</sub>
 ---
 
 ### 🔁 Logic & Control Flow
@@ -72,7 +72,7 @@ Exercises focused on decision-making, branching, and tracking state across multi
 - Blackjack-style card counting with a running count  
   [`logic-and-control-flow/card-counter.js`](./logic-and-control-flow/card-counter.js)
 
-📁 Folder: [`logic-and-control-flow/`](./logic-and-control-flow)
+<sub>📂 Folder: [`logic-and-control-flow/`](./logic-and-control-flow)</sub>
 ---
 
 ## 🚀 Purpose
