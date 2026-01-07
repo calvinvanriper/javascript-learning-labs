@@ -19,7 +19,8 @@ The goal of this repo is not just to store code, but to document my learning pro
 
 ## 📂 Repo Structure
 
-Each topic area gets its own folder:
+Each topic area gets its own folder, containing one or more focused JavaScript labs.
+Every lab includes clear code and (where helpful) an explination of reflection.
 
 ```
     /topic-area/
@@ -44,7 +45,7 @@ Practical exercises focused on working with text and character data in JavaScrip
 Current labs include:
 
 - Masking the username portion of an email address  
-  ( [`string-manipulation/mask-email.js`](./string-manipulation/mask-email.js) )
+  [`string-manipulation/mask-email.js`](./string-manipulation/mask-email.js)
 
 ---
 
@@ -55,9 +56,11 @@ Small numeric-focused functions that reinforce working with math expressions and
 Current labs include:
 
 - Celsius → Fahrenheit conversion  
-  ( [`math-basics/convert-c-to-f.js`](./math-basics/convert-c-to-f.js) )
+  [`math-basics/convert-c-to-f.js`](./math-basics/convert-c-to-f.js)
 - Fahrenheit → Celsius conversion  
-  ( [`math-basics/convert-f-to-c.js`](./math-basics/convert-f-to-c.js) )
+  [`math-basics/convert-f-to-c.js`](./math-basics/convert-f-to-c.js)
+- Leap Year Checker - logic & modulo math  
+  [`math-basics/is-leap-year.js`](./math-basics/is-leap-year.js)
 
 ---
 
@@ -68,7 +71,7 @@ Exercises focused on decision-making, branching, and tracking state across multi
 Current labs include:
 
 - Blackjack-style card counting with a running count  
-  ( [`logic-and-control-flow/card-counter.js`](./logic-and-control-flow/card-counter.js) )
+  [`logic-and-control-flow/card-counter.js`](./logic-and-control-flow/card-counter.js)
 
 ---
 
