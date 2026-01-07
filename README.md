@@ -15,6 +15,10 @@ The goal of this repo is not just to store code, but to document my learning pro
 ## 📂 Repo Structure
 
 Each topic area gets its own folder:
+string-manipulation/
+  mask-email.js
+  README.md
+
 
 ## 🚀 Purpose
 
