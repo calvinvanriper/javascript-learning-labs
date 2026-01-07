@@ -1,14 +1,24 @@
-# Celsius to Fahrenheit Converter
+# Math Basics Labs
 
 ## 📝 Description
 
-This exercise practices writing small reusable JavaScript functions. The goal is to convert a temperature value from Celsius to Fahrenheit using the standard conversion formula:
+This folder contains JavaScript exercises that focus on math fundamentals and numeric operations. Each lab is built as a small, reusable function that performs a real-world style calculation. These exercises reinforce function structure, return values, and working with mathematical expressions in JavaScript.
 
-    Fahrenheit = Celsius × (9/5) + 32
+More math-focused practice labs will be added here as I continue learning 🙂
 
-The function accepts a Celsius value as input and returns the converted Fahrenheit value.
+---
 
-## 🧪 Example Inputs & Outputs
+## 🌡 Temperature Conversion Labs
+
+### 1️⃣ Convert Celsius to Fahrenheit
+
+**File:** `convert-c-to-f.js`
+
+**Formula**
+
+    F = C × (9/5) + 32
+
+**Example Inputs & Outputs**
 
     0°C    → 32°F
     -30°C  → -22°F
@@ -16,17 +26,47 @@ The function accepts a Celsius value as input and returns the converted Fahrenhe
     20°C   → 68°F
     30°C   → 86°F
 
-## 🎯 Concepts Practiced
+**Concepts Practiced**
 
-- Writing and calling functions
-- Using mathematical expressions in JavaScript
-- Returning values instead of logging them directly
-- Testing functions with multiple inputs
+- Writing reusable functions  
+- Returning values  
+- Using math operations in JavaScript  
+- Testing with multiple inputs  
+
+---
+
+### 2️⃣ Convert Fahrenheit to Celsius
+
+**File:** `convert-f-to-c.js`
+
+**Formula**
+
+    C = (F − 32) × 5/9
+
+**Example Inputs & Outputs**
+
+    32°F  → 0°C
+    -22°F → -30°C
+    14°F  → -10°C
+    68°F  → 20°C
+    86°F  → 30°C
+
+**Concepts Practiced**
+
+- Mathematical order of operations  
+- Variable naming clarity  
+- Consistent function design  
+- Manual output validation  
+
+---
 
 ## 💡 Reflection
 
-Even though this is a simple exercise, it helped reinforce the value of small, single-purpose functions. Converting temperature is a real-world style problem, and writing the logic as a function makes it reusable and easy to test.
+Even though these are simple calculations, they helped reinforce:
 
-I also practiced logging test values to verify the results, which is an important debugging habit.
+- Writing clear, single-purpose functions  
+- Returning values rather than printing inside the function  
+- Structuring code so it can be reused  
+- Validating outputs with test calls  
 
-More math-focused practice labs will be added here as I continue learning 🙂
+These exercises are an important step in building confidence with JavaScript fundamentals before moving on to more complex projects.
