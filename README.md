@@ -6,30 +6,35 @@ The goal of this repo is not just to store code, but to document my learning pro
 
 ## 🧠 What You’ll Find Here
 
-- Small focused JavaScript exercises
-- Clean, readable code
-- Explanations and notes
-- Incremental improvements over time
-- Real-world style problem solving
+- Small focused JavaScript exercises  
+- Clean, readable code  
+- Explanations and notes  
+- Incremental improvements over time  
+- Real-world style problem solving  
 
 ## 📂 Repo Structure
 
 Each topic area gets its own folder:
-```text
-/string-manipulation/
-  mask-email.js
-  README.md
-```
+
+    /topic-area/
+      exercise-name.js
+      README.md   ← explanation & reflection
+
+Example:
+
+    string-manipulation/
+      mask-email.js
+      README.md
 
 ## 🚀 Purpose
 
 This repo exists so that I can:
 
-- Practice writing JavaScript consistently
-- Reinforce key programming concepts
-- Build real problem-solving intuition
-- Track progress over time
-- Share my learning journey publicly
+- Practice writing JavaScript consistently  
+- Reinforce key programming concepts  
+- Build real problem-solving intuition  
+- Track progress over time  
+- Share my learning journey publicly  
 
 ## 🛠️ Tools & Environment
 
@@ -40,10 +45,10 @@ This repo exists so that I can:
 
 Many of these labs are inspired by:
 
-- FreeCodeCamp
-- LinkedIn Learning
-- Coursera
-- Personal exploration and practice challenges
+- FreeCodeCamp  
+- LinkedIn Learning  
+- Coursera  
+- Personal exploration and practice challenges  
 
 ## ✅ Status
 
