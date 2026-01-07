@@ -21,39 +21,54 @@ The goal of this repo is not just to store code, but to document my learning pro
 
 Each topic area gets its own folder:
 
+```
     /topic-area/
       exercise-name.js
       README.md   ← explanation & reflection
-
+```
 Example:
 
+```
     string-manipulation/
       mask-email.js
       README.md
-
+```
 ---
 
 ## 🗂 Current Labs
 
-### 🔤 String Manipulation
+### 🔤 [String Manipulation](./string-manipulation/)
+
 Practical exercises focused on working with text and character data in JavaScript.
 
 Current labs include:
 
 - Masking the username portion of an email address  
-  (`string-manipulation/mask-email.js`)
+  ( [`string-manipulation/mask-email.js`](./string-manipulation/mask-email.js) )
 
 ---
 
-### ➗ Math Basics
+### ➗ [Math Basics](./math-basics/)
+
 Small numeric-focused functions that reinforce working with math expressions and return values.
 
 Current labs include:
 
 - Celsius → Fahrenheit conversion  
-  (`math-basics/convert-c-to-f.js`)
+  ( [`math-basics/convert-c-to-f.js`](./math-basics/convert-c-to-f.js) )
 - Fahrenheit → Celsius conversion  
-  (`math-basics/convert-f-to-c.js`)
+  ( [`math-basics/convert-f-to-c.js`](./math-basics/convert-f-to-c.js) )
+
+---
+
+### 🔁 [Logic & Control Flow](./logic-and-control-flow/)
+
+Exercises focused on decision-making, branching, and tracking state across multiple function calls.
+
+Current labs include:
+
+- Blackjack-style card counting with a running count  
+  ( [`logic-and-control-flow/card-counter.js`](./logic-and-control-flow/card-counter.js) )
 
 ---
 
@@ -80,6 +95,99 @@ Many of these labs are inspired by:
 - LinkedIn Learning  
 - Coursera  
 - Personal exploration and practice challenges  
+
+---
+
+## 🧭 Learning Roadmap
+
+This repo will continue to grow as I work through more JavaScript concepts. Planned areas include:
+
+- **Arrays & Iteration**  
+  - Looping patterns  
+  - Transforming lists of data  
+  - Searching and filtering  
+
+- **Objects & Structured Data**  
+  - Key–value pairs  
+  - Nested data structures  
+  - Basic data modeling  
+
+- **Functions & Reusability**  
+  - Parameter patterns  
+  - Default values  
+  - Composing small utilities  
+
+- **DOM Interaction (Later)**  
+  - Selecting and updating elements  
+  - Handling user events  
+  - Connecting logic to UI  
+
+- **Async & APIs (Longer-term)**  
+  - `fetch()` and working with APIs  
+  - Promises and async/await  
+  - Handling responses and errors  
+
+## ▶️ How to Run These Labs
+
+These labs are written in plain JavaScript (ES6) and can be run in a few simple ways.
+
+---
+
+### ✅ Option 1 — Run in a Web Browser Console (Quick & Easy)
+
+1. Open any web page
+2. Right-click and select **Inspect** or **Developer Tools**
+3. Go to the **Console** tab
+4. Open any `.js` file from this repo
+5. Copy the code and paste it into the console
+6. Press **Enter**
+
+You should see the output immediately.
+
+This is the fastest way to experiment and modify values.
+
+---
+
+### 🖥 Option 2 — Run Using Node.js (Recommended for Practice)
+
+If you have Node.js installed:
+
+1. Download or clone this repo
+2. Open a terminal in the project folder
+3. Run a file like this:
+
+```bash
+    node math-basics/convert-c-to-f.js
+```
+
+or
+
+```bash
+    node logic-and-control-flow/card-counter.js
+```
+
+The console output will appear in your terminal
+
+---
+
+### 💡 Option 3 - Run in VS Code
+
+1. Open the project folder in **VS Code**
+2. Open any `.js` file
+3. Right-click inside the file
+4. Select **"Run Code"** (requires *Code Runner* extension)
+
+or us the built-in terminal:
+
+```bashi 
+    node filename.js
+```
+
+---
+
+### ℹ️ No Frameworks Required
+
+These labs run using **plain JavaScript only** - no browser libraries, build tools, or frameworks are needed. The goal is to practice core language concepts in the simplest way possible.
 
 ## ✅ Status
 
