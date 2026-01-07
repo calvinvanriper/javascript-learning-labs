@@ -37,31 +37,33 @@ Example:
 ---
 
 ## 🗂 Current Labs
+These labs document my journey learning JavaScript through small, focused practical exercises.
 
-### 🔤 [String Manipulation](./string-manipulation/)
+### 🧵 String Manipulation
+Exercises that work with slicing, formatting, masking, and rebuilding text.
 
-Practical exercises focused on working with text and character data in JavaScript.
-
-Current labs include:
-
-- Masking the username portion of an email address  
+- Mask Email - privacy-safe username masking  
   [`string-manipulation/mask-email.js`](./string-manipulation/mask-email.js)
 
+- Truncate String - shorten long strings & append "..."  
+  [`string-manipulation/truncate-string.js`](./string-manipulation/truncate-string.js)
+
+📁 Folder: [`string-manipulation/`](./string-manipulation)
 ---
 
-### ➗ [Math Basics](./math-basics/)
-
-Small numeric-focused functions that reinforce working with math expressions and return values.
-
-Current labs include:
+### ➗ Math Basics
+Practical exercises using arithmetic, formulas, and logical rules.
 
 - Celsius → Fahrenheit conversion  
   [`math-basics/convert-c-to-f.js`](./math-basics/convert-c-to-f.js)
+
 - Fahrenheit → Celsius conversion  
   [`math-basics/convert-f-to-c.js`](./math-basics/convert-f-to-c.js)
+
 - Leap Year Checker - logic & modulo math  
   [`math-basics/is-leap-year.js`](./math-basics/is-leap-year.js)
 
+📁 Folder: [`math-basics/`](./math-basics)
 ---
 
 ### 🔁 [Logic & Control Flow](./logic-and-control-flow/)
