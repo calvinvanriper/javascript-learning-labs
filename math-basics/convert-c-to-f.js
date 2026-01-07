@@ -1,0 +1,14 @@
+function convertCtoF(tempC) {
+  const tempF = tempC * (9/5) + 32;
+  return tempF;
+}
+const temp1 = convertCtoF(0);
+const temp2 = convertCtoF(-30);
+const temp3 = convertCtoF(-10);
+const temp4 = convertCtoF(20);
+const temp5 = convertCtoF(30);
+console.log(temp1);
+console.log(temp2);
+console.log(temp3);
+console.log(temp4);
+console.log(temp5);
