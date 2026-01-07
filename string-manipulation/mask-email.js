@@ -1,11 +1,26 @@
+/**
+ * Masks the username portion of an email address.
+ * Only the first and last character remain visible.
+ *
+ * Example:
+ *   "jsmith@example.com" -> "j****h@example.com"
+ */
 function maskEmail(email) {
-  let domain = email.indexOf("@");
-  let counter = domain-2;
-  let firstLetter = email.slice(0,1);
-  let lastLetter = email.slice((domain-1),domain);
-  let masking = "*";
+  const atIndex = email.indexOf("@");
+
+  // Extract username + domain portions
+  const firstLetter = email.slice(0,1);
+  const lastLetter = email.slice((atIndex-1),atIndex);
+  const domain = email.slice(atIndex);
+
+  // Number of characters to mask
+  const maskLength = at-index - 2;
+
+  // Build masked username
+  const masked = `${firstLetter}"*".repeat(maskLength)${lastLetter};
+
+  return masked + domain;
   
-  return `${firstLetter}${masking.repeat(counter)}${lastLetter}${email.slice(domain)}`;
 }
 
 const email = "calvin.vanriper.ii@gmail.com";
