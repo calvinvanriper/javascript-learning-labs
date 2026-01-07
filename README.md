@@ -6,9 +6,9 @@ The goal of this repo is not just to store code, but to document my learning pro
 
 ## 🧠 What You’ll Find Here
 
-- Small focused JavaScript exercises  
+- Small, focused JavaScript exercises  
 - Clean, readable code  
-- Explanations and notes  
+- Explanations and learning notes  
 - Incremental improvements over time  
 - Real-world style problem solving  
 
@@ -25,6 +25,32 @@ Example:
     string-manipulation/
       mask-email.js
       README.md
+
+---
+
+## 🗂 Current Labs
+
+### 🔤 String Manipulation
+Practical exercises focused on working with text and character data in JavaScript.
+
+Current labs include:
+
+- Masking the username portion of an email address  
+  (`string-manipulation/mask-email.js`)
+
+---
+
+### ➗ Math Basics
+Small numeric-focused functions that reinforce working with math expressions and return values.
+
+Current labs include:
+
+- Celsius → Fahrenheit conversion  
+  (`math-basics/convert-c-to-f.js`)
+- Fahrenheit → Celsius conversion  
+  (`math-basics/convert-f-to-c.js`)
+
+---
 
 ## 🚀 Purpose
 
