@@ -66,15 +66,13 @@ Practical exercises using arithmetic, formulas, and logical rules.
 📁 Folder: [`math-basics/`](./math-basics)
 ---
 
-### 🔁 [Logic & Control Flow](./logic-and-control-flow/)
-
+### 🔁 Logic & Control Flow
 Exercises focused on decision-making, branching, and tracking state across multiple function calls.
-
-Current labs include:
 
 - Blackjack-style card counting with a running count  
   [`logic-and-control-flow/card-counter.js`](./logic-and-control-flow/card-counter.js)
 
+📁 Folder: [`logic-and-control-flow/`](./logic-and-control-flow)
 ---
 
 ## 🚀 Purpose
