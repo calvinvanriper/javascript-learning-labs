@@ -60,6 +60,20 @@ More math-focused practice labs will be added here as I continue learning 🙂
 
 ---
 
+### 3️⃣ Leap Year Checker
+
+**File:** `is-leap-year.js`
+
+Determines whether a given year is a leap year based on the Gregorian calendar rule:
+
+    - Divisible by 4  → leap year
+    - Divisible by 100 → not a leap year
+    - Divisible by 400 → leap year again
+
+This lab practices nested conditional logic along with mathematical operators such as modulo `%`.
+
+---
+
 ## 💡 Reflection
 
 Even though these are simple calculations, they helped reinforce:
