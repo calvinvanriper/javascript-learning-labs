@@ -5,7 +5,7 @@
  *   F = C x (9/5) + 32
  *
  * @param {number} tempC - Temperature in Celsius
- * @returns {number} tempF - Temperature converted to Fahrenheit
+ * @returns {number} Temperature converted to Fahrenheit
  */
 function convertCtoF(tempC) {
   // Apply Celsius -> Fahrenheit conversion formula
