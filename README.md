@@ -1,5 +1,10 @@
 # JavaScript Learning Labs
 
+![JavaScript](https://img.shields.io/badge/language-JavaScript-yellow)
+![Learning Repo](https://img.shields.io/badge/purpose-Learning-blueviolet)
+![Status](https://img.shields.io/badge/status-Active-brightgreen)
+![FreeCodeCamp](https://img.shields.io/badge/inspired%20by-FreeCodeCamp-0a0a23)
+
 This repository is a collection of small JavaScript practice projects and learning exercises that I’ve completed while studying programming. Each lab focuses on a specific concept such as string manipulation, arrays, objects, functions, DOM interaction, and more.
 
 The goal of this repo is not just to store code, but to document my learning process and growth as a developer. Wherever possible, I include explanations of what the exercise is doing and what I learned from it.
