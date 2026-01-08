@@ -36,6 +36,8 @@ This lab helped me practice breaking a problem into smaller steps, working with 
 
 This exercise truncates text when it exceeds a specified length and appends an ellipsis (`...`). If the string is already short enough, it returns the original value unchanged.
 
+#### Example
+
 ```
 truncateString("Hello World",5) -> "Hello..."
 ```
@@ -53,13 +55,33 @@ This lab helped reinforce how conditional logic and string length checks work to
 
 ---
 
+### 3️⃣ Confirm String Ending
+
+This exercise checks whether a given string ends with a specified target string. The solution was implemented without using `.endsWith()`, relying instead on string slicing and length comparison.
+
+#### Example
+
+```
+confirmEnding("Bastian","n") -> true
+confirmEnding("Open Sesame", "sage") -> false
+```
+
+#### Concepts Practiced
+
+- Extracting substrings using negative indexes
+- Comparing string segments for equality
+- Re-creating built-in behavior using core methods
+- Writing clear boolean-returning functions
+
+#### Reflection
+
+This lab helped solidify my understanding of how string indexing works and how built-in methods can be recreated using fundamental operations. It also reinforced the importance of reading problem constraints carefully and choosing simple, direct solutions.
+
+---
+
 ## 🚀 Purpose of This Folder
 
 - Practice working with text-based data
 - Build clean, readable string functions
 - Reinforce core JavaScript fundamentals
 - Document growth and learning over time
-
-
-#### Example
-
