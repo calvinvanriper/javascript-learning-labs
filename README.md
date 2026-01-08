@@ -78,6 +78,19 @@ Exercises focused on decision-making, branching, and tracking state across multi
 <sub>📂 Folder: [`logic-and-control-flow/`](./logic-and-control-flow)</sub>
 ---
 
+### 📚 Arrays
+
+Exercises focused on working with collections of data — including adding, removing, selecting, and displaying items while managing shared state safely.
+
+Current labs include:
+
+- Lunch Menu Manager — add, remove, display, and randomly select items from an array  
+  [`arrays/lunch-menu.js`](./arrays/lunch-menu.js)
+
+📂 Folder: [`arrays/`](./arrays)
+
+---
+
 ## 🚀 Purpose
 
 This repo exists so that I can:
