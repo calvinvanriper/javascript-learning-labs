@@ -48,6 +48,9 @@ Exercises that work with slicing, formatting, masking, and rebuilding text.
 - Truncate String - shorten long strings & append "..."  
   [`string-manipulation/truncate-string.js`](./string-manipulation/truncate-string.js)
 
+- Confirm String Ending - checks whether a string ends with a specified target substring using string slicing and length comparison.
+  [`string-manipulation/confirm-ending.js`](./string-manipulation/confirm-ending.js)
+
 <sub>📂 Folder: [`string-manipulation/`](./string-manipulation)</sub>
 ---
 
