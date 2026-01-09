@@ -11,11 +11,11 @@ The goal of this repo is not just to store code, but to document my learning pro
 
 ## 🧠 What You’ll Find Here
 
-- Small, focused JavaScript exercises  
-- Clean, readable code  
-- Explanations and learning notes  
-- Incremental improvements over time  
-- Real-world style problem solving  
+- Small, focused JavaScript exercises
+- Clean, readable code
+- Explanations and learning notes
+- Incremental improvements over time
+- Real-world style problem solving
 
 ## 📂 Repo Structure
 
@@ -27,6 +27,7 @@ Every lab includes clear code and (where helpful) an explination of reflection.
       exercise-name.js
       README.md   ← explanation & reflection
 ```
+
 Example:
 
 ```
@@ -34,27 +35,27 @@ Example:
       mask-email.js
       README.md
 ```
+
 ---
 
 ## 🗂 Current Labs
+
 These labs document my journey learning JavaScript through small, focused practical exercises.
 
-### 🧵 String Manipulation
-Exercises that work with slicing, formatting, masking, and rebuilding text.
+### 🔁 Logic & Control Flow
 
-- Mask Email - privacy-safe username masking  
-  [`string-manipulation/mask-email.js`](./string-manipulation/mask-email.js)
+Exercises focused on decision-making, branching, and tracking state across multiple function calls.
 
-- Truncate String - shorten long strings & append "..."  
-  [`string-manipulation/truncate-string.js`](./string-manipulation/truncate-string.js)
+- Blackjack-style card counting with a running count  
+  [`logic-and-control-flow/card-counter.js`](./logic-and-control-flow/card-counter.js)
 
-- Confirm String Ending - checks whether a string ends with a specified target substring using string slicing and length comparison.
-  [`string-manipulation/confirm-ending.js`](./string-manipulation/confirm-ending.js)
+- Golf score label based on hole's par value and number of strokes  
+  [`logic-and-control-flow/golf-score.js`](./logic-and-control-flow/golf-score.js)
 
-<sub>📂 Folder: [`string-manipulation/`](./string-manipulation)</sub>
----
+## <sub>📂 Folder: [`logic-and-control-flow/`](./logic-and-control-flow)</sub>
 
 ### ➗ Math Basics
+
 Practical exercises using arithmetic, formulas, and logical rules.
 
 - Celsius → Fahrenheit conversion  
@@ -66,17 +67,22 @@ Practical exercises using arithmetic, formulas, and logical rules.
 - Leap Year Checker - logic & modulo math  
   [`math-basics/is-leap-year.js`](./math-basics/is-leap-year.js)
 
-<sub>📂 Folder: [`math-basics/`](./math-basics)</sub>
----
+## <sub>📂 Folder: [`math-basics/`](./math-basics)</sub>
 
-### 🔁 Logic & Control Flow
-Exercises focused on decision-making, branching, and tracking state across multiple function calls.
+### 🧵 String Manipulation
 
-- Blackjack-style card counting with a running count  
-  [`logic-and-control-flow/card-counter.js`](./logic-and-control-flow/card-counter.js)
+Exercises that work with slicing, formatting, masking, and rebuilding text.
 
-<sub>📂 Folder: [`logic-and-control-flow/`](./logic-and-control-flow)</sub>
----
+- Mask Email - privacy-safe username masking  
+  [`string-manipulation/mask-email.js`](./string-manipulation/mask-email.js)
+
+- Truncate String - shorten long strings & append "..."  
+  [`string-manipulation/truncate-string.js`](./string-manipulation/truncate-string.js)
+
+- Confirm String Ending - checks whether a string ends with a specified target substring using string slicing and length comparison.
+  [`string-manipulation/confirm-ending.js`](./string-manipulation/confirm-ending.js)
+
+## <sub>📂 Folder: [`string-manipulation/`](./string-manipulation)</sub>
 
 ### 📚 Arrays
 
@@ -87,19 +93,17 @@ Current labs include:
 - Lunch Menu Manager — add, remove, display, and randomly select items from an array  
   [`arrays/lunch-menu.js`](./arrays/lunch-menu.js)
 
-📂 Folder: [`arrays/`](./arrays)
-
----
+## 📂 Folder: [`arrays/`](./arrays)
 
 ## 🚀 Purpose
 
 This repo exists so that I can:
 
-- Practice writing JavaScript consistently  
-- Reinforce key programming concepts  
-- Build real problem-solving intuition  
-- Track progress over time  
-- Share my learning journey publicly  
+- Practice writing JavaScript consistently
+- Reinforce key programming concepts
+- Build real problem-solving intuition
+- Track progress over time
+- Share my learning journey publicly
 
 ## 🛠️ Tools & Environment
 
@@ -110,10 +114,10 @@ This repo exists so that I can:
 
 Many of these labs are inspired by:
 
-- FreeCodeCamp  
-- LinkedIn Learning  
-- Coursera  
-- Personal exploration and practice challenges  
+- FreeCodeCamp
+- LinkedIn Learning
+- Coursera
+- Personal exploration and practice challenges
 
 ---
 
@@ -121,30 +125,34 @@ Many of these labs are inspired by:
 
 This repo will continue to grow as I work through more JavaScript concepts. Planned areas include:
 
-- **Arrays & Iteration**  
-  - Looping patterns  
-  - Transforming lists of data  
-  - Searching and filtering  
+- **Arrays & Iteration**
 
-- **Objects & Structured Data**  
-  - Key–value pairs  
-  - Nested data structures  
-  - Basic data modeling  
+  - Looping patterns
+  - Transforming lists of data
+  - Searching and filtering
 
-- **Functions & Reusability**  
-  - Parameter patterns  
-  - Default values  
-  - Composing small utilities  
+- **Objects & Structured Data**
 
-- **DOM Interaction (Later)**  
-  - Selecting and updating elements  
-  - Handling user events  
-  - Connecting logic to UI  
+  - Key–value pairs
+  - Nested data structures
+  - Basic data modeling
 
-- **Async & APIs (Longer-term)**  
-  - `fetch()` and working with APIs  
-  - Promises and async/await  
-  - Handling responses and errors  
+- **Functions & Reusability**
+
+  - Parameter patterns
+  - Default values
+  - Composing small utilities
+
+- **DOM Interaction (Later)**
+
+  - Selecting and updating elements
+  - Handling user events
+  - Connecting logic to UI
+
+- **Async & APIs (Longer-term)**
+  - `fetch()` and working with APIs
+  - Promises and async/await
+  - Handling responses and errors
 
 ## ▶️ How to Run These Labs
 
@@ -194,11 +202,11 @@ The console output will appear in your terminal
 1. Open the project folder in **VS Code**
 2. Open any `.js` file
 3. Right-click inside the file
-4. Select **"Run Code"** (requires *Code Runner* extension)
+4. Select **"Run Code"** (requires _Code Runner_ extension)
 
 or us the built-in terminal:
 
-```bashi 
+```bashi
     node filename.js
 ```
 

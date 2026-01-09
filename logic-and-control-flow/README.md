@@ -23,7 +23,7 @@ This lab simulates a simplified Blackjack card-counting system. The program keep
 ### Output Rule
 
 If the count is positive → return `"Bet"`  
-Otherwise                 → return `"Hold"`
+Otherwise → return `"Hold"`
 
 Example output format:
 
@@ -41,11 +41,52 @@ Example output format:
 
 ---
 
+## ⛳ Golf Score Lab
+
+**File:** `golf-score.js`
+
+This lab determines a golfer’s score label based on the hole’s par value and the number of strokes taken. It follows standard golf scoring rules and returns a descriptive result such as `"Birdie"` or `"Bogey"`.
+
+### Scoring Rules
+
+    Strokes === 1       ➜ Hole-in-one!
+    Par - 3             ➜ Albatross
+    Par - 2             ➜ Eagle
+    Par - 1             ➜ Birdie
+    Par                 ➜ Par
+    Par + 1             ➜ Bogey
+    Par + 2             ➜ Double Bogey
+    ≥ Par + 3           ➜ Go Home!
+
+### Example Outputs
+
+    golfScore(5, 4) ➜ Birdie
+    golfScore(4, 1) ➜ Hole-in-one!
+    golfScore(4, 7) ➜ Go Home!
+    golfScore(5, 2) ➜ Albatross
+    golfScore(3, 3) ➜ Par
+    golfScore(4, 2) ➜ Eagle
+    golfScore(4, 5) ➜ Bogey
+    golfScore(5, 7) ➜ Double Bogey
+
+### Concepts Practiced
+
+- Conditional logic and ordered rule evaluation
+- Guard clauses for special cases
+- Mapping real-world rules to program logic
+- Using a lookup array to centralize output values
+- Ensuring clean control flow with clear fall-through behavior
+
+---
+
 ## 💡 Reflection
 
-This lab helped me understand how a program can maintain state across multiple function calls using a shared variable. It also gave me more practice structuring conditional logic so the program behaves differently depending on input values.
+These labs helped reinforce how important **logic and control flow** are in real-world programs. Rather than focusing only on calculations, each exercise required thinking about how values change, how rules are prioritized, and how decisions affect output.
 
-Even though this is a simple simulation, it reflects a real-world programming pattern:  
-track something over time → update it → make decisions based on it.
+Both labs demonstrate common programming patterns:
+
+- tracking and updating state over time
+- evaluating conditions in the correct order
+- producing consistent, meaningful results from user input
 
 More logic-focused practice labs will be added here as I continue learning 🙂
