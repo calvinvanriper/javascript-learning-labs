@@ -61,6 +61,9 @@ Exercises focused on repeating logic across multiple values, tracking results ov
 - Find the length of the longest word in a sentence using iteration  
   [`Longest Word Length`](./loops/longest-word-length.js)
 
+- Calculates the factorial of a number by iterating from 1 to the given value and multiplying each number together.  
+  [`Factorial`](./loops/factorial.js)
+
 ## <sub>📂 Folder: [`Loops`](./loops)</sub>
 
 ### ➗ Math Basics
