@@ -54,6 +54,15 @@ Exercises focused on decision-making, branching, and tracking state across multi
 
 ## <sub>📂 Folder: [`Logic & Control Flow`](./logic-and-control-flow)</sub>
 
+### 🔁 Loops
+
+Exercises focused on repeating logic across multiple values, tracking results over time, and processing collections step-by-step using loops.
+
+- Find the length of the longest word in a sentence using iteration  
+  [`Longest Word Length`](./loops/longest-word-length.js)
+
+## <sub>📂 Folder: [`Loops`](./loops)</sub>
+
 ### ➗ Math Basics
 
 Practical exercises using arithmetic, formulas, and logical rules.
