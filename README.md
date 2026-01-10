@@ -47,42 +47,42 @@ These labs document my journey learning JavaScript through small, focused practi
 Exercises focused on decision-making, branching, and tracking state across multiple function calls.
 
 - Blackjack-style card counting with a running count  
-  [`logic-and-control-flow/card-counter.js`](./logic-and-control-flow/card-counter.js)
+  [`Blackjack Card Counter`](./logic-and-control-flow/card-counter.js)
 
 - Golf score label based on hole's par value and number of strokes  
-  [`logic-and-control-flow/golf-score.js`](./logic-and-control-flow/golf-score.js)
+  [`Golf Score`](./logic-and-control-flow/golf-score.js)
 
-## <sub>📂 Folder: [`logic-and-control-flow/`](./logic-and-control-flow)</sub>
+## <sub>📂 Folder: [`Logic & Control Flow`](./logic-and-control-flow)</sub>
 
 ### ➗ Math Basics
 
 Practical exercises using arithmetic, formulas, and logical rules.
 
 - Celsius → Fahrenheit conversion  
-  [`math-basics/convert-c-to-f.js`](./math-basics/convert-c-to-f.js)
+  [`Celsius to Fahrenheit`](./math-basics/convert-c-to-f.js)
 
 - Fahrenheit → Celsius conversion  
-  [`math-basics/convert-f-to-c.js`](./math-basics/convert-f-to-c.js)
+  [`Fahrenheit to Celsius`](./math-basics/convert-f-to-c.js)
 
 - Leap Year Checker - logic & modulo math  
-  [`math-basics/is-leap-year.js`](./math-basics/is-leap-year.js)
+  [`Leap Year Checker`](./math-basics/is-leap-year.js)
 
-## <sub>📂 Folder: [`math-basics/`](./math-basics)</sub>
+## <sub>📂 Folder: [`Math Basics`](./math-basics)</sub>
 
 ### 🧵 String Manipulation
 
 Exercises that work with slicing, formatting, masking, and rebuilding text.
 
 - Mask Email - privacy-safe username masking  
-  [`string-manipulation/mask-email.js`](./string-manipulation/mask-email.js)
+  [`Mask Email`](./string-manipulation/mask-email.js)
 
 - Truncate String - shorten long strings & append "..."  
-  [`string-manipulation/truncate-string.js`](./string-manipulation/truncate-string.js)
+  [`Truncate String`](./string-manipulation/truncate-string.js)
 
 - Confirm String Ending - checks whether a string ends with a specified target substring using string slicing and length comparison.
-  [`string-manipulation/confirm-ending.js`](./string-manipulation/confirm-ending.js)
+  [`Confirm Ending`](./string-manipulation/confirm-ending.js)
 
-## <sub>📂 Folder: [`string-manipulation/`](./string-manipulation)</sub>
+## <sub>📂 Folder: [`String Manipulation`](./string-manipulation)</sub>
 
 ### 📚 Arrays
 
@@ -91,9 +91,23 @@ Exercises focused on working with collections of data — including adding, remo
 Current labs include:
 
 - Lunch Menu Manager — add, remove, display, and randomly select items from an array  
-  [`arrays/lunch-menu.js`](./arrays/lunch-menu.js)
+  [`Lunch Menu`](./arrays/lunch-menu.js)
 
-## 📂 Folder: [`arrays/`](./arrays)
+## <sub>📂 Folder: [`Arrays`](./arrays)</sub>
+
+## 🧩 Mini Projects
+
+This section contains small, self-contained JavaScript programs that combine multiple concepts into a single working solution. These projects are designed to bridge the gap between individual concept labs and more complete, real-world program logic.
+
+Current labs include:
+
+- Trivia (Random Computer Answer) - A simple trivia simulation that randomly selects a question and an answer choice, then evaluates whether the computer's selection is correct.  
+  [`Trivia`](./mini-projects/trivia-random-answer)
+
+- Record Collection - Updates a nested record collection object based on a set of rules and test cases.  
+  [`Record Collection`](./mini-projects/record-collection)
+
+## <sub>📂 Folder: [`Mini Projects`](./mini-projects)</sub>
 
 ## 🚀 Purpose
 
