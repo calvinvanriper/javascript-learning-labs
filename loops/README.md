@@ -24,8 +24,7 @@ This lab finds the length of the longest word in a sentence. The program splits 
 ### Example Behavior
 
 ```
-findLongestWordLength("The quick brown fox")
-→ 5
+findLongestWordLength("The quick brown fox") → 5
 ```
 
 ---
@@ -46,8 +45,101 @@ This lab calculates the factorial of a given number by repeatedly multiplying va
 ### Example Behavior
 
 ```
-factorialCalculator(5)
-→ 120
+factorialCalculator(5) → 120
+```
+
+---
+
+## 🔤 Mutation (String Comparison) Lab
+
+**File:** `string-character-inclusion.js`
+
+This lab checks whether every character in one string exists within another string. The program loops through each character of the second string and verifies its presence in the first string using a case-insensitive comparison.
+
+### Concepts Practiced
+
+- Iterating through characters using a loop
+- Comparing values across two data sets
+- Using early returns to fail fast
+- Case-insensitive string comparison
+- Applying conditional logic within loops
+
+### Example Behavior
+
+```
+mutation(["hello", "hey"]) → false
+
+mutation(["Mary", "Army"]) → true
+```
+
+---
+
+## 📦 Array Splitting Lab
+
+**File:** `array-splitting.js`
+
+This lab splits a larger array into smaller arrays of a specified size. The program uses a loop to step through the original array and group elements together into new sub-arrays.
+
+### Concepts Practiced
+
+- Iterating through an array using a loop
+- Controlling loop increments based on a dynamic value
+- Using array slicing to create sub-arrays
+- Building a new array from processed results
+
+### Example Behavior
+
+```
+chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2) → [[0, 1], [2, 3], [4, 5]]
+```
+
+---
+
+## 🔁 String Repetition Function
+
+**File:** `repeat-string.js`
+
+This lab repeats a provided string a specific number of times and returns the resulting string. It produces the same outcome as the built-in JavaScript `String.repeat()` method, but uses explicit loop logic due to constraints prohibiting that method.
+
+### Concepts Practiced
+
+- Repeating string concatenation using a loop
+- Building a result incrementally across iterations
+- Input validation for zero and negative repeat counts
+- Applying control flow to enforce problem constraints
+
+### Example Behavior
+
+```
+repeatStringNumTimes("*", 3) → "***"
+repeatStringNumTimes("abc", 4) → "abcabcabcabc"
+repeatStringNumTimes("abc", -2) → ""
+```
+
+---
+
+## 🔍 Missing Letter Finder
+
+**File:** `missing-letter-finder.js`
+
+This lab finds the first missing letter in a case-insensitive, alphabetical string of letters. The input string may contain uppercase letters, lowercase letters, or a combination of both. The string is standardized and compared against a master alphabet string to detect the first missing character in the sequence.
+
+If no letters are missing from the provided string, the function returns `undefined`.
+
+### Concepts Practiced
+
+- Standardizing string input for accurate comparison
+- Comparing expected versus actual character sequences
+- Using dependent index values to detect missing elements
+- Applying control flow to return early when a mismatch is found
+
+### Example Behavior
+
+```
+fearNotLetter("abce") → "d"
+fearNotLetter("abcdefghjklmno") → "i"
+fearNotLetter("abcdefghijklmnopqrstuvwxyz") → "undefined"
+fearNotLetter("a") → "undefined"
 ```
 
 ---

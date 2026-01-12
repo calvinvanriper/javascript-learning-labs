@@ -52,6 +52,9 @@ Exercises focused on decision-making, branching, and tracking state across multi
 - Golf score label based on hole's par value and number of strokes  
   [`Golf Score`](./logic-and-control-flow/golf-score.js)
 
+- Looks up a contact by first name and returns a requested property using conditional logic and validation.  
+  [`Contact Profile Lookup`](./logic-and-control-flow/contact-profile-lookup.js)
+
 ## <sub>📂 Folder: [`Logic & Control Flow`](./logic-and-control-flow)</sub>
 
 ### 🔁 Loops
@@ -63,6 +66,18 @@ Exercises focused on repeating logic across multiple values, tracking results ov
 
 - Calculates the factorial of a number by iterating from 1 to the given value and multiplying each number together.  
   [`Factorial`](./loops/factorial.js)
+
+- Uses a loop to check whether every character in one string appears in another string using a case-insensitive comparison.  
+  [`String Character Inclusion`](./loops/string-character-inclusion.js)
+
+- Splits a larger array into smaller arrays of a specified size using iterative grouping.  
+  [`Array Splitting`](./loops/array-spliting.js)
+
+- Repeats a provided string a specific number of times and returns the resulting string without using the JavaScript `String.repeat()` method.  
+  [`Repeat String`](./loops/repeat-string.js)
+
+- Finds the first letter from a case-insensitive, alphabetical string of letters.  
+  [`Missing Letter Finder`](./loops/missing-letter-finder.js)
 
 ## <sub>📂 Folder: [`Loops`](./loops)</sub>
 

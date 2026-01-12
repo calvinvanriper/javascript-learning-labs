@@ -79,6 +79,39 @@ This lab determines a golfer’s score label based on the hole’s par value and
 
 ---
 
+## 📇 Contact Profile Lookup Lab
+
+**File:** `contact-profile-lookup.js`
+
+This lab searches a list of contact objects to retrieve a specific property value based on a provided first name. The program follows a clear set of rules to determine whether the contact exists and whether the requested property is valid.
+
+Rather than looping blindly, the logic prioritizes validation and early exits to ensure predictable and readable behavior.
+
+### Lookup Rules
+
+- If the contact does not exist → return `"No such contact"`
+- If the contact exists but the property does not → return `"No such property"`
+- If both exist → return the requested property value
+
+### Example Outputs
+
+```
+lookUpProfile("Kristian", "lastName") ➜ "Vos"
+lookUpProfile("Sherlock", "likes") ➜ ["Intriguing Cases", "Violin"]
+lookUpProfile("Bob", "number") ➜ "No such contact"
+lookUpProfile("Akira", "address") ➜ "No such property"
+```
+
+### Concepts Practiced
+
+- Conditional branching with clear precedence rules
+- Early returns to fail fast and simplify control flow
+- Validating data existence before access
+- Working with arrays of objects
+- Mapping program logic to real-world lookup behavior
+
+---
+
 ## 💡 Reflection
 
 These labs helped reinforce how important **logic and control flow** are in real-world programs. Rather than focusing only on calculations, each exercise required thinking about how values change, how rules are prioritized, and how decisions affect output.
