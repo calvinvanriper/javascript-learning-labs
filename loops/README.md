@@ -95,11 +95,11 @@ chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2) → [[0, 1], [2, 3], [4, 5]]
 
 ---
 
-## 🔁 String Repetition Function
+## 🔁 String Repetition Lab
 
 **File:** `repeat-string.js`
 
-This lab repeats a provided string a specific number of times and returns the resulting string. It produces the same outcome as the built-in JavaScript `String.repeat()` method, but uses explicit loop logic due to constraints prohibiting that method.
+This lab repeats a provided string a specific number of times and returns the resulting string. It produces the same outcome as the built-in JavaScript `String.repeat()` method, but uses explicit loop logic due to constraints that prohibit that method.
 
 ### Concepts Practiced
 
@@ -118,7 +118,7 @@ repeatStringNumTimes("abc", -2) → ""
 
 ---
 
-## 🔍 Missing Letter Finder
+## 🔍 Missing Letter Finder Lab
 
 **File:** `missing-letter-finder.js`
 
@@ -138,8 +138,8 @@ If no letters are missing from the provided string, the function returns `undefi
 ```
 fearNotLetter("abce") → "d"
 fearNotLetter("abcdefghjklmno") → "i"
-fearNotLetter("abcdefghijklmnopqrstuvwxyz") → "undefined"
-fearNotLetter("a") → "undefined"
+fearNotLetter("abcdefghijklmnopqrstuvwxyz") → undefined
+fearNotLetter("a") → undefined
 ```
 
 ---

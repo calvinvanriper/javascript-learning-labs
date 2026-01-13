@@ -4,7 +4,7 @@
 
 This mini project simulates a simple trivia round by randomly selecting a question and then randomly selecting an answer choice to represent a computer’s guess. The program evaluates whether the computer’s choice matches the correct answer and reports the result.
 
-The goal of this project is to practice working with structured data, randomness, and conditional logic while combining multiple JavaScript fundamentals into a single program.
+The goal is to practice working with structured data, randomness, and conditional logic while combining multiple JavaScript fundamentals into a single program.
 
 ---
 
@@ -16,8 +16,7 @@ The goal of this project is to practice working with structured data, randomness
   - a list of possible choices
   - the correct answer
 - Groups multiple questions into a collection
-- Randomly selects one question from the collection
-- Randomly selects one answer choice for that question
+- Randomly selects a question and an answer choice
 - Compares the selected answer to the correct answer and outputs the result
 
 Because the selections are random, the outcome can change each time the program runs.

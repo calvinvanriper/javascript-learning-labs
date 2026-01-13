@@ -4,19 +4,17 @@
 
 This folder contains small, self-contained JavaScript projects that combine multiple concepts into a single working program. These projects go beyond individual drills and focus on applying logic, data structures, and functions together to solve a problem.
 
-Each mini project is designed to reinforce foundational JavaScript skills while gradually moving toward more realistic program behavior.
+Each mini project is designed to reinforce foundational JavaScript skills while moving toward real-world program behavior.
 
 ---
 
-## 🧩 Current Mini Projects
+## 🎯 Trivia — Random Computer Answer
 
-### 🎯 Trivia — Random Computer Answer
+**File:** `trivia-random-answer.js`
 
-**Folder:** [`trivia-random-answer`](./trivia-random-answer/)
+A simple trivia simulation that randomly selects a question and an answer choice, then evaluates whether the computer's selection is correct.
 
-This mini project simulates a simple trivia round by selecting a random question and a random answer choice (representing a computer’s guess). The program then evaluates whether the computer’s choice matches the correct answer.
-
-**Concepts practiced:**
+### Concepts Practiced
 
 - Arrays of objects
 - Random selection using `Math.random()`
@@ -25,13 +23,13 @@ This mini project simulates a simple trivia round by selecting a random question
 
 ---
 
-### 💿 Record Collection Update
+## 💿 Record Collection Update
 
-**Folder:** [`record-collection`](./record-collection/)
+**File:** `record-collection.js`
 
-This mini project updates a nested record collection object based on a defined set of rules. It demonstrates how to modify object properties, manage arrays within objects, and apply conditional logic to handle multiple edge cases.
+A rule-driven record collection update system that modifies nested object properties and arrays based on specific conditions.
 
-**Concepts practiced:**
+### Concepts Practiced
 
 - Working with nested objects and arrays
 - Conditional logic with multiple branches

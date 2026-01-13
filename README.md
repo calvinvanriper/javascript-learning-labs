@@ -40,7 +40,7 @@ Example:
 
 ## 🗂 Current Labs
 
-These labs document my journey learning JavaScript through small, focused practical exercises.
+These labs document my JavaScript learning journey through small, focused practical exercises.
 
 ### 🔁 Logic & Control Flow
 
@@ -55,7 +55,7 @@ Exercises focused on decision-making, branching, and tracking state across multi
 - Looks up a contact by first name and returns a requested property using conditional logic and validation.  
   [`Contact Profile Lookup`](./logic-and-control-flow/contact-profile-lookup.js)
 
-## <sub>📂 Folder: [`Logic & Control Flow`](./logic-and-control-flow)</sub>
+> 📂 Folder: [`Logic & Control Flow`](./logic-and-control-flow)
 
 ### 🔁 Loops
 
@@ -67,11 +67,11 @@ Exercises focused on repeating logic across multiple values, tracking results ov
 - Calculates the factorial of a number by iterating from 1 to the given value and multiplying each number together.  
   [`Factorial`](./loops/factorial.js)
 
-- Uses a loop to check whether every character in one string appears in another string using a case-insensitive comparison.  
+- Uses a loop to check whether every character in one string appears in another string using a case-insensitive comparison (loop-focused solution).  
   [`String Character Inclusion`](./loops/string-character-inclusion.js)
 
 - Splits a larger array into smaller arrays of a specified size using iterative grouping.  
-  [`Array Splitting`](./loops/array-spliting.js)
+  [`Array Splitting`](./loops/array-splitting.js)
 
 - Repeats a provided string a specific number of times and returns the resulting string without using the JavaScript `String.repeat()` method.  
   [`Repeat String`](./loops/repeat-string.js)
@@ -79,7 +79,7 @@ Exercises focused on repeating logic across multiple values, tracking results ov
 - Finds the first letter from a case-insensitive, alphabetical string of letters.  
   [`Missing Letter Finder`](./loops/missing-letter-finder.js)
 
-## <sub>📂 Folder: [`Loops`](./loops)</sub>
+> 📂 Folder: [`Loops`](./loops)
 
 ### ➗ Math Basics
 
@@ -94,7 +94,7 @@ Practical exercises using arithmetic, formulas, and logical rules.
 - Leap Year Checker - logic & modulo math  
   [`Leap Year Checker`](./math-basics/is-leap-year.js)
 
-## <sub>📂 Folder: [`Math Basics`](./math-basics)</sub>
+> 📂 Folder: [`Math Basics`](./math-basics)
 
 ### 🧵 String Manipulation
 
@@ -109,7 +109,7 @@ Exercises that work with slicing, formatting, masking, and rebuilding text.
 - Confirm String Ending - checks whether a string ends with a specified target substring using string slicing and length comparison.
   [`Confirm Ending`](./string-manipulation/confirm-ending.js)
 
-## <sub>📂 Folder: [`String Manipulation`](./string-manipulation)</sub>
+> 📂 Folder: [`String Manipulation`](./string-manipulation)
 
 ### 📚 Arrays
 
@@ -120,13 +120,13 @@ Current labs include:
 - Lunch Menu Manager — add, remove, display, and randomly select items from an array  
   [`Lunch Menu`](./arrays/lunch-menu.js)
 
-## <sub>📂 Folder: [`Arrays`](./arrays)</sub>
+> 📂 Folder: [`Arrays`](./arrays)
 
 ## 🧩 Mini Projects
 
 This section contains small, self-contained JavaScript programs that combine multiple concepts into a single working solution. These projects are designed to bridge the gap between individual concept labs and more complete, real-world program logic.
 
-Current labs include:
+Current projects include:
 
 - Trivia (Random Computer Answer) - A simple trivia simulation that randomly selects a question and an answer choice, then evaluates whether the computer's selection is correct.  
   [`Trivia`](./mini-projects/trivia-random-answer)
@@ -134,7 +134,7 @@ Current labs include:
 - Record Collection - Updates a nested record collection object based on a set of rules and test cases.  
   [`Record Collection`](./mini-projects/record-collection)
 
-## <sub>📂 Folder: [`Mini Projects`](./mini-projects)</sub>
+> 📂 Folder: [`Mini Projects`](./mini-projects)
 
 ## 🚀 Purpose
 
@@ -247,7 +247,7 @@ The console output will appear in your terminal
 
 or us the built-in terminal:
 
-```bashi
+```bash
     node filename.js
 ```
 

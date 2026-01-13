@@ -27,9 +27,11 @@ Otherwise → return `"Hold"`
 
 Example output format:
 
+```
     2 Bet
     0 Hold
     -1 Hold
+```
 
 ### Concepts Practiced
 
@@ -85,7 +87,7 @@ This lab determines a golfer’s score label based on the hole’s par value and
 
 This lab searches a list of contact objects to retrieve a specific property value based on a provided first name. The program follows a clear set of rules to determine whether the contact exists and whether the requested property is valid.
 
-Rather than looping blindly, the logic prioritizes validation and early exits to ensure predictable and readable behavior.
+Rather than iterating unnecessarily, the logic prioritizes validation and early exits to ensure predictable and readable behavior.
 
 ### Lookup Rules
 
@@ -116,7 +118,7 @@ lookUpProfile("Akira", "address") ➜ "No such property"
 
 These labs helped reinforce how important **logic and control flow** are in real-world programs. Rather than focusing only on calculations, each exercise required thinking about how values change, how rules are prioritized, and how decisions affect output.
 
-Both labs demonstrate common programming patterns:
+These labs demonstrate common programming patterns:
 
 - tracking and updating state over time
 - evaluating conditions in the correct order

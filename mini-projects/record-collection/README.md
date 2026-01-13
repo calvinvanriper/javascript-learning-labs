@@ -56,8 +56,8 @@ This approach makes it easier to follow how each rule affects the data.
 
 ## 💡 Reflection
 
-This project was more challenging than earlier labs due to the number of rules that had to be evaluated and the need to work with nested data structures. It required careful thought about the order of conditions and how different inputs should affect the record collection.
+The project was more challenging than earlier labs due to the number of rules that had to be evaluated and the need to work with nested data structures. It required careful thought about the order of conditions and how different inputs should affect the record collection.
 
-Completing this project helped strengthen my understanding of object manipulation and control flow, and highlighted the importance of testing and readable output when working with complex logic.
+Completing this work helped strengthen my understanding of object manipulation and control flow, and highlighted the importance of testing and readable output when working with complex logic.
 
-As additional JavaScript concepts are learned, this project can be revisited and improved with more efficient or streamlined approaches.
+As additional JavaScript concepts are learned, this can be revisited and improved with more efficient or streamlined approaches.
