@@ -46,16 +46,20 @@ These labs document my JavaScript learning journey through small, focused practi
 
 Exercises focused on decision-making, branching, and tracking state across multiple function calls.
 
-- Blackjack-style card counting with a running count  
-  [`Blackjack Card Counter`](./logic-and-control-flow/card-counter.js)
-
-- Golf score label based on hole's par value and number of strokes  
+- Golf Score - Golf score label based on hole's par value and number of strokes  
   [`Golf Score`](./logic-and-control-flow/golf-score.js)
 
-- Looks up a contact by first name and returns a requested property using conditional logic and validation.  
-  [`Contact Profile Lookup`](./logic-and-control-flow/contact-profile-lookup.js)
+Contact Profile Lookup - Looks up a contact by first name and returns a requested property using conditional logic and validation.  
+ [`Contact Profile Lookup`](./logic-and-control-flow/contact-profile-lookup.js)
 
-> 📂 Folder: [`Logic & Control Flow`](./logic-and-control-flow)
+- First Element Finder - Returns the first number in a supplied array that returns `true` from the supplied function.  
+  [`First Element Finder`](./logic-and-control-flow/first-element-finder.js)
+
+- Pyramid Generator - Generates a text-based pyramid using configurable characters, row count, and directional logic.  
+  [`Pyramid Generator`](./logic-and-control-flow/pyramid-generator.js)
+- Card Counter - Blackjack-style card counting with a running count  
+   [`Blackjack Card Counter`](./logic-and-control-flow/card-counter.js)
+  > 📂 Folder: [`Logic & Control Flow`](./logic-and-control-flow)
 
 ### 🔁 Loops
 
@@ -103,6 +107,9 @@ Exercises that work with slicing, formatting, masking, and rebuilding text.
 - Mask Email - privacy-safe username masking  
   [`Mask Email`](./string-manipulation/mask-email.js)
 
+- Reverse String - reverse the letters of a supplied string  
+  [`Reverse String`](./string-manipulation/reverse-string.js)
+
 - Truncate String - shorten long strings & append "..."  
   [`Truncate String`](./string-manipulation/truncate-string.js)
 
@@ -119,6 +126,12 @@ Current labs include:
 
 - Lunch Menu Manager — add, remove, display, and randomly select items from an array  
   [`Lunch Menu`](./arrays/lunch-menu.js)
+
+- Largest Number Finder - finds the largest number in each sub-array and returns them in a new array.  
+  [`Largest Number Finder`](./arrays/largest-number-finder.js)
+
+- Slice and Splice Algorithm - Implements an algorithm that inserts the elements of one array into another at a specified index without mutating the original arrays.  
+  [`Franken-Splice`](./arrays/franken-splice.js)
 
 > 📂 Folder: [`Arrays`](./arrays)
 
@@ -167,25 +180,21 @@ Many of these labs are inspired by:
 This repo will continue to grow as I work through more JavaScript concepts. Planned areas include:
 
 - **Arrays & Iteration**
-
   - Looping patterns
   - Transforming lists of data
   - Searching and filtering
 
 - **Objects & Structured Data**
-
   - Key–value pairs
   - Nested data structures
   - Basic data modeling
 
 - **Functions & Reusability**
-
   - Parameter patterns
   - Default values
   - Composing small utilities
 
 - **DOM Interaction (Later)**
-
   - Selecting and updating elements
   - Handling user events
   - Connecting logic to UI

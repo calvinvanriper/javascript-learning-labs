@@ -8,41 +8,6 @@ The goal of these exercises is to practice thinking through how a program behave
 
 ---
 
-## 🃏 Card Counter Lab
-
-**File:** `card-counter.js`
-
-This lab simulates a simplified Blackjack card-counting system. The program keeps track of a running count and returns a suggestion based on whether the current count is positive or not.
-
-### Card Rules
-
-    2–6   ➜ Increase the count (good for the player)
-    7–9   ➜ No change
-    10–A  ➜ Decrease the count (good for the house)
-
-### Output Rule
-
-If the count is positive → return `"Bet"`  
-Otherwise → return `"Hold"`
-
-Example output format:
-
-```
-    2 Bet
-    0 Hold
-    -1 Hold
-```
-
-### Concepts Practiced
-
-- Using `if / else if / else` branching
-- Tracking state using a global variable
-- Returning formatted string output
-- Understanding how repeated function calls build on each other
-- Thinking about program logic instead of only math
-
----
-
 ## ⛳ Golf Score Lab
 
 **File:** `golf-score.js`
@@ -125,3 +90,91 @@ These labs demonstrate common programming patterns:
 - producing consistent, meaningful results from user input
 
 More logic-focused practice labs will be added here as I continue learning 🙂
+
+---
+
+## 🔍 First Element Finder
+
+This exercise builds a function that returns the first element in an array that satisfies a provided truth test function.
+
+### Example
+
+```
+findElement([1, 3, 5, 8, 9], num => num % 2 === 0) → 8
+```
+
+### Concepts Practiced
+
+- Higher-order functions
+- Passing functions as arguments
+- Predicate (truth test) logic
+- Early returns for efficient control flow
+- Re-creating built-in behavior (`Array.prototype.find`)
+
+### Reflection
+
+This lab introduced the concept of higher-order functions by allowing behavior to be passed into a function as an argument. It reinforced how control flow can be delegated using predicate functions, and how early returns can be used to efficiently stop iteration once a condition is met.
+
+---
+
+## 🔺 Pyramid Generator
+
+This exercise builds a function that generates a text-based pyramid using a specified character, number of rows, and direction flag.
+
+### Example
+
+```
+pyramid("o", 4, false)
+
+   o
+  ooo
+ ooooo
+ooooooo
+```
+
+### Concepts Practiced
+
+- Nested control flow using loops and conditionals
+- Building dynamic string output
+- Managing layout with calculated spacing
+- Using parameters to alter execution paths
+- Avoiding trailing whitespace in formatted output
+
+### Reflection
+
+This lab required careful planning and incremental debugging to manage spacing, alignment, and execution order. It reinforced the importance of breaking complex output problems into smaller steps and reasoning through how control flow affects final results.
+
+---
+
+## 🃏 Card Counter Lab
+
+**File:** `card-counter.js`
+
+This lab simulates a simplified Blackjack card-counting system. The program keeps track of a running count and returns a suggestion based on whether the current count is positive or not.
+
+### Card Rules
+
+    2–6   ➜ Increase the count (good for the player)
+    7–9   ➜ No change
+    10–A  ➜ Decrease the count (good for the house)
+
+### Output Rule
+
+If the count is positive → return `"Bet"`  
+Otherwise → return `"Hold"`
+
+Example output format:
+
+```
+    2 Bet
+    0 Hold
+    -1 Hold
+```
+
+### Concepts Practiced
+
+- Using `if / else if / else` branching
+- Tracking state using a global variable
+- Returning formatted string output
+- Understanding how repeated function calls build on each other
+- Thinking about program logic instead of only math

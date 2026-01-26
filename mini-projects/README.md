@@ -23,6 +23,22 @@ A simple trivia simulation that randomly selects a question and an answer choice
 
 ---
 
+## 📊 Gradebook App
+
+**File:** `gradebook-app/gradebook.js`
+
+A small gradebook system that calculates a class average, converts numeric scores into letter grades, determines pass/fail status, and generates a student-facing summary message.
+
+### Concepts Practiced
+
+- Function composition and reuse
+- Iterating over arrays to compute aggregates
+- Conditional logic and grading rules
+- Boolean logic for pass/fail evaluation
+- Producing formatted, user-readable output
+
+---
+
 ## 💿 Record Collection Update
 
 **File:** `record-collection.js`

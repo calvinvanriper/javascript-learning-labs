@@ -32,6 +32,31 @@ This lab helped me practice breaking a problem into smaller steps, working with 
 
 ---
 
+## 🔁 Reverse String Function
+
+This exercise builds a function that reverses a string character-by-character without using JavaScript’s built-in `.reverse()` method. The goal is to practice manual string traversal and reconstruction using core language features.
+
+### Example
+
+```
+reverseString("hello") → "olleh"
+reverseString("JavaScript") → "tpircSavaJ"
+```
+
+### Concepts Practiced
+
+- Iterating over strings using loops
+- Accessing characters by index
+- Rebuilding strings immutably
+- Understanding string traversal order
+- Avoiding built-in shortcuts to reinforce fundamentals
+
+### Reflection
+
+This lab reinforced how strings can be traversed like arrays and how new strings must be constructed explicitly due to string immutability in JavaScript. It also helped solidify loop control and index-based access—foundational skills that apply across many algorithms and UI-related string transformations.
+
+---
+
 ## ✂️ Truncate String Function
 
 This exercise truncates text when it exceeds a specified length and appends an ellipsis (`...`). If the string is already short enough, it returns the original value unchanged.
