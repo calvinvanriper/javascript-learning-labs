@@ -103,6 +103,33 @@ This lab helped solidify my understanding of how string indexing works and how b
 
 ---
 
+## 🔠 Title Case Converter
+
+This exercise converts an input string into **title case**, meaning the first letter of every word is capitalized while the remaining letters are lowercase.
+
+The solution normalizes the string, breaks it into individual words, transforms each word, and then reconstructs the final result.
+
+### 📌 Example Behavior
+
+```
+titleCase("a little teapot") → "A Little Teapot"
+titleCase("sHoRt AnD sToUt") → "Short And Stout"
+titleCase("HERE IS MY HANDLE") → "Here Is My Handle"
+```
+
+### 🛠️ Concepts Practiced
+
+- String normalization with `.toLowerCase()`
+- Converting strings to arrays using `.split()`
+- Iterating over arrays to transform elements
+- Accessing and modifying specific characters in a string
+- Rebuilding strings using `.join()`
+- Preventing errors from empty substrings (basic input safety)
+
+### 💡 Reflection
+
+This lab introduced a **multi-step transformation workflow**, moving beyond single-method string operations. It reinforced how strings and arrays can work together to process text data, a pattern that appears frequently in real-world applications such as formatting user input, cleaning data, and preparing for text display. It also emphasized the importance of thinking about edge cases like extra spaces or inconsistent capitalization.
+
 ## 💡 Topic Reflection
 
 These labs focused on practical string manipulation patterns commonly used in real-world applications. Each exercise reinforced how small, focused string operations can be combined with conditional logic to safely format, validate, and display text.

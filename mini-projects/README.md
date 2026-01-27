@@ -91,6 +91,32 @@ Completing this project strengthened understanding of object manipulation, state
 
 ---
 
+## 📦 Inventory Manager
+
+A basic inventory management system using an array of product objects.
+
+### 📌 Expected Behavior
+
+```
+addProduct('flOUR', 5) → flour quantity updated; current quantity: 25
+addProduct('GRAIN', 10) → grain added to inventory; current quantity: 10
+removeProduct('flour', 5) → Remaining flour pieces: 20
+removeProduct('RiCe', 10) → rice's quantity has reached 0, it has been removed from inventory.
+```
+
+### 🛠️ Concepts Practiced
+
+- Working with arrays of objects
+- Managing shared state across multiple functions
+- Using advanced methods like `.map()`, `.includes()`, and `.indexOf()`
+- Handling edge cases (not found items, insufficient quantity, zero stock)
+
+### 💡 Reflection
+
+This project reinforced how important it is to think about edge cases and the order of conditions, especially when dealing with quantities and deletion logic. It more closely replicated real-world situations with modifying shared data with ongoing state changes across multiple functions. It also highlighted the value of readable output when tracking how data evolves over time by returning descriptive messages.
+
+---
+
 ## 💡 Topic Reflection
 
 These mini projects help bridge the gap between individual concept labs and more complete programs. Rather than focusing on one idea in isolation, each project requires combining multiple concepts to produce meaningful output.
