@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-This mini project simulates a simple trivia round by randomly selecting a question and then randomly selecting an answer choice to represent a computer’s guess. The program evaluates whether the computer’s choice matches the correct answer and reports the result.
+This mini project simulates a simple trivia round by randomly selecting a question and then randomly selecting an answer choice to represent the computer’s guess. The program evaluates whether the computer’s choice matches the correct answer and reports the result.
 
 The goal is to practice working with structured data, randomness, and conditional logic while combining multiple JavaScript fundamentals into a single program.
 
@@ -21,7 +21,18 @@ The goal is to practice working with structured data, randomness, and conditiona
 
 Because the selections are random, the outcome can change each time the program runs.
 
----
+## 📌 Example Behavior
+
+When the program runs, it may output something like:
+
+```
+Category: Geography
+Question: What is the largest continent on Earth by land area?
+Computer picked: Antarctica
+The computer’s choice is wrong. The correct answer is: Asia
+```
+
+Output will vary each time due to random selection.
 
 ## 🛠️ Concepts Practiced
 
@@ -31,21 +42,6 @@ Because the selections are random, the outcome can change each time the program 
 - Writing reusable functions
 - Conditional logic and control flow
 - Organizing data for readability and reuse
-
----
-
-## 📌 Example Behavior
-
-When the program runs, it may output something like:
-
-```
-Category: Geography
-Question: What is the largest continent on Earth by land area?
-Computer chose: Antarctica
-The computer’s choice is wrong. The correct answer is: Asia
-```
-
-Actual output will vary each time due to random selection.
 
 ---
 

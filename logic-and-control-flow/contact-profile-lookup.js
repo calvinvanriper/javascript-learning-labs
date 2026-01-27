@@ -51,51 +51,9 @@ function lookUpProfile(searchString, searchProp) {
   }
 }
 
-/* --------------------------------------------------
-   Test cases (3–5 different results)
--------------------------------------------------- */
-
-console.log("Profile Lookup Tests");
-console.log("--------------------------------------------------");
-
-let searchString = "Kristian";
-let searchProp = "lastName";
-let searchResults = lookUpProfile(searchString, searchProp);
-console.log(`Test 1: Return ${searchProp} field of ${searchString}: ${JSON.stringify(searchResults)}`);  // Expected: "Vos"
-console.log("--------------------------------------------------");
-
-searchString = "Sherlock";
-searchProp = "likes";
-searchResults = lookUpProfile(searchString, searchProp);
-console.log(`Test 2: Return ${searchProp} field of ${searchString}: ${JSON.stringify(searchResults)}`);  // Expected: ["Intriguing Cases","Violin"]
-console.log("--------------------------------------------------");
-
-searchString = "Harry";
-searchProp = "likes";
-searchResults = lookUpProfile(searchString, searchProp);
-console.log(`Test 3: Return ${searchProp} field of ${searchString}: ${JSON.stringify(searchResults)}`);  // Expected: ["Hogwarts","Magic","Hagrid"]
-console.log("--------------------------------------------------");
-
-searchString = "Bob";
-searchProp = "number";
-searchResults = lookUpProfile(searchString, searchProp);
-console.log(`Test 4: Return ${searchProp} field of ${searchString}: ${JSON.stringify(searchResults)}`); // Expected: "No such contact"
-console.log("--------------------------------------------------");
-
-searchString = "Bob";
-searchProp = "potato";
-searchResults = lookUpProfile(searchString, searchProp);
-console.log(`Test 5: Return ${searchProp} field of ${searchString}: ${JSON.stringify(searchResults)}`);  // Expected: "No such contact"
-console.log("--------------------------------------------------");
-
-searchString = "Akira";
-searchProp = "address";
-searchResults = lookUpProfile(searchString, searchProp);
-console.log(`Test 6: Return ${searchProp} field of ${searchString}: ${JSON.stringify(searchResults)}`);  // Expected: "No such property"
-console.log("--------------------------------------------------");
-
-searchString = "Akira";
-searchProp = "number";
-searchResults = lookUpProfile(searchString, searchProp);
-console.log(`Test 7: Return ${searchProp} field of ${searchString}: ${JSON.stringify(searchResults)}`);
-console.log("--------------------------------------------------");
+// ---- Test calls (manual validation) ----
+console.log(lookUpProfile("Harry", "likes"));    // ["Hogwarts", "Magic", "Hagrid"]
+console.log(lookUpProfile("Bob", "number"));     // "No such contact"
+console.log(lookUpProfile("Bob", "potato"));     // "No such contact"
+console.log(lookUpProfile("Akira", "address"));  // "No such property"
+console.log(lookUpProfile("Akira", "number"));   // "0543236543"

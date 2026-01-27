@@ -22,17 +22,9 @@ function truncateString(string, truncLength) {
   return string;
 }
 
-// ---- Test calls ----
-const string1 = "A-tisket a-tasket A green and yellow basket";
-const string2 = "Peter Piper picked a peck of pickled peppers";
-const string3 = "A-tisket a-tasket A green and yellow basket";
-const string4 = "A-tisket a-tasket A green and yellow basket";
-const string5 = "A-";
-const string6 = "Absolutely Longer";
-
-console.log(truncateString(string1,8));
-console.log(truncateString(string2,11));
-console.log(truncateString(string3,43));
-console.log(truncateString(string4,45));
-console.log(truncateString(string5,1));
-console.log(truncateString(string6,2));
+// ---- Test calls (manual validation) ----
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8));   // "A-tisket..."
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 42))   // "A-tisket a-tasket A green and yellow baske..."
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 45));  // "A-tisket a-tasket A green and yellow basket"
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 11));  // "A=tisket a-..."
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 1));   // "A..."

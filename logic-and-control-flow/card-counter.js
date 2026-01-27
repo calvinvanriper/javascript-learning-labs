@@ -2,7 +2,8 @@
 let count = 0;
 
 /**
- * Adjust the running card count and return a betting decision
+ * Adjust the running card count based on the card value and
+ * returns a betting recommendation
  *
  * Low cards (2-6) increase the count -> good for the player
  * Neutral cards (7-9) do not affect the count
@@ -10,6 +11,9 @@ let count = 0;
  *
  * If count > 0 -> "Bet"
  * Otherwise -> "Hold"
+ * 
+ * @param {number|string} card - The card value drawn (2-10 or "J", "Q", "K", "A").
+ * @returns {string} A string containing the updated count and betting advise (e.g., "1 Bet", "0 Hold").
  */
 function cardCounter(card) {
   const betMsg = "Bet";
@@ -17,25 +21,24 @@ function cardCounter(card) {
 
   // Update running count based on card value
   if (card <= 6) {
-    ++count;               // Low card -> increase count
+    ++count;               
   } else if (card > 6 && card <= 9) {
-    count = count + 0;     // Neutral card -> no change (kept for clarity)
+    // Neutral cards intentionally cause no change
+    count = count + 0;     
   } else if (card > 9 || card == "J" || card == "Q" || card == "K" || card == "A") {
-    --count;               // High card -> decrease count
+    --count;               
   }
 
-  // Decision message based on running count
   if (count > 0) {
     return `${count} ${betMsg}`;
-  } else if (count >= 0) {
+  } else {
     return `${count} ${holdMsg}`;
   }
 }
 
-// Sample test calls
-console.log(cardCounter(4));
-console.log(cardCounter(6));
-console.log(cardCounter(10));
-console.log(cardCounter(8));
-console.log(cardCounter("J"));
-console.log(cardCounter("Q"));
+// ---- Test calls (manual validation) ----
+console.log(cardCounter(4));    // "1 Bet"
+console.log(cardCounter(6));    // "2 Bet"
+console.log(cardCounter(10));   // "1 Bet"
+console.log(cardCounter("J"));  // "0 Hold"
+console.log(cardCounter("Q"));  // "-1 Hold"

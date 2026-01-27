@@ -8,19 +8,13 @@
  * @returns {number} Temperature converted to Fahrenheit
  */
 function convertCtoF(tempC) {
-  // Apply Celsius -> Fahrenheit conversion formula
   const tempF = tempC * (9/5) + 32;
   return tempF;
 }
 
-// Test calls (manual validation)
-const temp1 = convertCtoF(0);
-const temp2 = convertCtoF(-30);
-const temp3 = convertCtoF(-10);
-const temp4 = convertCtoF(20);
-const temp5 = convertCtoF(30);
-console.log(temp1);
-console.log(temp2);
-console.log(temp3);
-console.log(temp4);
-console.log(temp5);
+// ---- Test calls (manual validation) ----
+console.log(convertCtoF(0));    // 32
+console.log(convertCtoF(-30));  // -22
+console.log(convertCtoF(-10));  // 14
+console.log(convertCtoF(20));   // 68
+console.log(convertCtoF(30));   // 86

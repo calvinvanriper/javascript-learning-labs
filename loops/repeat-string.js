@@ -20,48 +20,9 @@ function repeatStringNumTimes(repeatString, repeatCount) {
   return returnString;
 }
 
-/* --------------------------------------------------
-   Test cases
--------------------------------------------------- */
-
-let testString = "*"
-let testCount = 3
-let repeatResult = repeatStringNumTimes(testString,testCount);
-console.log(`Test String: ${testString} repeated ${testCount} times => ${JSON.stringify(repeatResult)}`);  // Expected: "***"
-console.log("--------------------------------------------------");
-
-testString = "abc"
-testCount = 3
-repeatResult = repeatStringNumTimes(testString,testCount);
-console.log(`Test String: ${testString} repeated ${testCount} times => ${JSON.stringify(repeatResult)}`);  // Expected: "abcabcabc"
-console.log("--------------------------------------------------");
-
-testString = "abc"
-testCount = 4
-repeatResult = repeatStringNumTimes(testString,testCount);
-console.log(`Test String: ${testString} repeated ${testCount} times => ${JSON.stringify(repeatResult)}`);  // Expected: "abcabcabcabc"
-console.log("--------------------------------------------------");
-
-testString = "abc"
-testCount = 1
-repeatResult = repeatStringNumTimes(testString,testCount);
-console.log(`Test String: ${testString} repeated ${testCount} times => ${JSON.stringify(repeatResult)}`);  // Expected: "abc"
-console.log("--------------------------------------------------");
-
-testString = "*"
-testCount = 8
-repeatResult = repeatStringNumTimes(testString,testCount);
-console.log(`Test String: ${testString} repeated ${testCount} times => ${JSON.stringify(repeatResult)}`);  // Expected: "********"
-console.log("--------------------------------------------------");
-
-testString = "abc"
-testCount = -2
-repeatResult = repeatStringNumTimes(testString,testCount);
-console.log(`Test String: ${testString} repeated ${testCount} times => ${JSON.stringify(repeatResult)}`); // Expected: ""
-console.log("--------------------------------------------------");
-
-testString = "abc"
-testCount = 0
-repeatResult = repeatStringNumTimes(testString,testCount);
-console.log(`Test String: ${testString} repeated ${testCount} times => ${JSON.stringify(repeatResult)}`);  // Expected: ""
-console.log("--------------------------------------------------");
+// ---- Test calls (manual validation) ----
+console.log(repeatStringNumTimes("*", 3));     // "***"
+console.log(repeatStringNumTimes("abc", 3));   // "abcabcabc"
+console.log(repeatStringNumTimes("abc", 4));   // "abcabcabcabc"
+console.log(repeatStringNumTimes("*", 0));     // ""
+console.log(repeatStringNumTimes("abc", -2));  // ""

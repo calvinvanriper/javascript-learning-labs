@@ -22,59 +22,11 @@ function fearNotLetter(sourceString) {
     }
   }
 
-  // If we never found a mismatch, nothing is missing
   return undefined;
 }
 
-/* --------------------------------------------------
-   Test cases
--------------------------------------------------- */
-
-let testLetters = "abce";
-let missingLetter = fearNotLetter(testLetters);
-console.log(`Test Letters 1: ${testLetters}`);
-console.log(`The missing letter is... ${missingLetter}`);  // Expected: d
-
-console.log("--------------------------------------------------");
-
-testLetters = "abcdefghjklmno";
-missingLetter = fearNotLetter(testLetters);
-console.log(`Test Letters 2: ${testLetters}`);
-console.log(`The missing letter is... ${missingLetter}`); // Expected: i
-
-console.log("--------------------------------------------------");
-
-testLetters = "stvwx";
-missingLetter = fearNotLetter(testLetters);
-console.log(`Test Letters 3: ${testLetters}`);
-console.log(`The missing letter is... ${missingLetter}`);  // Expected: u
-
-console.log("--------------------------------------------------");
-
-testLetters = "bcdf";
-missingLetter = fearNotLetter(testLetters);
-console.log(`Test Letters 4: ${testLetters}`);
-console.log(`The missing letter is... ${missingLetter}`);  // Expected: e
-
-console.log("--------------------------------------------------");
-
-testLetters = "abcdefghijklmnopqrstuvwxyz";
-missingLetter = fearNotLetter(testLetters);
-console.log(`Test Letters 5: ${testLetters}`);
-console.log(`The missing letter is... ${missingLetter}`);  // Expected: undefined
-
-console.log("--------------------------------------------------");
-
-testLetters = "EFghIJkmnop";
-missingLetter = fearNotLetter(testLetters);
-console.log(`Test Letters 6: ${testLetters}`);
-console.log(`The missing letter is... ${missingLetter}`);  // Expected: l
-
-console.log("--------------------------------------------------");
-
-testLetters = "a";
-missingLetter = fearNotLetter(testLetters);
-console.log(`Test Letters 7: ${testLetters}`);
-console.log(`The missing letter is... ${missingLetter}`);  // Expected: undefined
-
-console.log("--------------------------------------------------");
+// ---- Test calls (manual validation) ----
+console.log(fearNotLetter("abce"));            // "d"
+console.log(fearNotLetter("abcdefghjklmno"));  // "i"
+console.log(fearNotLetter("stvwx"));           // "u"
+console.log(fearNotLetter("abc"));             // undefined

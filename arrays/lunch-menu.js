@@ -10,7 +10,6 @@ let lunches = [];
  */
 function addLunchToEnd(menu, item) {
   menu.push(item);
-  console.log(`${item} added to the end of the lunch menu.`);
   return menu;
 }
 
@@ -23,7 +22,6 @@ function addLunchToEnd(menu, item) {
  */
 function addLunchToStart(menu, item) {
   menu.unshift(item);
-  console.log(`${item} added to the start of the lunch menu.`);
   return menu;
 }
 
@@ -35,12 +33,10 @@ function addLunchToStart(menu, item) {
  */
 function removeLastLunch(menu) {
   if (menu.length === 0) {
-    console.log("No lunches to remove.");
-    return menu;
+    return undefined;
   }
 
-  const item = menu.pop();
-  console.log(`${item} removed from the end of the lunch menu.`);
+  menu.pop();
   return menu;
 }
 
@@ -52,75 +48,49 @@ function removeLastLunch(menu) {
  */
 function removeFirstLunch(menu) {
   if (menu.length === 0) {
-    console.log("No lunches to remove.");
-    return menu;
+    return undefined;
   }
 
-  const item = menu.shift();
-  console.log(`${item} removed from the start of the lunch menu.`);
+  menu.shift();
   return menu;
 }
 
 /**
- * Log a randomly selected lunch item from the menu.
+ * Returns a randomly selected lunch item from the menu.
  *
  * @param {string[]} menu - The lunch menu array to choose from
- * @returns {void}
+ * @returns {string|undefined} A random lunch item, or undefined if the menu is empty.
  */
 function getRandomLunch(menu) {
   if (menu.length === 0) {
-    console.log("No lunches available.");
-    return menu;
+    return undefined;
   }
 
-  // Math.floor ensures the index is always between 0 and menu.length - 1
   const randomIndex = Math.floor(Math.random() * menu.length);
-  console.log(`Randomly selected lunch: ${menu[randomIndex]}`);
+  return menu[randomIndex];
 }
 
 /**
- * Display the current lunch menu.
+ * Creates a formatted string representing the current lunch menu.
  *
  * @param {string[]} menu - The lunch menu array to display
- * @returns {void}
+ * @returns {string} A formatted menu string, or a message if empty.
  */
 function showLunchMenu(menu) {
   if (menu.length === 0) {
-    console.log("The menu is empty.");
-    return menu;
+    return "The menu is empty.";
   }
 
-  console.log(`Menu items: ${menu.join(", ")}`);
+  return `Menu items: ${menu.join(", ")}`;
+  
 }
 
-// ---- Test calls / demo sequence ----
-removeFirstLunch(lunches);
-removeLastLunch(lunches);
-console.log(lunches);
+// ---- Test calls (manual validation) ----
+console.log(removeFirstLunch([]));               // undefined
+console.log(addLunchToEnd(lunches, "Tacos"));    // ["Tacos"]
+console.log(addLunchToStart(lunches, "Sushi"));  // ["Sushi", "Tacos"]
+console.log(removeLastLunch(lunches));           // ["Sushi"]
+console.log(showLunchMenu(["Soup", "Pizza"]));   // "Menu items: Soup, Pizza"
 
-addLunchToEnd(lunches, "Tacos");
-console.log(lunches);
-
-addLunchToEnd(lunches, "Pizza");
-console.log(lunches);
-
-addLunchToEnd(lunches, "Burger");
-console.log(lunches);
-
-addLunchToStart(lunches, "Sushi");
-console.log(lunches);
-
-removeLastLunch(lunches);
-console.log(lunches);
-
-addLunchToEnd(lunches, "Stew");
-console.log(lunches);
-
-removeFirstLunch(lunches);
-console.log(lunches);
-
-addLunchToStart(lunches, "Soup");
-console.log(lunches);
-
-getRandomLunch(lunches);
-showLunchMenu(lunches);
+// Random output note: result should be either "Soup" or "Pizza"
+console.log(getRandomLunch(["Soup", "Pizza"]));  // "Soup" OR "Pizza"

@@ -9,19 +9,13 @@
  */
 
 function convertFtoC(tempF) {
-  // Apply Fahrenheit -> Celsius
   const tempC = (tempF - 32) * (5/9);
   return tempC;
 }
 
-// Test calls (manual validation)
-const temp1 = convertFtoC(32);
-const temp2 = convertFtoC(-22);
-const temp3 = convertFtoC(14);
-const temp4 = convertFtoC(68);
-const temp5 = convertFtoC(86);
-console.log(temp1);
-console.log(temp2);
-console.log(temp3);
-console.log(temp4);
-console.log(temp5);
+// ---- Test calls (manual validation) ----
+console.log(convertFtoC(32));   // 0
+console.log(convertFtoC(-22));  // -30
+console.log(convertFtoC(14));   // -10
+console.log(convertFtoC(68));   // 20
+console.log(convertFtoC(86));   // 30

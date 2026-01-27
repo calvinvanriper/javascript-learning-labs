@@ -10,23 +10,11 @@ The goal of these exercises is to practice thinking through how a program behave
 
 ## ⛳ Golf Score Lab
 
-**File:** `golf-score.js`
-
 This lab determines a golfer’s score label based on the hole’s par value and the number of strokes taken. It follows standard golf scoring rules and returns a descriptive result such as `"Birdie"` or `"Bogey"`.
 
-### Scoring Rules
+### 📌 Example Behavior
 
-    Strokes === 1       ➜ Hole-in-one!
-    Par - 3             ➜ Albatross
-    Par - 2             ➜ Eagle
-    Par - 1             ➜ Birdie
-    Par                 ➜ Par
-    Par + 1             ➜ Bogey
-    Par + 2             ➜ Double Bogey
-    ≥ Par + 3           ➜ Go Home!
-
-### Example Outputs
-
+```
     golfScore(5, 4) ➜ Birdie
     golfScore(4, 1) ➜ Hole-in-one!
     golfScore(4, 7) ➜ Go Home!
@@ -34,9 +22,9 @@ This lab determines a golfer’s score label based on the hole’s par value and
     golfScore(3, 3) ➜ Par
     golfScore(4, 2) ➜ Eagle
     golfScore(4, 5) ➜ Bogey
-    golfScore(5, 7) ➜ Double Bogey
+```
 
-### Concepts Practiced
+### 🛠️ Concepts Practiced
 
 - Conditional logic and ordered rule evaluation
 - Guard clauses for special cases
@@ -44,23 +32,19 @@ This lab determines a golfer’s score label based on the hole’s par value and
 - Using a lookup array to centralize output values
 - Ensuring clean control flow with clear fall-through behavior
 
+### 💡 Reflection
+
+This lab reinforced the importance of ordering conditions correctly, since the output depends entirely on rule precedence. It highlighted how real-world scoring systems can be modeled in code using structured decision trees, and how early guard conditions prevent incorrect matches later in the flow.
+
 ---
 
 ## 📇 Contact Profile Lookup Lab
-
-**File:** `contact-profile-lookup.js`
 
 This lab searches a list of contact objects to retrieve a specific property value based on a provided first name. The program follows a clear set of rules to determine whether the contact exists and whether the requested property is valid.
 
 Rather than iterating unnecessarily, the logic prioritizes validation and early exits to ensure predictable and readable behavior.
 
-### Lookup Rules
-
-- If the contact does not exist → return `"No such contact"`
-- If the contact exists but the property does not → return `"No such property"`
-- If both exist → return the requested property value
-
-### Example Outputs
+### 📌 Example Behavior
 
 ```
 lookUpProfile("Kristian", "lastName") ➜ "Vos"
@@ -69,7 +53,7 @@ lookUpProfile("Bob", "number") ➜ "No such contact"
 lookUpProfile("Akira", "address") ➜ "No such property"
 ```
 
-### Concepts Practiced
+### 🛠️ Concepts Practiced
 
 - Conditional branching with clear precedence rules
 - Early returns to fail fast and simplify control flow
@@ -81,15 +65,9 @@ lookUpProfile("Akira", "address") ➜ "No such property"
 
 ## 💡 Reflection
 
-These labs helped reinforce how important **logic and control flow** are in real-world programs. Rather than focusing only on calculations, each exercise required thinking about how values change, how rules are prioritized, and how decisions affect output.
+This lab reinforced the importance of validating data in the correct order before attempting to access it. It highlighted how checking for the existence of a contact must come before checking for a property, and how early returns make decision logic easier to read and reason about.
 
-These labs demonstrate common programming patterns:
-
-- tracking and updating state over time
-- evaluating conditions in the correct order
-- producing consistent, meaningful results from user input
-
-More logic-focused practice labs will be added here as I continue learning 🙂
+It also demonstrated how real-world lookup behavior can be modeled in code using structured conditional branches, ensuring the program produces clear and predictable responses even when data is missing.
 
 ---
 
@@ -97,13 +75,13 @@ More logic-focused practice labs will be added here as I continue learning 🙂
 
 This exercise builds a function that returns the first element in an array that satisfies a provided truth test function.
 
-### Example
+### 📌 Example Behavior
 
 ```
 findElement([1, 3, 5, 8, 9], num => num % 2 === 0) → 8
 ```
 
-### Concepts Practiced
+### 🛠️ Concepts Practiced
 
 - Higher-order functions
 - Passing functions as arguments
@@ -111,7 +89,7 @@ findElement([1, 3, 5, 8, 9], num => num % 2 === 0) → 8
 - Early returns for efficient control flow
 - Re-creating built-in behavior (`Array.prototype.find`)
 
-### Reflection
+### 💡 Reflection
 
 This lab introduced the concept of higher-order functions by allowing behavior to be passed into a function as an argument. It reinforced how control flow can be delegated using predicate functions, and how early returns can be used to efficiently stop iteration once a condition is met.
 
@@ -121,7 +99,7 @@ This lab introduced the concept of higher-order functions by allowing behavior t
 
 This exercise builds a function that generates a text-based pyramid using a specified character, number of rows, and direction flag.
 
-### Example
+### 📌 Example Behavior
 
 ```
 pyramid("o", 4, false)
@@ -132,7 +110,7 @@ pyramid("o", 4, false)
 ooooooo
 ```
 
-### Concepts Practiced
+### 🛠️ Concepts Practiced
 
 - Nested control flow using loops and conditionals
 - Building dynamic string output
@@ -140,7 +118,7 @@ ooooooo
 - Using parameters to alter execution paths
 - Avoiding trailing whitespace in formatted output
 
-### Reflection
+### 💡 Reflection
 
 This lab required careful planning and incremental debugging to manage spacing, alignment, and execution order. It reinforced the importance of breaking complex output problems into smaller steps and reasoning through how control flow affects final results.
 
@@ -148,22 +126,9 @@ This lab required careful planning and incremental debugging to manage spacing, 
 
 ## 🃏 Card Counter Lab
 
-**File:** `card-counter.js`
-
 This lab simulates a simplified Blackjack card-counting system. The program keeps track of a running count and returns a suggestion based on whether the current count is positive or not.
 
-### Card Rules
-
-    2–6   ➜ Increase the count (good for the player)
-    7–9   ➜ No change
-    10–A  ➜ Decrease the count (good for the house)
-
-### Output Rule
-
-If the count is positive → return `"Bet"`  
-Otherwise → return `"Hold"`
-
-Example output format:
+### 📌 Example Behavior
 
 ```
     2 Bet
@@ -171,10 +136,29 @@ Example output format:
     -1 Hold
 ```
 
-### Concepts Practiced
+### 🛠️ Concepts Practiced
 
 - Using `if / else if / else` branching
 - Tracking state using a global variable
 - Returning formatted string output
 - Understanding how repeated function calls build on each other
 - Thinking about program logic instead of only math
+
+### 💡 Reflection
+
+This lab introduced the concept of state persistence across function calls, where each call affects the next outcome. It emphasized thinking about program flow over time rather than a single execution, and showed how simple conditional logic can drive decision-making systems.
+
+---
+
+## 💡 Topic Reflection
+
+These labs strengthened my ability to think in terms of **program flow rather than isolated operations**. Each exercise required reasoning about how conditions interact, how rule order affects results, and how state can evolve during execution.
+
+Together, they introduced several core programming patterns:
+
+- prioritizing rule evaluation
+- using early exits to simplify logic
+- modeling real-world systems with condition trees
+- maintaining and updating state across calls
+
+This folder marks the transition from simple syntax practice to structured logical thinking — a foundational skill for building reliable applications.

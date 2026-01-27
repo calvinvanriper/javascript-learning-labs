@@ -48,7 +48,7 @@
 - Sections appear in this order:
   - 📝 Description
   - Labs (individual sections)
-  - 💡 Reflection
+  - 💡 Topic Reflection
 - Structure per lab section
   - Title (emoji allowed)
   - Short description

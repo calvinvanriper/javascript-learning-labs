@@ -41,7 +41,28 @@ function pyramid(char, rows, direction) {
 }
 
 // ---- Test calls (manual validation) ----
-console.log(pyramid("o", 4, false)); // bottom-up pyramid
-console.log(pyramid("p", 5, true));  // top-down pyramid
-console.log(pyramid("*", 3, false)); // small pyramid
-console.log(pyramid("#", 1, false)); // single row
+console.log(pyramid("o", 4, false)); 
+/* bottom-up pyramid
+   o
+  ooo
+ ooooo
+ooooooo
+*/
+console.log(pyramid("p", 5, true));  
+/* top-down pyramid
+ppppppppp
+ ppppppp
+  ppppp
+   ppp
+    p
+*/
+console.log(pyramid("*", 3, false)); 
+/* small pyramid
+  *
+ ***
+*****
+*/
+console.log(pyramid("#", 1, false));
+/* single row
+#
+*/

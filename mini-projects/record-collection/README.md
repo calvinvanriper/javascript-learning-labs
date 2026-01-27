@@ -23,6 +23,22 @@ The purpose of this project is to practice reasoning through complex conditional
 
 ---
 
+## 📌 Example Behavior
+
+When the program runs, it applies several updates to the record collection. After each update, the modified record is displayed to make state changes easy to follow.
+
+Example output for a single update might look like:
+
+```
+Step: Set artist on 5439 to ABBA
+{
+  "albumTitle": "ABBA Gold",
+  "artist": "ABBA"
+}
+```
+
+This approach makes it easier to follow how each rule affects the data.
+
 ## 🛠️ Concepts Practiced
 
 - Working with nested objects
@@ -30,27 +46,7 @@ The purpose of this project is to practice reasoning through complex conditional
 - Using arrays within objects
 - Applying multiple conditional rules with `if / else if / else`
 - Understanding how program state changes step-by-step
-- Using console output to trace and verify logic
-
----
-
-## 📌 Example Behavior
-
-When the program runs, it applies several updates to the record collection. After each update, the modified record is displayed so the changes can be observed clearly.
-
-Example output for a single update might look like:
-
-```
---------------------------------------------------
-Step 1: Set artist on 5439 to ABBA
-{
-  "albumTitle": "ABBA Gold",
-  "artist": "ABBA"
-}
---------------------------------------------------
-```
-
-This approach makes it easier to follow how each rule affects the data.
+- Using test calls and console output to validate state changes
 
 ---
 

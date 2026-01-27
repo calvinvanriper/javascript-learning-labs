@@ -30,37 +30,9 @@ function factorialCalculator(number) {
   return result;
 }
 
-/* --------------------------------------------------
-   Test cases (3–5 different results)
--------------------------------------------------- */
-
-console.log("Factorial Tests");
-console.log("--------------------------------------------------");
-
-let num = 0;
-let factorial = factorialCalculator(num);
-console.log(`Factorial of ${num} is ${factorial}`); // Expected: 1
-
-console.log("--------------------------------------------------");
-
-num = 1;
-factorial = factorialCalculator(num);
-console.log(`Factorial of ${num} is ${factorial}`); // Expected: 1
-
-console.log("--------------------------------------------------");
-
-num = 5;
-factorial = factorialCalculator(num);
-console.log(`Factorial of ${num} is ${factorial}`); // Expected: 120
-
-console.log("--------------------------------------------------");
-
-num = 7;
-factorial = factorialCalculator(num);
-console.log(`Factorial of ${num} is ${factorial}`); // Expected: 5040
-
-console.log("--------------------------------------------------");
-
-num = 10;
-factorial = factorialCalculator(num);
-console.log(`Factorial of ${num} is ${factorial}`); // Expected: 3628800
+// ---- Test calls (manual validation) ----
+console.log(factorialCalculator(0));   // 1
+console.log(factorialCalculator(1));   // 1
+console.log(factorialCalculator(5));   // 120
+console.log(factorialCalculator(7));   // 5040
+console.log(factorialCalculator(10));  // 3628800

@@ -38,75 +38,32 @@ const recordCollection = {
  * @returns {Object} The updated record collection. 
  */
 function updateRecords(records, id, prop, value) {
-  // If the value is an empty string, remove the property from the record
   if(value === "") {
     delete records[id][prop];
-
-  // If the property is not "tracks", set or update the property
-  } else if(prop !== "tracks" && value !== "") {
+  } else if(prop !== "tracks") {
     records[id][prop] = value;
-
-  // If the property is "tracks" and the record does not yet have a tracks list
-  } else if(prop === "tracks" && value !== "" && !records[id].hasOwnProperty("tracks")) {
-    records[id].tracks = [];
-
-    // Add the track to the newly created tracks list
-    if(prop === "tracks" && value !== "") {
+  } else {
+    if (!records[id].hasOwnProperty("tracks")) {
+      records[id].tracks = [];
+    }
     records[id].tracks.push(value);
   }
 
-  // If the property is "tracks" and the tracks list already exists
-  } else if(prop === "tracks" && value !== "") {
-    records[id].tracks.push(value);
-  }
-
-  // Return the updated collection
   return records;
 
 }
 
-/* --------------------------------------------------
-   Test cases and output
--------------------------------------------------- */
+// ---- Test calls (manual validation) ----
+console.log(JSON.stringify(recordCollection[5439], null, 2)); // initial 5439 (no artist/tracks)
 
-console.log("Here is the original record collection:");
-console.log(JSON.stringify(recordCollection, null, 2));
-
-console.log("--------------------------------------------------");
-console.log("Step 1: Set artist on 5439 to ABBA");
 updateRecords(recordCollection, 5439, "artist", "ABBA");
-console.log(JSON.stringify(recordCollection[5439], null, 2));
+console.log(JSON.stringify(recordCollection[5439], null, 2)); // artist added
 
-console.log("--------------------------------------------------");
-console.log("Step 2: Create Tracks property on 5439 and add value");
 updateRecords(recordCollection, 5439, "tracks", "Take a Chance on Me");
-console.log(JSON.stringify(recordCollection[5439], null, 2));
+console.log(JSON.stringify(recordCollection[5439], null, 2)); // tracks created + 1 item
 
-console.log("--------------------------------------------------");
-console.log("Step 3: Remove the artist property from 2548");
-updateRecords(recordCollection, 2548, "artist", "");
-console.log(JSON.stringify(recordCollection[2548], null, 2));
+updateRecords(recordCollection, 5439, "tracks", "Dancing Queen");
+console.log(JSON.stringify(recordCollection[5439], null, 2)); // tracks now has 2 items
 
-console.log("--------------------------------------------------");
-console.log("Step 4: Add the track Addicted to Love to 1245");
-updateRecords(recordCollection, 1245, "tracks", "Addicted to Love");
-console.log(JSON.stringify(recordCollection[1245], null, 2));
-
-console.log("--------------------------------------------------");
-console.log("Step 5: Add the track Free to 2468");
-updateRecords(recordCollection, 2468, "tracks", "Free");
-console.log(JSON.stringify(recordCollection[2468], null, 2));
-
-console.log("--------------------------------------------------");
-console.log("Step 6: Remove the tracks list from 2548");
-updateRecords(recordCollection, 2548, "tracks", "");
-console.log(JSON.stringify(recordCollection[2548], null, 2));
-
-console.log("--------------------------------------------------");
-console.log("Step 7: Add an album title to 1245");
-updateRecords(recordCollection, 1245, "albumTitle", "Riptide");
-console.log(JSON.stringify(recordCollection[1245], null, 2));
-
-console.log("--------------------------------------------------");
-console.log("Here is the final version of the record collection:")
-console.log(JSON.stringify(recordCollection, null, 2));
+updateRecords(recordCollection, 5439, "artist", "");
+console.log(JSON.stringify(recordCollection[5439], null, 2)); // artist removed

@@ -10,26 +10,43 @@ Each mini project is designed to reinforce foundational JavaScript skills while 
 
 ## 🎯 Trivia — Random Computer Answer
 
-**File:** `trivia-random-answer.js`
-
 A simple trivia simulation that randomly selects a question and an answer choice, then evaluates whether the computer's selection is correct.
 
-### Concepts Practiced
+### 📌 Expected Behavior
+
+```
+Category: Geography
+Question: What is the largest continent on Earth by land area?
+Computer picked: Antarctica
+The computer’s choice is wrong. The correct answer is: Asia
+```
+
+### 🛠️ Concepts Practiced
 
 - Arrays of objects
 - Random selection using `Math.random()`
 - Function composition
 - Conditional logic and control flow
 
+### 💡 Reflection
+
+This project helped reinforce how structured data (objects within arrays) can be used to represent real-world information. It also introduced randomness into program behavior, requiring careful thinking about how to validate outcomes that are not deterministic.
+
+Working through this project highlighted how separating logic into small functions makes it easier to test, expand, and understand how each part contributes to the overall program.
+
 ---
 
 ## 📊 Gradebook App
 
-**File:** `gradebook-app/gradebook.js`
-
 A small gradebook system that calculates a class average, converts numeric scores into letter grades, determines pass/fail status, and generates a student-facing summary message.
 
-### Concepts Practiced
+### 📌 Expected Behavior
+
+```
+Class average: 78.83333333333333. Your grade: B. You passed the course.
+```
+
+### 🛠️ Concepts Practiced
 
 - Function composition and reuse
 - Iterating over arrays to compute aggregates
@@ -37,24 +54,44 @@ A small gradebook system that calculates a class average, converts numeric score
 - Boolean logic for pass/fail evaluation
 - Producing formatted, user-readable output
 
+### 💡 Reflection
+
+This project emphasized the value of composing small, single-responsibility functions into a larger workflow. Each function performed a simple task, but together they created meangingful program behavior.
+
+It reinforced how consistent function contracts, clear logic flow, and thoughtful testing make multi-function programs easier to reason about and maintain.
+
 ---
 
 ## 💿 Record Collection Update
 
-**File:** `record-collection.js`
-
 A rule-driven record collection update system that modifies nested object properties and arrays based on specific conditions.
 
-### Concepts Practiced
+### 📌 Expected Behavior
+
+```
+Step: Set artist on 5439 to ABBA
+{
+  "albumTitle": "ABBA Gold",
+  "artist": "ABBA"
+}
+```
+
+### 🛠️ Concepts Practiced
 
 - Working with nested objects and arrays
 - Conditional logic with multiple branches
 - Updating and deleting object properties
 - Reasoning about state changes step-by-step
 
+### 💡 Reflection
+
+This project was more logic-heavy than earlier work and required careful evaluation of rule order and conditional branches. Managing nested objects and arrays highlighted how small logic errors can cascade into larger state issues.
+
+Completing this project strengthened understanding of object manipulation, state changes, and how structured rules can drive complex updates predictably.
+
 ---
 
-## 💡 Reflection
+## 💡 Topic Reflection
 
 These mini projects help bridge the gap between individual concept labs and more complete programs. Rather than focusing on one idea in isolation, each project requires combining multiple concepts to produce meaningful output.
 

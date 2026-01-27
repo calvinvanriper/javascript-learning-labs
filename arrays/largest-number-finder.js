@@ -22,7 +22,7 @@ function largestOfAll(arrayOfArrays) {
 }
 
 // ---- Test calls (manual validation) ----
-console.log(largestOfAll([[1, 2, 3], [4, 5], [9, 0]]));           // [3, 5, 9]
+console.log(largestOfAll([[1, 2, 3], [4, 5], [9, 0]]));         // [3, 5, 9]
 console.log(largestOfAll([[13, 27], [4, 5], [100, 99]]));       // [27, 5, 100]
 console.log(largestOfAll([[-1, -5], [-10, -3]]));               // [-1, -3]
 console.log(largestOfAll([[42], [7], [0]]));                    // [42, 7, 0]

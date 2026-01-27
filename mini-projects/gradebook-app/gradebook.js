@@ -61,11 +61,9 @@ function studentMsg(studentScores, individualScore) {
 // ---- Test calls (manual validation) ----
 const classScores = [100, 92, 84, 71, 67, 59];
 
-console.log(getAverage(classScores));                 // 78.83333333333333
-console.log(getGrade(100));                           // "A+"
-console.log(getGrade(90));                            // "A"
-console.log(getGrade(59));                            // "F"
-console.log(hasPassingGrade(59));                     // false
-console.log(hasPassingGrade(60));                     // true
-console.log(studentMsg(classScores, 84));             // "... Your grade: B. You passed the course."
-console.log(studentMsg(classScores, 59));             // "... Your grade: F. You failed the course."
+console.log(getAverage(classScores));     // 78.83333333333333
+console.log(getGrade(100));              // "A+"
+console.log(getGrade(59));               // "F"
+console.log(hasPassingGrade(60));        // true
+console.log(studentMsg(classScores, 59)); // Class average: 78.83333333333333. Your grade: F. You failed the course.
+

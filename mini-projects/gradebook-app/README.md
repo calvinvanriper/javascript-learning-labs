@@ -10,11 +10,23 @@ The goal of this project is to practice composing small, single-purpose function
 
 ## 🧠 What This Project Does
 
-- Accepts an array of numeric test scores representing a class
+- Accepts an array of numeric test scores representing a class roster
 - Calculates the class average score
 - Converts numeric scores into letter grades based on defined grading rules
 - Determines whether a student has passed the course
 - Produces a formatted message summarizing the student’s performance
+
+---
+
+## 📌 Example Behavior
+
+When the program runs, it can generate a summary message like:
+
+```
+Class average: 78.83333333333333. Your grade: B. You passed the course.
+```
+
+This output demonstrates how multiple functions work together to evaluate and report student performance.
 
 ---
 
@@ -25,18 +37,6 @@ The goal of this project is to practice composing small, single-purpose function
 - Conditional logic and grading rules
 - Boolean logic for pass/fail evaluation
 - Producing formatted, user-readable output
-
----
-
-## 📌 Example Behavior
-
-When the program runs, it can generate a summary message like:
-
-```
-Class average: 78.8. Your grade: B. You passed the course.
-```
-
-This output demonstrates how multiple functions work together to evaluate and report student performance.
 
 ---
 
