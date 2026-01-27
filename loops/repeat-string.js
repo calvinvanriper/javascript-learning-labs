@@ -1,16 +1,15 @@
 /**
  * Repeats the provided string a specified number of times
- * 
- * @param {string} repeatString - String to be repeated. 
- * @param {number} repeatCount - Number of times to repeat.  
+ *
+ * @param {string} repeatString - String to be repeated.
+ * @param {number} repeatCount - Number of times to repeat.
  * @returns {string} A repeated string
  */
 function repeatStringNumTimes(repeatString, repeatCount) {
+  let returnString = '';
 
-  let returnString = "";
-  
   if (repeatCount <= 0) {
-    return "";  // Fast fail if count less than or equal to 0
+    return ''; // Fast fail if count less than or equal to 0
   }
 
   // Build the repeated string manually since String.repeat() is not allowed
@@ -21,8 +20,8 @@ function repeatStringNumTimes(repeatString, repeatCount) {
 }
 
 // ---- Test calls (manual validation) ----
-console.log(repeatStringNumTimes("*", 3));     // "***"
-console.log(repeatStringNumTimes("abc", 3));   // "abcabcabc"
-console.log(repeatStringNumTimes("abc", 4));   // "abcabcabcabc"
-console.log(repeatStringNumTimes("*", 0));     // ""
-console.log(repeatStringNumTimes("abc", -2));  // ""
+console.log(repeatStringNumTimes('*', 3)); // "***"
+console.log(repeatStringNumTimes('abc', 3)); // "abcabcabc"
+console.log(repeatStringNumTimes('abc', 4)); // "abcabcabcabc"
+console.log(repeatStringNumTimes('*', 0)); // ""
+console.log(repeatStringNumTimes('abc', -2)); // ""

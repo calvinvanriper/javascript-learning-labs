@@ -9,7 +9,7 @@
  * // → "olleh"
  */
 function reverseString(input) {
-  let reversed = "";
+  let reversed = '';
 
   // Iterate from the end of the string to the beginning,
   // building a new string character by character.
@@ -21,8 +21,8 @@ function reverseString(input) {
 }
 
 // ---- Test calls (manual validation) ----
-console.log(reverseString("hello"));              // "olleh"
-console.log(reverseString("JavaScript"));         // "tpircSavaJ"
-console.log(reverseString("A-"));                 // "-A"
-console.log(reverseString(""));                   // ""
-console.log(reverseString("12345"));              // "54321"
+console.log(reverseString('hello')); // "olleh"
+console.log(reverseString('JavaScript')); // "tpircSavaJ"
+console.log(reverseString('A-')); // "-A"
+console.log(reverseString('')); // ""
+console.log(reverseString('12345')); // "54321"

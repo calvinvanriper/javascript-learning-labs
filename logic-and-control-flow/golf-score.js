@@ -1,4 +1,13 @@
-const names = ["Hole-in-one!", "Albatross", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+const names = [
+  'Hole-in-one!',
+  'Albatross',
+  'Eagle',
+  'Birdie',
+  'Par',
+  'Bogey',
+  'Double Bogey',
+  'Go Home!',
+];
 
 /**
  * Returns a golf score label based on par and strokes.

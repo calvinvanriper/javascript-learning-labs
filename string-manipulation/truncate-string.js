@@ -15,7 +15,7 @@ function truncateString(string, truncLength) {
   // If the string is longer than the allowed length,
   // return the truncated version plus an ellipsis.
   if (strLength > truncLength) {
-    return `${string.slice(0,truncLength)}...`;
+    return `${string.slice(0, truncLength)}...`;
   }
 
   // Otherwise return the original string unchanged
@@ -23,8 +23,8 @@ function truncateString(string, truncLength) {
 }
 
 // ---- Test calls (manual validation) ----
-console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8));   // "A-tisket..."
-console.log(truncateString("A-tisket a-tasket A green and yellow basket", 42))   // "A-tisket a-tasket A green and yellow baske..."
-console.log(truncateString("A-tisket a-tasket A green and yellow basket", 45));  // "A-tisket a-tasket A green and yellow basket"
-console.log(truncateString("A-tisket a-tasket A green and yellow basket", 11));  // "A=tisket a-..."
-console.log(truncateString("A-tisket a-tasket A green and yellow basket", 1));   // "A..."
+console.log(truncateString('A-tisket a-tasket A green and yellow basket', 8)); // "A-tisket..."
+console.log(truncateString('A-tisket a-tasket A green and yellow basket', 42)); // "A-tisket a-tasket A green and yellow baske..."
+console.log(truncateString('A-tisket a-tasket A green and yellow basket', 45)); // "A-tisket a-tasket A green and yellow basket"
+console.log(truncateString('A-tisket a-tasket A green and yellow basket', 11)); // "A=tisket a-..."
+console.log(truncateString('A-tisket a-tasket A green and yellow basket', 1)); // "A..."

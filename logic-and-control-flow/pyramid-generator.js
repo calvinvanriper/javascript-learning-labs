@@ -16,16 +16,16 @@
  * // ooooooo
  */
 function pyramid(char, rows, direction) {
-  let space = " ";
+  let space = ' ';
   let indent = rows;
   let width = 1;
-  let result = "";
+  let result = '';
 
   for (let i = 0; i < rows; i++) {
     indent -= 1;
 
     // Build a single row with proper indentation and width
-    let row = space.repeat(indent) + char.repeat(width) + "\n";
+    let row = space.repeat(indent) + char.repeat(width) + '\n';
     width += 2;
 
     // Append or prepend rows based on pyramid direction
@@ -37,18 +37,18 @@ function pyramid(char, rows, direction) {
   }
 
   // FCC requires the pyramid to start and end with a newline
-  return "\n" + result;
+  return '\n' + result;
 }
 
 // ---- Test calls (manual validation) ----
-console.log(pyramid("o", 4, false)); 
+console.log(pyramid('o', 4, false));
 /* bottom-up pyramid
    o
   ooo
  ooooo
 ooooooo
 */
-console.log(pyramid("p", 5, true));  
+console.log(pyramid('p', 5, true));
 /* top-down pyramid
 ppppppppp
  ppppppp
@@ -56,13 +56,13 @@ ppppppppp
    ppp
     p
 */
-console.log(pyramid("*", 3, false)); 
+console.log(pyramid('*', 3, false));
 /* small pyramid
-  *
+ *
  ***
-*****
-*/
-console.log(pyramid("#", 1, false));
+ *****
+ */
+console.log(pyramid('#', 1, false));
 /* single row
 #
 */

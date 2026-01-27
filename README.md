@@ -4,6 +4,8 @@
 ![Learning Repo](https://img.shields.io/badge/purpose-Learning-blueviolet)
 ![Status](https://img.shields.io/badge/status-Active-brightgreen)
 ![FreeCodeCamp](https://img.shields.io/badge/inspired%20by-FreeCodeCamp-0a0a23)
+![Code Style: Prettier](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg)
+![Linted with ESLint](https://img.shields.io/badge/linted%20with-ESLint-4B32C3)
 
 This repository is a collection of small JavaScript labs that I’ve completed while studying programming. Each lab focuses on a specific JavaScript concept such as strings, arrays, objects, functions, and control flow.
 

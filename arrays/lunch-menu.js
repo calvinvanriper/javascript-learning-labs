@@ -78,19 +78,18 @@ function getRandomLunch(menu) {
  */
 function showLunchMenu(menu) {
   if (menu.length === 0) {
-    return "The menu is empty.";
+    return 'The menu is empty.';
   }
 
-  return `Menu items: ${menu.join(", ")}`;
-  
+  return `Menu items: ${menu.join(', ')}`;
 }
 
 // ---- Test calls (manual validation) ----
-console.log(removeFirstLunch([]));               // undefined
-console.log(addLunchToEnd(lunches, "Tacos"));    // ["Tacos"]
-console.log(addLunchToStart(lunches, "Sushi"));  // ["Sushi", "Tacos"]
-console.log(removeLastLunch(lunches));           // ["Sushi"]
-console.log(showLunchMenu(["Soup", "Pizza"]));   // "Menu items: Soup, Pizza"
+console.log(removeFirstLunch([])); // undefined
+console.log(addLunchToEnd(lunches, 'Tacos')); // ["Tacos"]
+console.log(addLunchToStart(lunches, 'Sushi')); // ["Sushi", "Tacos"]
+console.log(removeLastLunch(lunches)); // ["Sushi"]
+console.log(showLunchMenu(['Soup', 'Pizza'])); // "Menu items: Soup, Pizza"
 
 // Random output note: result should be either "Soup" or "Pizza"
-console.log(getRandomLunch(["Soup", "Pizza"]));  // "Soup" OR "Pizza"
+console.log(getRandomLunch(['Soup', 'Pizza'])); // "Soup" OR "Pizza"

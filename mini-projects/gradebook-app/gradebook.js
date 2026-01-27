@@ -21,12 +21,12 @@ function getAverage(testScores) {
  * @returns {string} The letter grade ("A+", "A", "B", "C", "D", or "F").
  */
 function getGrade(score) {
-  if (score === 100) return "A+";
-  if (score >= 90) return "A";
-  if (score >= 80) return "B";
-  if (score >= 70) return "C";
-  if (score >= 60) return "D";
-  return "F";
+  if (score === 100) return 'A+';
+  if (score >= 90) return 'A';
+  if (score >= 80) return 'B';
+  if (score >= 70) return 'C';
+  if (score >= 60) return 'D';
+  return 'F';
 }
 
 /**
@@ -37,7 +37,7 @@ function getGrade(score) {
  * @returns {boolean} True if passing, false if failing.
  */
 function hasPassingGrade(score) {
-  return getGrade(score) !== "F";
+  return getGrade(score) !== 'F';
 }
 
 /**
@@ -54,16 +54,15 @@ function studentMsg(studentScores, individualScore) {
   let passed = hasPassingGrade(individualScore);
 
   return `Class average: ${classAverage}. Your grade: ${studentGrade}. ${
-    passed ? "You passed the course." : "You failed the course."
+    passed ? 'You passed the course.' : 'You failed the course.'
   }`;
 }
 
 // ---- Test calls (manual validation) ----
 const classScores = [100, 92, 84, 71, 67, 59];
 
-console.log(getAverage(classScores));     // 78.83333333333333
-console.log(getGrade(100));              // "A+"
-console.log(getGrade(59));               // "F"
-console.log(hasPassingGrade(60));        // true
+console.log(getAverage(classScores)); // 78.83333333333333
+console.log(getGrade(100)); // "A+"
+console.log(getGrade(59)); // "F"
+console.log(hasPassingGrade(60)); // true
 console.log(studentMsg(classScores, 59)); // Class average: 78.83333333333333. Your grade: F. You failed the course.
-

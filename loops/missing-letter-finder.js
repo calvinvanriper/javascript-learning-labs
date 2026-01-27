@@ -1,11 +1,11 @@
 /**
  * Finds the first missing letter from a case-insensitive, alphabetical string of letters
- * 
- * @param {string} sourceString - The input string to analyze (may contain uppercase or lowercase). 
+ *
+ * @param {string} sourceString - The input string to analyze (may contain uppercase or lowercase).
  * @returns {string \ undefined} The first missing letter, or undefined if no letters are missing.
  */
 function fearNotLetter(sourceString) {
-  const masterString = "abcdefghijklmnopqrstuvwxyz";
+  const masterString = 'abcdefghijklmnopqrstuvwxyz';
 
   // Normalize to lowercase so indexing and comparisons work consistently
   sourceString = sourceString.toLowerCase();
@@ -26,7 +26,7 @@ function fearNotLetter(sourceString) {
 }
 
 // ---- Test calls (manual validation) ----
-console.log(fearNotLetter("abce"));            // "d"
-console.log(fearNotLetter("abcdefghjklmno"));  // "i"
-console.log(fearNotLetter("stvwx"));           // "u"
-console.log(fearNotLetter("abc"));             // undefined
+console.log(fearNotLetter('abce')); // "d"
+console.log(fearNotLetter('abcdefghjklmno')); // "i"
+console.log(fearNotLetter('stvwx')); // "u"
+console.log(fearNotLetter('abc')); // undefined

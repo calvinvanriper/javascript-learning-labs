@@ -25,7 +25,7 @@ function frankenSplice(array1, array2, index) {
 }
 
 // ---- Test calls (manual validation) ----
-console.log(frankenSplice([1, 2], ["a", "b"], 1));         // ["a", 1, 2, "b"]
-console.log(frankenSplice(["x", "y"], [1, 2, 3], 0));      // ["x", "y", 1, 2, 3]
-console.log(frankenSplice([true], [false], 1));            // [false, true]
-console.log(frankenSplice([], ["a", "b"], 1));             // ["a", "b"]
+console.log(frankenSplice([1, 2], ['a', 'b'], 1)); // ["a", 1, 2, "b"]
+console.log(frankenSplice(['x', 'y'], [1, 2, 3], 0)); // ["x", "y", 1, 2, 3]
+console.log(frankenSplice([true], [false], 1)); // [false, true]
+console.log(frankenSplice([], ['a', 'b'], 1)); // ["a", "b"]

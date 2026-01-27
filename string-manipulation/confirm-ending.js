@@ -13,12 +13,11 @@ function confirmEnding(sourceString, endString) {
 
   // Compare the extracted substring to the target ending
   return sourceEndString === endString;
-  
 }
 
 // ---- Test calls (manual validation) ----
-console.log(confirmEnding("Bastian", "n"));                                 // true
-console.log(confirmEnding("Bastian", "on"));                                // false
-console.log(confirmEnding("Walking on water is easy if frozen", "water"));  // false
-console.log(confirmEnding("Open sesame", "same"));                          // true
-console.log(confirmEnding("Open sesame", "sage"));                          // false
+console.log(confirmEnding('Bastian', 'n')); // true
+console.log(confirmEnding('Bastian', 'on')); // false
+console.log(confirmEnding('Walking on water is easy if frozen', 'water')); // false
+console.log(confirmEnding('Open sesame', 'same')); // true
+console.log(confirmEnding('Open sesame', 'sage')); // false

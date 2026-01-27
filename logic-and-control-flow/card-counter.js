@@ -11,22 +11,28 @@ let count = 0;
  *
  * If count > 0 -> "Bet"
  * Otherwise -> "Hold"
- * 
+ *
  * @param {number|string} card - The card value drawn (2-10 or "J", "Q", "K", "A").
  * @returns {string} A string containing the updated count and betting advise (e.g., "1 Bet", "0 Hold").
  */
 function cardCounter(card) {
-  const betMsg = "Bet";
-  const holdMsg = "Hold";
+  const betMsg = 'Bet';
+  const holdMsg = 'Hold';
 
   // Update running count based on card value
   if (card <= 6) {
-    ++count;               
+    ++count;
   } else if (card > 6 && card <= 9) {
     // Neutral cards intentionally cause no change
-    count = count + 0;     
-  } else if (card > 9 || card == "J" || card == "Q" || card == "K" || card == "A") {
-    --count;               
+    count = count + 0;
+  } else if (
+    card > 9 ||
+    card == 'J' ||
+    card == 'Q' ||
+    card == 'K' ||
+    card == 'A'
+  ) {
+    --count;
   }
 
   if (count > 0) {
@@ -37,8 +43,8 @@ function cardCounter(card) {
 }
 
 // ---- Test calls (manual validation) ----
-console.log(cardCounter(4));    // "1 Bet"
-console.log(cardCounter(6));    // "2 Bet"
-console.log(cardCounter(10));   // "1 Bet"
-console.log(cardCounter("J"));  // "0 Hold"
-console.log(cardCounter("Q"));  // "-1 Hold"
+console.log(cardCounter(4)); // "1 Bet"
+console.log(cardCounter(6)); // "2 Bet"
+console.log(cardCounter(10)); // "1 Bet"
+console.log(cardCounter('J')); // "0 Hold"
+console.log(cardCounter('Q')); // "-1 Hold"

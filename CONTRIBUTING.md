@@ -87,14 +87,59 @@
 
 ---
 
-## 7. Out of Scope 🚫
+## 7. Code Formatting & Quality Checks (✅ Required)
 
-- The following are intentionally deferred:
-  - Adding Prettier, ESLint, EditorConfig
-  - Refactoring working logic for style preference
-  - Rewriting older labs for different approaches
+This repository enforces automated formatting and linting.  
+All contributors must run these checks before committing.
+
+### Formatting
+
+We use **Prettier** to enforce consistent formatting.  
+Run:
+
+```
+npm run format
+```
+
+### Linting
+
+We use **ESLint** to enforce code quality and sytle consistency.  
+Run:
+
+```
+npm run lint
+```
+
+If issues can be fixed automatically:
+
+```
+run npm lint:fix
+```
+
+Then re-run:
+
+```
+run npm lint
+```
+
+Commit only when **0 problems** are reported.
+
+### Notes
+
+- Prettier handles spacing, quotes, line width, etc.
+- ESLint enforces code correctness and safe patterns.
+- Manual alignment of comments or custom spacing is not preserved by design.
+
+## 8. Out of Scope 🚫
+
+The following are intentionally deferred:
+
+- Refactoring working logic for style preference
+- Rewriting older labs for different approaches
+- Over-engineering beyond the lab's learning goal
 
 # 🧭 Definition of Done
 
 - The repository is normalized when every existing lab file and README satisfies all **Required** items above.
 - Once this is achieved, the baseline is set and future labs follow this standard.
+- Formatting and lint checks pass (0 errors)
