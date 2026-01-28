@@ -83,6 +83,32 @@ This lab reinforced how multiple conditions can interact to produce a final outc
 
 ---
 
+## ➕ Sum All Numbers in a Range
+
+This exercise calculates the sum of all numbers within a numeric range defined by two input values. The function ensures the numbers are processed in the correct order and then iterates through the range, accumulating the total.
+
+### 📌 Example Behavior
+
+```
+sumAll([1, 4]) → 10
+sumAll([4, 1]) → 10
+sumAll([5, 10]) → 45
+```
+
+### 🛠️ Concepts Practiced
+
+- Working with numeric ranges
+- Looping with dynamic start and end points
+- Using an accumulator variable to build totals
+- Handling unordered input values
+- Applying basic arithmetic in programmatic form
+
+### 💡 Reflection
+
+This lab demonstrates how mathematical operations often rely on structured iteration in programming. While the arithmetic itself is simple, the exercise reinforces how loops can be used to generate sequences and progressively build a result. It also highlights the importance of validating or normalizing input before processing.
+
+---
+
 ## 💡 Topic Reflection
 
 These labs strengthened the connection between mathematical reasoning and program logic. Each exercise demonstrated how formulas and numeric rules can be implemented in code through clear function design and structured decision-making.

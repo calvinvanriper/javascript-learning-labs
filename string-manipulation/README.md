@@ -130,6 +130,59 @@ titleCase("HERE IS MY HANDLE") → "Here Is My Handle"
 
 This lab introduced a **multi-step transformation workflow**, moving beyond single-method string operations. It reinforced how strings and arrays can work together to process text data, a pattern that appears frequently in real-world applications such as formatting user input, cleaning data, and preparing for text display. It also emphasized the importance of thinking about edge cases like extra spaces or inconsistent capitalization.
 
+---
+
+## 🔐 Random Password Generator
+
+This mini project generates a random password of a specified length using a predefined set of uppercase letters, lowercase letters, numbers, and symbols.
+
+### 📌 Example Behavior
+
+```
+generatePassword(8) → "aZ3$kL9!"
+generatePassword(15) → "Qf2@Lm9!xZ1#pRt"
+```
+
+### 🛠️ Concepts Practiced
+
+- Generating random values with `Math.random()`
+- Using string indexing to select random characters
+- Constructing strings dynamically
+- Loop control with numeric input
+- Understanding pseudo-randomness in JavaScript
+
+### 💡 Reflection
+
+This lab demonstrates how randomness can be used to generate dynamic output based on user input. It also highlights the difference between simple pseudo-random generation and more secure random generation methods used in real-world applications.
+
+---
+
+## 🧾 HTML Entity Converter
+
+This exercise replaces reserved HTML characters in a string with their corresponding HTML entity representations. The function scans the input string character-by-character and substitutes only the characters that require escaping.
+
+### 📌 Example Behavior
+
+```
+convertHTML("Dolce & Gabbana") → "Dolce &amp; Gabbana"
+convertHTML("Hamburgers < Pizza < Tacos") → "Hamburgers &lt; Pizza &lt; Tacos"
+convertHTML('Stuff in "quotation marks"') → "Stuff in &quot;quotation marks&quot;"
+```
+
+### 🛠️ Concepts Practiced
+
+- Iterating through strings character-by-character
+- Replacing specific characters using lookup mapping
+- Constructing new strings dynamically
+- Understanding HTML entity encoding
+- Preventing unintended interpretation of special characters
+
+### 💡 Reflection
+
+This lab introduces the concept of HTML escaping, an important real-world string processing task. It reinforces how strings can be transformed safely by mapping specific characters to alternate representations. The exercise also highlights how controlled character replacement is used in web development to ensure text is displayed correctly without being interpreted as markup.
+
+---
+
 ## 💡 Topic Reflection
 
 These labs focused on practical string manipulation patterns commonly used in real-world applications. Each exercise reinforced how small, focused string operations can be combined with conditional logic to safely format, validate, and display text.

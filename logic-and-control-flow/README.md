@@ -150,6 +150,32 @@ This lab introduced the concept of state persistence across function calls, wher
 
 ---
 
+### 🌀 Sum Odd Fibonacci Numbers
+
+This exercise generates Fibonacci numbers up to a specified limit and calculates the sum of only the odd values in the sequence. The function builds the sequence step-by-step while ensuring numbers do not exceed the provided limit.
+
+### 📌 Example Behavior
+
+```
+sumFibs(4) → 5        // 1 + 1 + 3
+sumFibs(10) → 10      // 1 + 1 + 3 + 5
+sumFibs(75025) → 135721
+```
+
+### 🛠️ Concepts Practiced
+
+- Generating number sequences using iterative logic
+- Controlling loop termination based on dynamic conditions
+- Using conditional checks within loops
+- Filtering values based on numeric properties (odd numbers)
+- Accumulating totals using an accumulator variable
+
+### 💡 Reflection
+
+This lab reinforces the importance of control flow and condition placement when generating sequences. It highlights how a small shift in where a condition is evaluated can significantly change program behavior. The exercise also demonstrates how multiple stages of logic—generation, filtering, and accumulation—can be combined to produce a final result.
+
+---
+
 ## 💡 Topic Reflection
 
 These labs strengthened my ability to think in terms of **program flow rather than isolated operations**. Each exercise required reasoning about how conditions interact, how rule order affects results, and how state can evolve during execution.

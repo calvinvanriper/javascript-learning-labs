@@ -12,7 +12,7 @@ export default [
     },
     rules: {
       semi: ['error', 'always'],
-      quotes: ['error', 'single'],
+      quotes: 'off',
       'no-unused-vars': 'warn',
     },
   },

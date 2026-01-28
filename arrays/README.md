@@ -113,6 +113,88 @@ This lab introduced a core data-processing pattern: **scan, test, and keep/disca
 
 ---
 
+## 🔗 Unite Unique Arrays
+
+This exercise merges multiple arrays into a single array that contains only unique values, while preserving the order in which values first appear.
+
+The solution manually iterates through each input array and builds a new array by adding values only if they have not already been included.
+
+### 📌 Example Behavior
+
+```
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]) → [1, 3, 2, 5, 4]
+uniteUnique([1, 2, 3], [5, 2, 1]) → [1, 2, 3, 5]
+uniteUnique(['a', 1, true], [1, 'a', false]) → ['a', 1, true, false]
+```
+
+### 🛠️ Concepts Practiced
+
+- Working with multiple arrays using rest parameters
+- Iterating through nested arrays
+- Checking for uniqueness with `.includes()`
+- Preserving insertion order while filtering duplicates
+- Understanding value comparison in JavaScript (including how NaN behaves)
+- Building new arrays without mutating the originals
+
+### 💡 Reflection
+
+This lab reinforced a fundamental array-processing pattern: scan, check, and append. It also highlighted how JavaScript determines value equality, which is especially important when working with mixed data types. The approach taken here mirrors how higher-level tools like Set can be used for deduplication, but implementing it manually helps build a deeper understanding of how uniqueness is enforced step-by-step.
+
+---
+
+## 🧬 DNA Pair Generator
+
+This exercise builds DNA base pairs from an input string of DNA bases. Each character in the string is paired with its complementary base according to biological pairing rules.
+
+The function processes the sequence character by character and returns a two-dimensional array representing the paired structure.
+
+### 📌 Example Behavior
+
+```
+pairElement("ATCGA") → [["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]
+pairElement("ttgag") → [["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]
+```
+
+### 🛠️ Concepts Practiced
+
+- Iterating through strings character-by-character
+- Building nested arrays (arrays within arrays)
+- Applying rule-based conditional logic
+- Normalizing input for consistent comparison
+- Mapping single values to structured data
+
+### 💡 Reflection
+
+This lab introduces structured data construction by transforming a simple string into a two-dimensional array. It reinforces how rule-based logic can be used to map individual values into related pairs, and demonstrates how nested data structures are created programmatically. The exercise also highlights the importance of normalizing input before processing.
+
+---
+
+## ⏭️ Drop Elements Until Condition Met
+
+This exercise removes elements from the beginning of an array until a specified condition is satisfied. The function uses a callback to test each element and returns the remaining portion of the array starting from the first element that passes the test.
+
+### 📌 Example Behavior
+
+```
+dropElements([1, 2, 3, 4], n => n >= 3) → [3, 4]
+dropElements([0, 1, 0, 1], n => n === 1) → [1, 0, 1]
+dropElements([1, 2, 3, 4], n => n > 5) → []
+```
+
+### 🛠️ Concepts Practiced
+
+- Iterating through arrays with loop control
+- Using callback functions as parameters
+- Conditional logic to determine stopping points
+- Creating subarrays using `.slice()`
+- Returning new arrays without mutating the original
+
+### 💡 Reflection
+
+This lab demonstrates how higher-order functions can influence control flow within array processing. It reinforces the concept of using callback functions to determine behavior dynamically and shows how array slicing can be used to efficiently return a portion of data based on a condition. The exercise also highlights the usefulness of early returns in simplifying logic.
+
+---
+
 ## 💡 Topic Reflection
 
 These labs focused on core array operations used in real applications — managing changing collections, extracting values from nested data, and combining arrays safely. Together, they reinforced the difference between mutating and non-mutating approaches and built confidence working with arrays as a primary data structure.
