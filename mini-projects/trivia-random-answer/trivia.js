@@ -40,12 +40,7 @@ const questionItem3 = {
 const questionItem4 = {
   category: 'Literature',
   question: 'Who wrote the play Romeo and Juliet?',
-  choices: [
-    'Mark Twain',
-    'Charles Dickens',
-    'Jane Austen',
-    'William Shakespeare',
-  ],
+  choices: ['Mark Twain', 'Charles Dickens', 'Jane Austen', 'William Shakespeare'],
   answer: 'William Shakespeare',
 };
 
@@ -58,13 +53,7 @@ const questionItem5 = {
 };
 
 // Seed the question bank (easy to add more later)
-questions.push(
-  questionItem1,
-  questionItem2,
-  questionItem3,
-  questionItem4,
-  questionItem5,
-);
+questions.push(questionItem1, questionItem2, questionItem3, questionItem4, questionItem5);
 
 /**
  * Returns a random question from the provided array.
@@ -100,7 +89,7 @@ function getRandomComputerChoice(choices) {
 function getResults(question, computerChoice) {
   const correctAnswer = question.answer;
   if (computerChoice === correctAnswer) {
-    return 'The computer\'s choice is correct!';
+    return "The computer's choice is correct!";
   } else {
     return `The computer's choice is wrong. The correct answer is: ${correctAnswer}`;
   }

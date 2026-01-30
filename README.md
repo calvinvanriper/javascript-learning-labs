@@ -26,9 +26,9 @@ The repository is organized by topic area:
 
 These labs document my JavaScript learning journey through small, focused practical exercises.
 
-### 🔁 Logic & Control Flow
+### 🔀 Logic & Control Flow
 
-Focused exercises on decision-making, branching, and tracking state across multiple function calls.
+Focused exercises on decision-making, branching, and tracking state across multiple function calls.  
 ➡️ [`Open folder`](./logic-and-control-flow/)
 
 ### 🔁 Loops

@@ -195,6 +195,137 @@ This lab demonstrates how higher-order functions can influence control flow with
 
 ---
 
+## 📚 Library Manager
+
+This lab works with an array of book objects to extract, filter, and aggregate information about a small library catalog. The functions transform structured data into readable lists, targeted results, and summary statistics.
+
+### 📌 Example Behavior
+
+```
+getBookInformation(library) → "Atomic Habits by James Clear\n..."
+getBooksByAuthor(library, "Arvid Kahl")
+   → [{ title: "The Embedded Entrepreneur", ... }, { title: "Zero to Sold", ... }]
+getTotalPages(library) → 2512
+```
+
+### 🛠️ Concepts Practiced
+
+- Transforming arrays of objects using `.map()`
+- Filtering structured data with `.filter()`
+- Aggregating numeric values using `.reduce()`
+- Working with object properties inside array operations
+- Converting structured data into formatted output
+
+### 💡 Reflection
+
+This lab reinforces how arrays of objects are manipulated in real-world JavaScript. Instead of working with simple numbers or strings, the data now contains multiple properties per item, requiring precise selection and transformation. The exercise demonstrates how array methods can be combined to extract meaningful insights (lists, subsets, totals) from structured datasets, mirroring common data-processing tasks in applications.
+
+---
+
+## 📖 Book Organizer
+
+This lab filters and sorts an array of book objects based on release year. It demonstrates how multiple array methods can be combined to extract a meaningful subset of data and then order it deterministically.
+
+### 📌 Example Behavior
+
+```
+filteredBooks.length → 10
+filteredBooks[0].title → "The Wizard's First Rule"
+filteredBooks[filteredBooks.length - 1].title → "Naked Empire"
+```
+
+### 🛠️ Concepts Practiced
+
+- Filtering arrays of objects using `.filter()`
+- Sorting objects with a custom comparator function
+- Comparing numeric object properties
+- Using callback functions with array methods
+- Working with real-world structured datasets
+
+### 💡 Reflection
+
+This lab reinforces how array methods can be chained together to transform structured data into a curated result set. Instead of manipulating individual values, the logic operates on objects with multiple properties, requiring deliberate comparison rules. The exercise highlights how filtering reduces a dataset to relevant entries, while sorting imposes predictable order—both common operations in real-world applications.
+
+---
+
+## 📍 Sorted Index Finder
+
+This lab determines the correct index where a number should be inserted into an array after the array is sorted numerically. The function ensures the insertion point preserves ascending order.
+
+### 📌 Example Behavior
+
+```
+getIndexToIns([10, 20, 30, 40, 50], 35) → 3
+getIndexToIns([3, 10, 5], 11) → 3
+getIndexToIns([], 5) → 0
+```
+
+### 🛠️ Concepts Practiced
+
+- Sorting arrays numerically using a comparator function
+- Using `.findIndex()` to locate insertion points
+- Comparing numeric values within arrays
+- Understanding in-place array mutation with `.sort()`
+- Determining positional logic based on ordering rules
+
+### 💡 Reflection
+
+This lab demonstrates how ordering logic and index detection work together when managing sorted data. Instead of simply modifying values, the function evaluates where a new value belongs relative to existing elements. It reinforces how built-in array methods can be combined to produce deterministic positioning — a common requirement in data processing and algorithmic tasks.
+
+---
+
+## 🔍 Array Difference
+
+This lab compares two arrays and returns the values that appear in only one of them. It demonstrates how filtering and membership checks can be combined to identify unique elements between datasets.
+
+### 📌 Example Behavior
+
+```
+diffArray(['pen', 'book'], ['book', 'pencil', 'notebook']) → ["pen", "pencil", "notebook"]
+diffArray(['apple', 'banana'], []) → ["apple", "banana"]
+diffArray([], []) → []
+```
+
+### 🛠️ Concepts Practiced
+
+- Filtering arrays based on membership in another array
+- Using `.includes()` for value comparison
+- Building new arrays from multiple filtered results
+- Understanding symmetric difference logic
+- Working with arrays of arbitrary value types
+
+### 💡 Reflection
+
+This lab reinforces how comparison logic can be applied across collections of data. Rather than transforming individual elements, the function evaluates relationships between two datasets to determine which values are exclusive to each. This mirrors real-world tasks like data reconciliation, change detection, and difference analysis.
+
+---
+
+## 🗑️ Array Destroyer
+
+This lab removes specific values from an array using additional arguments supplied to the function. It demonstrates how rest parameters and filtering logic work together to eliminate unwanted elements.
+
+### 📌 Example Behavior
+
+```
+destroyer([1, 2, 3, 5, 1, 2, 3], 2, 3) → [1, 5, 1]
+destroyer(['tree', 'hamburger', 53], 'tree', 53) → ["hamburger"]
+destroyer([2, 3, 2, 3], 2, 3) → []
+```
+
+### 🛠️ Concepts Practiced
+
+- Using rest parameters to collect variable inputs
+- Filtering arrays based on exclusion rules
+- Comparing values across arrays with `.includes()`
+- Returning new arrays without mutating the original
+- Applying flexible argument handling in functions
+
+### 💡 Reflection
+
+This lab reinforces how JavaScript functions can accept dynamic numbers of arguments and apply them as filtering criteria. Instead of transforming values, the function evaluates which elements should be removed based on a comparison set. This mirrors common real-world tasks such as data cleanup, blacklist filtering, and rule-based exclusion.
+
+---
+
 ## 💡 Topic Reflection
 
 These labs focused on core array operations used in real applications — managing changing collections, extracting values from nested data, and combining arrays safely. Together, they reinforced the difference between mutating and non-mutating approaches and built confidence working with arrays as a primary data structure.

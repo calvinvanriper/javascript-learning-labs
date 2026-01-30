@@ -25,13 +25,7 @@ function cardCounter(card) {
   } else if (card > 6 && card <= 9) {
     // Neutral cards intentionally cause no change
     count = count + 0;
-  } else if (
-    card > 9 ||
-    card == 'J' ||
-    card == 'Q' ||
-    card == 'K' ||
-    card == 'A'
-  ) {
+  } else if (card > 9 || card == 'J' || card == 'Q' || card == 'K' || card == 'A') {
     --count;
   }
 

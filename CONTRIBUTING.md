@@ -103,7 +103,7 @@ npm run format
 
 ### Linting
 
-We use **ESLint** to enforce code quality and sytle consistency.  
+We use **ESLint** to enforce code quality and style consistency.  
 Run:
 
 ```
@@ -113,13 +113,13 @@ npm run lint
 If issues can be fixed automatically:
 
 ```
-run npm lint:fix
+npm run lint:fix
 ```
 
 Then re-run:
 
 ```
-run npm lint
+npm run lint
 ```
 
 Commit only when **0 problems** are reported.
