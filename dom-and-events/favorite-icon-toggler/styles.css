@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorite-icon {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.filled {
+  color: crimson;
+  transform: scale(1.2);
+}

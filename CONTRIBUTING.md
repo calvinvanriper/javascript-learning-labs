@@ -29,6 +29,60 @@
 
 ---
 
+### 2B. HTML & CSS File Standards (✅ Required for DOM Projects)
+
+These standards apply to all projects containing HTML and CSS files.
+
+#### HTML Standards
+
+- HTML documents must include:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+- CSS must be linked in the <head> using:
+
+```
+<link rel="stylesheet" href="styles.css">
+```
+
+- JavaScript must be linked before the closing </body> tag:
+
+```
+<script src="script.js"></script>
+```
+
+- Buttons must include type="button" unless inside a form.
+- Use semantic elements where appropriate (main, section, ul, button, etc.)
+- Avoid inline styles and inline JavaScript.
+
+#### CSS Standards
+
+- CSS should be organized top-down:
+
+1.  Reset / global styles
+2.  Layout styles
+3.  Component styles
+4.  Utility / state classes
+
+- Class names should be lowercase and hyphen-separated (favorite-icon, story-container)
+- State classes should describe behavior or condition (filled, emoji-full)
+- Avoid !important unless absolutely necessary.
+- Use CSS variables for reusable colors and values where helpful.
+
+#### JavaScript Interaction Standards (DOM Projects)
+
+- DOM elements must be selected at the top of the file.
+- Event listeners should be attached after DOM selection.
+- Main interaction logic should be placed inside named functions.
+- JSDoc is required above main DOM interaction functions.
+- Use currentTarget when handling click events on groups of elements.
+- UI state should be read from and written back to the DOM when applicable.
+
 ## 3. Test Calls Standards (🟡 Partially Required)
 
 - **Required:**
