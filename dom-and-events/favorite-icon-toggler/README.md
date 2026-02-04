@@ -41,7 +41,7 @@ This project reinforces event-driven programming and UI state management. Instea
 
 ## 🔗 Live Demo
 
-( GitHub Pages link goes here once deployed )
+[`Favorite Icon Toggler`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/favorite-icon-toggler/)
 
 ## 🧪 CodePen Version
 

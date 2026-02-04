@@ -44,7 +44,7 @@ This project deepened understanding of how the DOM can serve as a source of appl
 
 ## 🔗 Live Demo
 
-( GitHub Pages link goes here once deployed )
+[`Emoji Reactor`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/emoji-reactor/)
 
 ## 🧪 CodePen Version
 

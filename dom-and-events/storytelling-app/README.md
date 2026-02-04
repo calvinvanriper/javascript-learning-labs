@@ -41,7 +41,7 @@ This project highlights how data structures and DOM manipulation work together t
 
 ## 🔗 Live Demo
 
-( GitHub Pages link goes here once deployed )
+[`Story Telling App`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/storytelling-app/)
 
 ## 🧪 CodePen Version
 

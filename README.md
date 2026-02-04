@@ -51,6 +51,11 @@ Focused exercises in slicing, formatting, and rebuilding text.
 Working with collections of data, including adding, removing, selecting, and displaying items while managing shared state safely.  
 ➡️ [`Open folder`](./arrays)
 
+### 🖱️ DOM Manipulation & Events
+
+Interactive front-end projects focused on connecting user actions to visible interface changes. These exercises reinforce how HTML structure, CSS styling, and JavaScript behavior work together to create dynamic applications.  
+➡️ [`Open folder`](./dom-and-events)
+
 ### 🧩 Mini Projects
 
 Small, self-contained programs that combine multiple concepts into a single working solution. These projects are designed to bridge the gap between individual concept labs and more complete, real-world program logic.  
