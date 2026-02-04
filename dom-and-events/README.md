@@ -10,15 +10,18 @@ The exercises here mark the transition from logic-focused JavaScript into real u
 
 ### ❤️ Favorite Icon Toggler
 
-A small app where users can mark items as favorites by toggling a heart icon. Demonstrates class manipulation, UI state toggling, and event-driven behavior.
+A small app where users can mark items as favorites by toggling a heart icon. Demonstrates class manipulation, UI state toggling, and event-driven behavior.  
+➡️ [`Open project`](./favorite-icon-toggler/)
 
 ### 😀 Emoji Reactor
 
-An emotion rating interface where clicking emoji buttons increments a visible counter. Focuses on DOM state parsing, conditional logic, and reusable event handlers.
+An emotion rating interface where clicking emoji buttons increments a visible counter. Focuses on DOM state parsing, conditional logic, and reusable event handlers.  
+➡️ [`Open project`](./emoji-reactor/)
 
 ### 📖 Storytelling App
 
-An interactive story selector that changes displayed content and styling based on user choices. Reinforces DOM updates, object-driven content rendering, and style manipulation.
+An interactive story selector that changes displayed content and styling based on user choices. Reinforces DOM updates, object-driven content rendering, and style manipulation.  
+➡️ [`Open project`](./storytelling-app/)
 
 ## 💡 Topic Reflection
 
