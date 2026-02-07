@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-grey: #0a0a23;
+  --white: #ffffff;
+  --yellow: #f1be32;
+  --red: #ff0000;
+}
+
+body {
+  background-color: var(--dark-grey);
+  color: var(--white);
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+textarea {
+  resize: none;
+  border-radius: 8px;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  padding: 5px;
+  text-align: center;
+}
+
+.full-text {
+  color: var(--red);
+  font-weight: bold;
+  border: 2px solid var(--red);
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
