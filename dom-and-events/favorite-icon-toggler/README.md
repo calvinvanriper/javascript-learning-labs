@@ -45,4 +45,4 @@ This project reinforces event-driven programming and UI state management. Instea
 
 ## 🧪 CodePen Version
 
-( Optional CodePen link )
+[`CodePen - Favorite Icon Toggler`](https://codepen.io/calvinvanriper/full/raLZqvZ)

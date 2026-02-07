@@ -51,4 +51,4 @@ Implementing a game-over guard reinforced the importance of protecting applicati
 
 ## 🧪 CodePen Version
 
-( Optional CodePen link )
+[`CodePen - Rock/Paper/Scissors/Lizard/Spock Game`](https://codepen.io/calvinvanriper/full/dPXqgQy)

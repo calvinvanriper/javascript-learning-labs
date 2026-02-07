@@ -48,4 +48,4 @@ This project deepened understanding of how the DOM can serve as a source of appl
 
 ## 🧪 CodePen Version
 
-( Optional CodePen link )
+[`CodePen - Emoji Reactor`](https://codepen.io/calvinvanriper/full/gbMdBer)

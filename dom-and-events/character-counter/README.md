@@ -51,4 +51,4 @@ Using both HTML attributes and JavaScript safeguards demonstrates layered input 
 
 ## 🧪 CodePen Version
 
-( Optional CodePen link )
+[`CodePen - Character Counter`](https://codepen.io/calvinvanriper/full/emzLPGr)

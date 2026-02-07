@@ -45,4 +45,4 @@ This project reinforced how small UI behaviors can be implemented by combining D
 
 ## 🧪 CodePen Version
 
-( Optional CodePen link )
+[`CodePen - Lightbox Viewer`](https://codepen.io/calvinvanriper/full/xbOayJB)

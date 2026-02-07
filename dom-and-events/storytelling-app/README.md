@@ -45,4 +45,4 @@ This project highlights how data structures and DOM manipulation work together t
 
 ## 🧪 CodePen Version
 
-( Optional CodePen link )
+[`CodePen - Story Telling App`](https://codepen.io/calvinvanriper/full/emzLPbP)

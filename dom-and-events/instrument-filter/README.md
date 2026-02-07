@@ -39,4 +39,4 @@ This project reinforced the “data → filter → render” flow common in fron
 
 ## 🧪 CodePen Version
 
-( Optional CodePen link )
+[`CodePen - Student Instrument Filter`](https://codepen.io/calvinvanriper/full/qENMJKG)
