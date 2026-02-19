@@ -4,7 +4,7 @@
 
 This folder contains interactive front-end projects that use JavaScript to manipulate the Document Object Model (DOM) and respond to user events. These projects focus on connecting user actions to visible interface changes, reinforcing how structure (HTML), presentation (CSS), and behavior (JavaScript) work together in web applications.
 
-The exercises here mark the transition from logic-focused JavaScript into real user interface interactivity.
+The exercises here mark the transition from logic-focused JavaScript into real user interface interactivity, where application state and user input directly control what is rendered on screen.
 
 ## Projects
 
@@ -43,6 +43,13 @@ A dynamic filtering interface that displays product cards based on a selected ca
 ➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/instrument-filter/README.md)  
 ➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/instrument-filter/)
 
+### 🏈 Football Team Cards
+
+A dynamic roster viewer that renders player cards and filters them by position group, starter status, or Pro Bowl selection.
+
+➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/football-team-cards/README.md)  
+➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/football-team-cards/)
+
 ### 🖼️ Lightbox Viewer
 
 A gallery that opens full-size images in an overlay lightbox and closes via button or overlay click.
@@ -59,14 +66,16 @@ A stateful browser game where the player competes against the computer using rul
 
 ## 💡 Topic Reflection
 
-These projects introduced event-driven programming and DOM state management. Instead of running code once, these applications respond dynamically to user input and update the interface in real time.
+These projects introduced event-driven programming and DOM state management. Instead of executing once and finishing, these applications respond continuously to user input and update the interface in real time.
 
-Across the projects, complexity increases from simple class toggling to:
+As complexity increased, the focus expanded from simple class toggling to structured UI patterns driven by data and application state, including:
 
-- Real-time input tracking
-- Overlay UI control
-- Data filtering and dynamic rendering
-- Stateful game logic
-- Rule modeling with data structures
+- Real-time input tracking and validation
+- Overlay and visibility state control
+- Data filtering and dynamic content rendering
+- Conditional styling based on state
+- Stateful game logic and rule modeling
 
-This section marks the shift from procedural JavaScript toward interactive, stateful application behavior, where UI and logic are continuously synchronized.
+These exercises reinforced the core front-end principle of synchronizing data, logic, and presentation. Rather than hardcoding interface changes, the UI becomes a direct reflection of application state, improving scalability, maintainability, and clarity of behavior.
+
+This section marks the transition from procedural JavaScript into interactive, state-driven application design.

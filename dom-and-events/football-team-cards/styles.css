@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --steelers-black: #101820;
+  --steelers-gold: #ffb612;
+  --steelers-logo-red: #c60c30;
+  --steelers-logo-blue: #003087;
+  --steelers-logo-silver: #a5acaf;
+}
+
+body {
+  background-color: var(--steelers-logo-silver);
+  color: var(--steelers-black);
+  text-align: center;
+  padding: 10px;
+}
+
+.title {
+  margin: 1.3rem 0;
+}
+
+.team-stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 1.3rem;
+  margin: 1.2rem 0;
+}
+
+.filters {
+  margin: 1rem 0;
+}
+
+.options-label {
+  font-size: 1.2rem;
+}
+
+#players {
+  margin: 0.75rem 0 1.25rem;
+  padding: 0.4rem 0.6rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.player-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--steelers-logo-red);
+  color: white;
+  padding: 1.3rem;
+  margin: 0; /* let grid gap handle spacing */
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  border: 3px solid transparent;
+}
+
+.jersey-number {
+  min-width: 60px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.8rem;
+  font-weight: bold;
+
+  background-color: var(--steelers-black);
+  color: var(--steelers-gold);
+
+  border-radius: 50%;
+}
+
+.player-info {
+  flex: 1;
+  text-align: left;
+}
+
+.player-meta {
+  display: flex;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.player-card.probowl {
+  border-color: var(--steelers-logo-blue);
+  box-shadow: 0 0 3px var(--steelers-logo-blue);
+}
+
+.player-card.starter {
+  background-color: var(--steelers-gold);
+  color: var(--steelers-black);
+}
+
+.probowl-text {
+  font-weight: bold;
+  color: var(--steelers-logo-blue);
+}
+
+@media (max-width: 768px) {
+  .team-stats {
+    flex-direction: column;
+  }
+}
