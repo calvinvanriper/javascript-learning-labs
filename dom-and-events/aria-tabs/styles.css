@@ -1,0 +1,66 @@
+/* 1) Reset / global */
+:root {
+  --border: #ccc;
+  --tab-bg: #eee;
+  --tab-bg-active: #fff;
+  --accent: dodgerblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 2) Layout */
+.tabs [role='tablist'] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* 3) Components */
+.solar-system-img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+[role='tab'] {
+  padding: 0.5rem 1rem;
+  background: var(--tab-bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+[role='tab'][aria-selected='true'] {
+  background: var(--tab-bg-active);
+  border-bottom: 2px solid var(--accent);
+}
+
+[role='tabpanel'] {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  border: 1px solid var(--border);
+  padding: 1rem;
+}
+
+[role='tabpanel'][hidden] {
+  display: none;
+}
+
+[role='tabpanel'] p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 2rem; /* your update */
+}
+
+/* 4) Utility/state */
+@media (max-width: 600px) {
+  [role='tabpanel'] {
+    flex-direction: column;
+  }
+}

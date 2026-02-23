@@ -38,11 +38,13 @@ These standards apply to all projects containing HTML and CSS files.
 - HTML documents must include:
 
 ```
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
+
+Note: DOCTYPE casing follows Prettier formatting. Lowercase <!doctype html> is the enforced standard.
 
 - CSS must be linked in the <head> using:
 
