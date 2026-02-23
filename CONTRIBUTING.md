@@ -2,6 +2,8 @@
 
 - This document defines the structural standards used to normalize the repository. The goal is consistency, not perfection or optimization.
 
+- Formatting, linting, and commit message structure are enforced to ensure long-term repository consistency and maintainability.
+
 ---
 
 ## 1. File Structure (✅ REQUIRED)
@@ -180,13 +182,72 @@ npm run lint
 
 Commit only when **0 problems** are reported.
 
+## 8. Commit Message Standards (✅ Required)
+
+This repository uses a structured commit message format to maintain a clear, consistent, and searchable project history.
+
+A commit message template is provided at the repository root:
+
+.gitmessage.txt
+
+To enable it locally, run:
+
+git config commit.template .gitmessage.txt
+
+This ensures every commit follows the repository’s standardized commit structure.
+
+### Commit Format
+
+<type>(<topic>): <summary>
+
+Example:
+
+feat(dom-and-events): add accessible ARIA tabs planets interface lab
+
+### Allowed Types
+
+- feat - new lab, feature, or project
+- fix - bug fix
+- refactor - code restructuring without behavior change
+- docs - README or documentation updates
+- style - formatting, CSS, or non-functional UI changes
+- chore - tooling, configuration, or maintenance tasks
+
+### Topic Scope
+
+The topic must match an existing repository category folder exactly:
+
+- algorithms
+- arrays
+- dom-and-events
+- logic-and-control-flow
+- loops
+- math-basics
+- mini-projects
+- objects
+- string-manipulation
+
+### Summary Guidelines
+
+- Use present tense ("add", not "added")
+- Keep summary concise but descriptive
+- Do not end summary with a period
+
+### Body Guidelines
+
+- Explain WHY the change exists, not just WHAT changed
+- Wrap lines at approximately 72 characters
+- Provide architectural or learning context when applicable
+
+Commit messages are part of the repository’s structural consistency requirements.
+
 ### Notes
 
 - Prettier handles spacing, quotes, line width, etc.
 - ESLint enforces code correctness and safe patterns.
 - Manual alignment of comments or custom spacing is not preserved by design.
 
-## 8. Out of Scope 🚫
+## 9. Out of Scope 🚫
 
 The following are intentionally deferred:
 

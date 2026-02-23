@@ -1,0 +1,40 @@
+# <type>(<topic>): <lab or change summary>
+#
+# Types:
+#   feat     - new lab or project
+#   fix      - bug fix
+#   refactor - code restructuring without behavior change
+#   docs     - README or documentation updates
+#   style    - formatting, CSS, or non-functional UI changes
+#   chore    - tooling, config, or maintenance tasks
+#
+# Topic must match repo folder name exactly:
+#   algorithms
+#   arrays
+#   dom-and-events
+#   logic-and-control-flow
+#   loops
+#   math-basics
+#   mini-projects
+#   objects
+#   string-manipulation
+#
+# Summary guidelines:
+# - Use present tense ("add", not "added")
+# - Be concise but descriptive
+# - Do not end with a period
+#
+# Body:
+# - Explain WHY the change exists
+# - Describe learning objective or architectural intent
+# - Wrap lines at ~72 characters
+#
+# Example:
+#
+# feat(dom-and-events): add accessible ARIA tabs planets interface lab
+#
+# Implements accessible tab interface using ARIA roles and synchronized
+# DOM state to maintain accessibility compliance.
+#
+# Demonstrates proper use of aria-selected, aria-controls, tabindex, and
+# hidden attributes while following repository DOM interaction standards.

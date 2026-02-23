@@ -49,4 +49,4 @@ This lab demonstrated how the DOM can serve as the single source of truth for UI
 
 ## 🧪 CodePen Version
 
-[`CodePen – ARIA Tabs Planets Interface`](https://codepen.io/calvinvanriper)
+[`CodePen – ARIA Tabs Planets Interface`](https://codepen.io/calvinvanriper/full/KwgPjMo)
