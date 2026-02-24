@@ -72,6 +72,13 @@ to maintain proper semantic structure and keyboard navigation support.
 ➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/aria-tabs/README.md)  
 ➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/aria-tabs/)
 
+### 🎨 Theme Switcher
+
+An accessible theme selector that updates interface styling and accessibility state using ARIA menu patterns.
+
+➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/theme-switcher/README.md)  
+➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/theme-switcher/)
+
 ### 🎮 RPSLS Game
 
 A stateful browser game where the player competes against the computer using rule-mapped logic and dynamic UI state transitions.
@@ -91,6 +98,7 @@ As complexity increased, the focus expanded from simple class toggling to struct
 - Conditional styling based on state
 - Managing editable DOM state and accessible feedback using ARIA live regions
 - Accessible interface patterns using ARIA roles and semantic state synchronization
+- Managing accessible menu patterns and UI state using ARIA roles and expanded state synchronization
 - Stateful game logic and rule modeling
 
 These exercises reinforced the core front-end principle of synchronizing data, logic, and presentation. Rather than hardcoding interface changes, the UI becomes a direct reflection of application state, improving scalability, maintainability, and clarity of behavior.

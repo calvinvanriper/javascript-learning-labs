@@ -1,0 +1,103 @@
+/* 1) Reset / global */
+:root {
+  --text-dark: #111;
+  --text-light: #fff;
+  --surface: #fff;
+  --border: #ccc;
+  --hover: #f5f5f5;
+  --hover-item: #f0f0f0;
+  --focus: #4a90e2;
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition:
+    background 0.3s,
+    color 0.3s;
+}
+
+#status {
+  text-align: center;
+  min-height: 20px;
+}
+
+/* 2) Layout */
+.theme-switcher {
+  position: relative;
+  display: inline-block;
+}
+
+/* 3) Components */
+#theme-switcher-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+#theme-switcher-button:hover {
+  background: var(--hover);
+}
+
+#theme-switcher-button:focus {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+#theme-dropdown {
+  position: absolute;
+  margin-top: 0.5rem;
+  background: var(--surface);
+  color: var(--text-dark);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.25rem 0;
+  min-width: 160px;
+  box-shadow: var(--shadow);
+}
+
+#theme-dropdown li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: background 0.15s ease;
+}
+
+#theme-dropdown li:hover {
+  background-color: var(--hover-item);
+}
+
+#theme-dropdown li:focus {
+  outline: 2px solid var(--focus);
+  outline-offset: -2px;
+}
+
+/* 4) Utility / state classes */
+.theme-light {
+  background: var(--surface);
+  color: var(--text-dark);
+}
+
+.theme-dark {
+  background: var(--text-dark);
+  color: var(--text-light);
+}
+
+.theme-blue {
+  background: darkblue;
+  color: var(--text-light);
+}
+
+.theme-orange {
+  background: orange;
+  color: var(--text-dark);
+}
