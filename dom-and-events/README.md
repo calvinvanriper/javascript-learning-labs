@@ -57,6 +57,14 @@ A gallery that opens full-size images in an overlay lightbox and closes via butt
 ➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/lightbox-viewer/README.md)  
 ➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/lightbox-viewer/)
 
+### 🪐 ARIA Tabs (Accessible Planets Interface)
+
+An accessible tab interface that synchronizes visual content and ARIA attributes
+to maintain proper semantic structure and keyboard navigation support.
+
+➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/aria-tabs/README.md)  
+➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/aria-tabs/)
+
 ### 🎮 RPSLS Game
 
 A stateful browser game where the player competes against the computer using rule-mapped logic and dynamic UI state transitions.
@@ -75,6 +83,7 @@ As complexity increased, the focus expanded from simple class toggling to struct
 - Data filtering and dynamic content rendering
 - Conditional styling based on state
 - Stateful game logic and rule modeling
+- Accessible interface patterns using ARIA roles and semantic state synchronization
 
 These exercises reinforced the core front-end principle of synchronizing data, logic, and presentation. Rather than hardcoding interface changes, the UI becomes a direct reflection of application state, improving scalability, maintainability, and clarity of behavior.
 
