@@ -50,6 +50,13 @@ A dynamic roster viewer that renders player cards and filters them by position g
 ➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/football-team-cards/README.md)  
 ➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/football-team-cards/)
 
+### 📝 Note Taking App
+
+An accessible editable note interface that tracks content changes and provides status updates using ARIA live regions.
+
+➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/note-taking-app/README.md)  
+➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/note-taking-app/)
+
 ### 🖼️ Lightbox Viewer
 
 A gallery that opens full-size images in an overlay lightbox and closes via button or overlay click.
@@ -82,8 +89,9 @@ As complexity increased, the focus expanded from simple class toggling to struct
 - Overlay and visibility state control
 - Data filtering and dynamic content rendering
 - Conditional styling based on state
-- Stateful game logic and rule modeling
+- Managing editable DOM state and accessible feedback using ARIA live regions
 - Accessible interface patterns using ARIA roles and semantic state synchronization
+- Stateful game logic and rule modeling
 
 These exercises reinforced the core front-end principle of synchronizing data, logic, and presentation. Rather than hardcoding interface changes, the UI becomes a direct reflection of application state, improving scalability, maintainability, and clarity of behavior.
 

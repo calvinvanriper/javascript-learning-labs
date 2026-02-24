@@ -1,0 +1,63 @@
+/* 1) Reset / global */
+:root {
+  --page-bg: #f5f5f5;
+  --card-bg: #fff;
+  --border: #ddd;
+  --text-muted: #666;
+  --success: #00471b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+  max-width: 700px;
+  background-color: var(--page-bg);
+}
+
+/* 2) Layout */
+/* (none needed beyond body container for this lab) */
+
+/* 3) Components */
+.note {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1.5em;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  min-height: 250px;
+  font-size: 1rem;
+  /* Intent: preserve line breaks and whitespace in the editable note area */
+  white-space: pre-wrap;
+}
+
+.note[contenteditable='true'] {
+  caret-color: black;
+}
+
+.note:hover {
+  background-color: var(--card-bg);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.helper-text {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 0.5em;
+
+  /* Intent: prevent helper text from being accidentally selected during editing */
+  -webkit-user-select: none;
+  user-select: none;
+
+  font-style: italic;
+}
+
+#status {
+  color: var(--success);
+  padding: 0 1em;
+}
