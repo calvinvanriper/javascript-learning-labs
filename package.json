@@ -9,7 +9,8 @@
     "format:check": "prettier . --check",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "lint:md": "markdownlint --config .vscode/markdownlint.json"
+    "lint:md": "markdownlint --config .vscode/markdownlint.json",
+    "lint:md:all": "markdownlint --config .vscode/markdownlint.json \"**/*.md\""
   },
   "repository": {
     "type": "git",
