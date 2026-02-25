@@ -15,8 +15,16 @@ yarn-error.log*
 Thumbs.db
 
 # Editor settings
-.vscode/
 .idea/
+
+# Caches
+.eslintcache
+.cache/
+
+# VS Code personal/debug files only (keep standards files committed)
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/*.code-workspace
 
 # Build output (future-proofing)
 dist/
@@ -25,3 +33,4 @@ coverage/
 
 # Misc
 *.log
+pnpm-debug.log*
