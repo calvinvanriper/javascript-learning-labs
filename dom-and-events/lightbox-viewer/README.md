@@ -26,7 +26,7 @@ This project focuses on event-driven DOM interaction, UI state control, and stri
 
 ## 📌 Example Behavior
 
-```
+```text
 User clicks a thumbnail:
 → Lightbox becomes visible
 → Full-size image replaces the thumbnail source (removes "-thumbnail")
