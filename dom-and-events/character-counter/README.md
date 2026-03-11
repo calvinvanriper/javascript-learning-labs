@@ -26,7 +26,7 @@ This project focuses on event-driven DOM interaction and UI state synchronizatio
 
 ## 📌 Example Behavior
 
-```
+```text
 Initial state:
 Character Count: 0/50
 
