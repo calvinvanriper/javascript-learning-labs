@@ -65,3 +65,11 @@ normalization before performing logical checks on text data.
 By combining RegEx preprocessing with string comparison and DOM
 interaction, the application provides a practical example of how
 user input can be validated in real time within a web interface.
+
+## 🔗 Live Demo
+
+[`Palindrome Checker`](https://calvinvanriper.dev/javascript-learning-labs/regex-and-parsing/palindrome-checker/)
+
+## 🧪 CodePen Version
+
+[`CodePen – Palindrome Checker`](https://codepen.io/calvinvanriper/full/VYKmpVG)
