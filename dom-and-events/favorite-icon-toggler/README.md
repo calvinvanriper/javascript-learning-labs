@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-This project allows users to mark items as favorites by clicking a heart icon next to each list item. When clicked, the heart toggles between an empty and filled state, visually indicating whether the item has been favorited.
+This project allows users to mark items as favorites by clicking a heart icon next to each list item. When clicked, the heart toggles between an empty and filled state, visually indicating whether the item has been selected as a favorite.
 
 The interaction is handled entirely with JavaScript event listeners and dynamic DOM updates.
 
@@ -25,7 +25,7 @@ The interaction is handled entirely with JavaScript event listeners and dynamic 
 
 ## 📌 Example Behavior
 
-```
+```text
 Initial state:
 ♡  Raindrops on Roses
 ♡  Whiskers on Kittens
@@ -35,7 +35,7 @@ After clicking a heart:
 ♡  Whiskers on Kittens
 ```
 
-# 💡 Reflection
+## 💡 Reflection
 
 This project reinforces event-driven programming and UI state management. Instead of relying on static content, the interface updates dynamically based on user interaction. It demonstrates how JavaScript can modify both styling and content to reflect changes in application state. This pattern of reading state, applying logic, and updating the DOM is foundational for interactive front-end development.
 
