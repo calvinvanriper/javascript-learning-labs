@@ -21,7 +21,7 @@
     - Only required for exported / main lab functions - not for trivial helpers inside the same file.
   - A test-call block at the bottom labeled:
 
-    ```
+    ```javascript
     // ---- Test calls (manual validation) ----
     ```
 
@@ -39,24 +39,25 @@ These standards apply to all projects containing HTML and CSS files.
 
 - HTML documents must include:
 
-```
+```html
 <!doctype html>
 <html lang="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</html>
 ```
 
 Note: DOCTYPE casing follows Prettier formatting. Lowercase <!doctype html> is the enforced standard.
 
-- CSS must be linked in the <head> using:
+- CSS must be linked in the `<head>` using:
 
-```
-<link rel="stylesheet" href="styles.css">
+```html
+<link rel="stylesheet" href="styles.css" />
 ```
 
 - JavaScript must be linked before the closing </body> tag:
 
-```
+```html
 <script src="script.js"></script>
 ```
 
@@ -68,10 +69,10 @@ Note: DOCTYPE casing follows Prettier formatting. Lowercase <!doctype html> is t
 
 - CSS should be organized top-down:
 
-1.  Reset / global styles
-2.  Layout styles
-3.  Component styles
-4.  Utility / state classes
+1. Reset / global styles
+2. Layout styles
+3. Component styles
+4. Utility / state classes
 
 - Class names should be lowercase and hyphen-separated (favorite-icon, story-container)
 - State classes should describe behavior or condition (filled, emoji-full)
@@ -131,52 +132,54 @@ Note: DOCTYPE casing follows Prettier formatting. Lowercase <!doctype html> is t
 
 - Mini-projects must include:
   - Folder structure
-    ```
+
+```bash
     mini-projects/project-name/
       project-name.js
       README.md
-    ```
-  - README structure
-    1. 📝 Description
-    2. 🧠 What This Project Does
-    3. 🛠️ Concepts Practiced
-    4. 📌 Example Behavior
-    5. 💡 Reflection
+```
+
+- README structure
+  1. 📝 Description
+  2. 🧠 What This Project Does
+  3. 🛠️ Concepts Practiced
+  4. 📌 Example Behavior
+  5. 💡 Reflection
 
 ---
 
 ## 7. Code Formatting & Quality Checks (✅ Required)
 
-This repository enforces automated formatting and linting.  
+This repository enforces automated formatting and linting.
 All contributors must run these checks before committing.
 
 ### Formatting
 
-We use **Prettier** to enforce consistent formatting.  
+We use **Prettier** to enforce consistent formatting.
 Run:
 
-```
+```bash
 npm run format
 ```
 
 ### Linting
 
-We use **ESLint** to enforce code quality and style consistency.  
+We use **ESLint** to enforce code quality and style consistency.
 Run:
 
-```
+```bash
 npm run lint
 ```
 
 If issues can be fixed automatically:
 
-```
+```bash
 npm run lint:fix
 ```
 
 Then re-run:
 
-```
+```bash
 npm run lint
 ```
 
@@ -198,7 +201,7 @@ This ensures every commit follows the repository’s standardized commit structu
 
 ### Commit Format
 
-<type>(<topic>): <summary>
+`<type>(<topic>): <summary>`
 
 Example:
 
@@ -225,6 +228,7 @@ The topic must match an existing repository category folder exactly:
 - math-basics
 - mini-projects
 - objects
+- regex-and-parsing
 - string-manipulation
 
 ### Summary Guidelines
@@ -255,7 +259,7 @@ The following are intentionally deferred:
 - Rewriting older labs for different approaches
 - Over-engineering beyond the lab's learning goal
 
-# 🧭 Definition of Done
+## 🧭 Definition of Done
 
 - The repository is normalized when every existing lab file and README satisfies all **Required** items above.
 - Once this is achieved, the baseline is set and future labs follow this standard.
