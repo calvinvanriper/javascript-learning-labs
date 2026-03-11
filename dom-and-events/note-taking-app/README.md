@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-An accessible note-taking interface built using a contenteditable region and dynamic status updates.  
+An accessible note-taking interface built using a contenteditable region and dynamic status updates.
 This project focuses on managing editable DOM content, detecting state changes, and providing accessible feedback using ARIA live regions.
 
 ## 🧠 What This Project Does
@@ -25,7 +25,7 @@ This project focuses on managing editable DOM content, detecting state changes, 
 
 ## 📌 Example Behavior
 
-```
+```text
 User clicks inside note editor
 → Status message clears
 
@@ -39,7 +39,7 @@ User clicks editor again without changes
 
 ## 💡 Reflection
 
-This project demonstrates how editable DOM elements can serve as both user input and application state.  
+This project demonstrates how editable DOM elements can serve as both user input and application state.
 Tracking content changes and responding to blur events reinforces how UI state transitions occur in response to user interaction.
 
 Using an ARIA live region ensures status updates remain accessible, allowing assistive technologies to interpret changes without requiring visual feedback.
