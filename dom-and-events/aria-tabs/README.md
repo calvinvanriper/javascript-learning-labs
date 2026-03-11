@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-An accessible tab interface built with vanilla JavaScript that displays information about the planets in our solar system.  
+An accessible tab interface built with vanilla JavaScript that displays information about the planets in our solar system.
 This project focuses on synchronizing UI state with ARIA attributes to create a keyboard-navigable, screen reader–friendly tab pattern.
 
 ## 🧠 What This Project Does
@@ -25,7 +25,7 @@ This project focuses on synchronizing UI state with ARIA attributes to create a 
 
 ## 📌 Example Behavior
 
-```
+```text
 User clicks "Mars" tab
 → Mars tab receives aria-selected="true"
 → All other tabs receive aria-selected="false"
@@ -36,7 +36,7 @@ User clicks "Mars" tab
 
 ## 💡 Reflection
 
-This project reinforces how accessible UI components require explicit synchronization between user interaction and semantic state.  
+This project reinforces how accessible UI components require explicit synchronization between user interaction and semantic state.
 Unlike purely visual interfaces, ARIA-based components rely on accurate attribute updates to communicate structure and state to assistive technologies.
 
 Managing visibility through the `hidden` attribute while updating `aria-selected` and `tabindex` ensured both visual and accessibility states remained consistent.
