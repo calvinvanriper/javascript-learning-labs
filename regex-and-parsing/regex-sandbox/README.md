@@ -71,3 +71,11 @@ dynamically and applied to arbitrary text input.
 By allowing users to experiment with patterns and observe matches
 in real time, the sandbox highlights how RegEx can be used as a
 powerful tool for parsing, validation, and text analysis.
+
+## 🔗 Live Demo
+
+[`Palindrome Checker`](https://calvinvanriper.dev/javascript-learning-labs/regex-and-parsing/palindrome-checker/)
+
+## 🧪 CodePen Version
+
+[`CodePen – Palindrome Checker`](https://codepen.io/calvinvanriper/full/VYKmpgG)
