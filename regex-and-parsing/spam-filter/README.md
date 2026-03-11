@@ -66,3 +66,11 @@ real-world problems such as spam detection and content filtering.
 By combining pattern matching with DOM interaction, the application
 demonstrates how user input can be analyzed and responded to in
 real time within a web interface.
+
+## 🔗 Live Demo
+
+[`Spam Filter`](https://calvinvanriper.dev/javascript-learning-labs/regex-and-parsing/spam-filter/)
+
+## 🧪 CodePen Version
+
+[`CodePen – Spam Filter`](https://codepen.io/calvinvanriper/full/yyaVMxJ)
