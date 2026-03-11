@@ -23,7 +23,7 @@ A dynamic roster viewer that displays player cards for a football team and allow
 
 ## 📌 Example Behavior
 
-```
+```text
 User selects "defense-line"
 → Only defensive line players render as cards
 
