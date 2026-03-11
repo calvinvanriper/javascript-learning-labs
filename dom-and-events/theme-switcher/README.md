@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-An accessible theme switcher that applies visual styles to the page using a dropdown menu pattern.  
+An accessible theme switcher that applies visual styles to the page using a dropdown menu pattern.
 This project focuses on synchronizing UI visibility with ARIA state while supporting keyboard navigation for menu interaction.
 
 ## 🧠 What This Project Does
@@ -28,7 +28,7 @@ This project focuses on synchronizing UI visibility with ARIA state while suppor
 
 ## 📌 Example Behavior
 
-```
+```text
 User clicks "Switch Theme"
 → Menu becomes visible
 → aria-expanded="true"
@@ -44,7 +44,7 @@ User presses Enter on "Dark"
 
 ## 💡 Reflection
 
-This lab demonstrates how interactive UI components must synchronize both visual state and semantic state to remain accessible.  
+This lab demonstrates how interactive UI components must synchronize both visual state and semantic state to remain accessible.
 Updating `hidden` and `aria-expanded` together ensures assistive technologies can interpret the menu correctly while keeping the interface predictable for keyboard users.
 
 Adding minimal keyboard support reinforced that accessible design is not separate from functionality—accessibility is part of the behavior contract of the component.
