@@ -12,23 +12,23 @@ Each mini project is designed to reinforce foundational JavaScript skills while 
 
 A simple trivia simulation that randomly selects a question and an answer choice, then evaluates whether the computer's selection is correct.
 
-### 📌 Expected Behavior
+### 📌 Expected Behavior (Trivia)
 
-```
+```text
 Category: Geography
 Question: What is the largest continent on Earth by land area?
 Computer picked: Antarctica
 The computer’s choice is wrong. The correct answer is: Asia
 ```
 
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (Trivia)
 
 - Arrays of objects
 - Random selection using `Math.random()`
 - Function composition
 - Conditional logic and control flow
 
-### 💡 Reflection
+### 💡 Reflection (Trivia)
 
 This project helped reinforce how structured data (objects within arrays) can be used to represent real-world information. It also introduced randomness into program behavior, requiring careful thinking about how to validate outcomes that are not deterministic.
 
@@ -36,17 +36,17 @@ Working through this project highlighted how separating logic into small functio
 
 ---
 
-## 📊 Gradebook App
+## 📊 Grade Book App
 
-A small gradebook system that calculates a class average, converts numeric scores into letter grades, determines pass/fail status, and generates a student-facing summary message.
+A small grade book system that calculates a class average, converts numeric scores into letter grades, determines pass/fail status, and generates a student-facing summary message.
 
-### 📌 Expected Behavior
+### 📌 Expected Behavior (Grade Book App)
 
-```
+```text
 Class average: 78.83333333333333. Your grade: B. You passed the course.
 ```
 
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (Grade Book App)
 
 - Function composition and reuse
 - Iterating over arrays to compute aggregates
@@ -54,9 +54,9 @@ Class average: 78.83333333333333. Your grade: B. You passed the course.
 - Boolean logic for pass/fail evaluation
 - Producing formatted, user-readable output
 
-### 💡 Reflection
+### 💡 Reflection (Grade Book App)
 
-This project emphasized the value of composing small, single-responsibility functions into a larger workflow. Each function performed a simple task, but together they created meangingful program behavior.
+This project emphasized the value of composing small, single-responsibility functions into a larger workflow. Each function performed a simple task, but together they created meaningful program behavior.
 
 It reinforced how consistent function contracts, clear logic flow, and thoughtful testing make multi-function programs easier to reason about and maintain.
 
@@ -66,9 +66,9 @@ It reinforced how consistent function contracts, clear logic flow, and thoughtfu
 
 A rule-driven record collection update system that modifies nested object properties and arrays based on specific conditions.
 
-### 📌 Expected Behavior
+### 📌 Expected Behavior (Record Collection)
 
-```
+```text
 Step: Set artist on 5439 to ABBA
 {
   "albumTitle": "ABBA Gold",
@@ -76,14 +76,14 @@ Step: Set artist on 5439 to ABBA
 }
 ```
 
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (Record Collection)
 
 - Working with nested objects and arrays
 - Conditional logic with multiple branches
 - Updating and deleting object properties
 - Reasoning about state changes step-by-step
 
-### 💡 Reflection
+### 💡 Reflection (Record Collection)
 
 This project was more logic-heavy than earlier work and required careful evaluation of rule order and conditional branches. Managing nested objects and arrays highlighted how small logic errors can cascade into larger state issues.
 
@@ -95,23 +95,23 @@ Completing this project strengthened understanding of object manipulation, state
 
 A basic inventory management system using an array of product objects.
 
-### 📌 Expected Behavior
+### 📌 Expected Behavior (Inventory Manager)
 
-```
+```bash
 addProduct('flOUR', 5) → flour quantity updated; current quantity: 25
 addProduct('GRAIN', 10) → grain added to inventory; current quantity: 10
 removeProduct('flour', 5) → Remaining flour pieces: 20
 removeProduct('RiCe', 10) → rice's quantity has reached 0, it has been removed from inventory.
 ```
 
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (Inventory Manager)
 
 - Working with arrays of objects
 - Managing shared state across multiple functions
 - Using advanced methods like `.map()`, `.includes()`, and `.indexOf()`
 - Handling edge cases (not found items, insufficient quantity, zero stock)
 
-### 💡 Reflection
+### 💡 Reflection (Inventory Manager)
 
 This project reinforced how important it is to think about edge cases and the order of conditions, especially when dealing with quantities and deletion logic. It more closely replicated real-world situations with modifying shared data with ongoing state changes across multiple functions. It also highlighted the value of readable output when tracking how data evolves over time by returning descriptive messages.
 
