@@ -27,7 +27,7 @@ The project focuses on reading and updating UI state directly from the DOM.
 
 ## 📌 Example Behavior
 
-```
+```text
 Initial state:
 😊 0/10
 
@@ -38,7 +38,7 @@ After reaching the maximum:
 😊 10/10 (further clicks have no effect)
 ```
 
-# 💡 Reflection
+## 💡 Reflection
 
 This project deepened understanding of how the DOM can serve as a source of application state. Instead of storing values only in variables, the current state is read from the interface, processed through logic, and written back to the DOM. This read–compute–render cycle mirrors the core behavior of modern front-end frameworks and strengthens event-driven programming skills.
 
