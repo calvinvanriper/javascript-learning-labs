@@ -12,7 +12,7 @@ The purpose of this project is to practice working with shared program state, ap
 
 - Stores an inventory as an array of objects
 
-```
+```javascript
 { name: 'productName', quantity: number}
 ```
 
@@ -29,14 +29,14 @@ The purpose of this project is to practice working with shared program state, ap
 
 When the program runs, it performs a sequence of inventory operations. Each function returns a message describing what happened, making it easy to follow changes in inventory state.
 
-```
+```bash
 flour quantity updated; current quantity: 25
 grain added to inventory; current quantity: 10
 Remaining flour pieces: 20
 rice's quantity has reached 0, it has been removed from inventory.
 ```
 
-## These messages help visualize how the system responds to different inputs and edge cases.
+These messages help visualize how the system responds to different inputs and edge cases.
 
 ## 🛠️ Concepts Practiced
 
