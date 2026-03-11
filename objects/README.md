@@ -10,9 +10,9 @@ More object-focused practice labs will be added here as learning progresses.
 
 This lab filters an array of objects and returns only those that contain all key/value pairs specified in a source object. It demonstrates how structured data can be evaluated using dynamic property comparison.
 
-### 📌 Example Behavior
+### 📌 Example Behavior (Matching Object Filter)
 
-```
+```bash
 whatIsInAName(
   [{ first: "Romeo", last: "Montague" }, { first: "Tybalt", last: "Capulet" }],
   { last: "Capulet" }
@@ -26,7 +26,7 @@ whatIsInAName(
 → [{ apple: 1, bat: 2 }]
 ```
 
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (Matching Object Filter)
 
 - Accessing object properties dynamically
 - Using `Object.keys()` to extract property names
@@ -34,7 +34,7 @@ whatIsInAName(
 - Combining array filtering with object logic
 - Evaluating structured data based on rule sets
 
-### 💡 Reflection
+### 💡 Reflection (Matching Object Filter)
 
 This lab introduces deeper interaction with structured data by moving beyond simple values to key/value relationships. Instead of transforming array elements, the function evaluates whether objects meet a set of property requirements. This mirrors real-world tasks such as data filtering, query matching, and record validation.
 
