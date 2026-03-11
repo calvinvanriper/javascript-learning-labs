@@ -26,7 +26,7 @@ This project emphasizes event-driven programming, state management, and scalable
 
 ## 📌 Example Behavior
 
-```
+```text
 Player selects Rock
 Computer selects Scissors
 → Player wins! Rock beats Scissors
