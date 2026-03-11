@@ -1,8 +1,8 @@
-# Gradebook App
+# Grade Book App
 
 ## 📝 Description
 
-This mini project builds a small gradebook system that evaluates student performance based on numeric test scores. Multiple helper functions work together to calculate a class average, assign letter grades, determine pass/fail status, and generate a student-facing summary message.
+This mini project builds a small grade book system that evaluates student performance based on numeric test scores. Multiple helper functions work together to calculate a class average, assign letter grades, determine pass/fail status, and generate a student-facing summary message.
 
 The goal of this project is to practice composing small, single-purpose functions into a cohesive program.
 
@@ -22,7 +22,7 @@ The goal of this project is to practice composing small, single-purpose function
 
 When the program runs, it can generate a summary message like:
 
-```
+```text
 Class average: 78.83333333333333. Your grade: B. You passed the course.
 ```
 
