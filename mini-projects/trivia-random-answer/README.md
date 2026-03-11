@@ -25,7 +25,7 @@ Because the selections are random, the outcome can change each time the program 
 
 When the program runs, it may output something like:
 
-```
+```text
 Category: Geography
 Question: What is the largest continent on Earth by land area?
 Computer picked: Antarctica
