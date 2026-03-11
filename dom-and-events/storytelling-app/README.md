@@ -25,7 +25,7 @@ This interactive storytelling app allows users to choose between different story
 
 ## 📌 Example Behavior
 
-```
+```text
 User selects "Scary Story" →
 Story text changes to a horror-themed story
 Story container border changes to red
@@ -35,7 +35,7 @@ Story text updates to a humorous story
 Border color changes to yellow
 ```
 
-# 💡 Reflection
+## 💡 Reflection
 
 This project highlights how data structures and DOM manipulation work together to create dynamic interfaces. Instead of hardcoding content into HTML, story information is stored in JavaScript objects and rendered based on user input. This approach improves scalability, maintainability, and separation of concerns in front-end development.
 
