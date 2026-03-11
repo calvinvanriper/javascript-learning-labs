@@ -19,9 +19,9 @@ A small product filtering interface that displays instrument cards based on the 
 - Rendering dynamic content with `innerHTML`
 - Keeping UI behavior driven by a data source
 
-##📌 Example Behavior
+## 📌 Example Behavior
 
-```
+```text
 User selects "brass"
 → Only brass instruments render as cards
 
