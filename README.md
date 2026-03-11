@@ -13,7 +13,7 @@
 
 Many DOM and mini-project labs are deployed and available for interactive use:
 
-➡️ https://calvinvanriper.dev/javascript-learning-labs/
+➡️ [View the Live Demo](https://calvinvanriper.dev/javascript-learning-labs/)
 
 This demonstrates real-world deployment practices and allows projects to be evaluated independently of the repository.
 
@@ -40,12 +40,12 @@ This repository prioritizes clarity, consistency, and maintainability over optim
 
 The repository is organized by topic area:
 
-```
-/topic-folder/ → Concept-focused labs
-/mini-projects/ → Multi-concept applications
+```text
+/topic-folder/ → Concept-focused labs and grouped exercises
+/mini-projects/ → Multi-concept applications and certification projects
 ```
 
-Each topic folder contains focused exercises designed to isolate and reinforce specific programming patterns.
+Each topic folder contains focused exercises designed to isolate and reinforce specific programming patterns. DOM labs and larger projects may also include their own sub-folders with dedicated HTML, CSS, JavaScript, and README files.
 
 ---
 
@@ -65,48 +65,53 @@ These labs document progressive skill development through structured practical e
 
 ### 🧠 Algorithms
 
-Problem-solving exercises focused on transforming input into output through structured logic and computational thinking.  
+Problem-solving exercises focused on transforming input into output through structured logic and computational thinking.
 ➡️ [`Open folder`](./algorithms)
+
+### 📚 Arrays
+
+Working with ordered data collections, including selection, mutation, and safe state management.
+➡️ [`Open folder`](./arrays)
+
+### 🖱️ DOM Manipulation & Events
+
+Interactive front-end applications connecting user input to dynamic interface behavior.
+➡️ [`Open folder`](./dom-and-events)
 
 ### 🔀 Logic & Control Flow
 
-Decision-making, conditional branching, and state-driven program behavior.  
+Decision-making, conditional branching, and state-driven program behavior.
 ➡️ [`Open folder`](./logic-and-control-flow)
 
 ### 🔁 Loops
 
-Iteration patterns for processing data and building results incrementally.  
+Iteration patterns for processing data and building results incrementally.
 ➡️ [`Open folder`](./loops)
 
 ### ➗ Math Basics
 
-Arithmetic operations, formulas, and logic-based calculations.  
+Arithmetic operations, formulas, and logic-based calculations.
 ➡️ [`Open folder`](./math-basics)
-
-### 🧵 String Manipulation
-
-Text parsing, formatting, reconstruction, and transformation techniques.  
-➡️ [`Open folder`](./string-manipulation)
-
-### 📚 Arrays
-
-Working with ordered data collections, including selection, mutation, and safe state management.  
-➡️ [`Open folder`](./arrays)
-
-### 🧱 Objects
-
-Structured data modeling using properties, access patterns, and object-based organization.  
-➡️ [`Open folder`](./objects)
-
-### 🖱️ DOM Manipulation & Events
-
-Interactive front-end applications connecting user input to dynamic interface behavior.  
-➡️ [`Open folder`](./dom-and-events)
 
 ### 🧩 Mini Projects
 
-Integrated applications combining multiple concepts into complete working programs.  
+Integrated applications combining multiple concepts into complete working programs.
 ➡️ [`Open folder`](./mini-projects)
+
+### 🧱 Objects
+
+Structured data modeling using properties, access patterns, and object-based organization.
+➡️ [`Open folder`](./objects)
+
+### 🔎 RegEx & Parsing
+
+Pattern matching, text validation, string conversion, and lightweight parsing utilities using regular expressions.
+➡️ [`Open folder`](./regex-and-parsing)
+
+### 🧵 String Manipulation
+
+Text parsing, formatting, reconstruction, and transformation techniques.
+➡️ [`Open folder`](./string-manipulation)
 
 ---
 
@@ -162,6 +167,8 @@ These labs use plain JavaScript and can be executed in either a browser or Node.
 node path/to/file.js
 ```
 
+For DOM-based labs and mini-projects, open the project's `index.html` file in a browser or use the deployed live demo when available.
+
 ---
 
 ## 🧭 Lifecycle Status
@@ -171,5 +178,3 @@ This repository is actively maintained during the JavaScript certification phase
 Upon completion of the core certification track, the repository will transition to maintenance mode and remain as a permanent reference and portfolio artifact documenting foundational JavaScript competency.
 
 Future application development will occur in separate, dedicated repositories.
-
----
