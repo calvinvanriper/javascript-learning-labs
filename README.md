@@ -19,6 +19,16 @@ This demonstrates real-world deployment practices and allows projects to be eval
 
 ---
 
+## ⭐ Featured Interactive Projects
+
+- [ARIA Tabs – Planets Interface](./dom-and-events/aria-tabs)
+- [Spam Filter](./regex-and-parsing/spam-filter)
+- [Palindrome Checker](./regex-and-parsing/palindrome-checker)
+- [Regex Sandbox](./regex-and-parsing/regex-sandbox)
+- [Markdown to HTML Converter](./mini-projects/markdown-to-html-converter)
+
+---
+
 ## 📝 Overview
 
 This repository is a structured collection of JavaScript labs completed during formal programming study and independent practice.
