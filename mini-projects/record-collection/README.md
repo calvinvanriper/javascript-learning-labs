@@ -29,7 +29,7 @@ When the program runs, it applies several updates to the record collection. Afte
 
 Example output for a single update might look like:
 
-```
+```text
 Step: Set artist on 5439 to ABBA
 {
   "albumTitle": "ABBA Gold",
