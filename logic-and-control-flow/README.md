@@ -12,9 +12,9 @@ The goal of these exercises is to practice thinking through how a program behave
 
 This lab determines a golfer’s score label based on the hole’s par value and the number of strokes taken. It follows standard golf scoring rules and returns a descriptive result such as `"Birdie"` or `"Bogey"`.
 
-### 📌 Example Behavior
+### 📌 Example Behavior (Golf Score)
 
-```
+```javascript
     golfScore(5, 4) ➜ Birdie
     golfScore(4, 1) ➜ Hole-in-one!
     golfScore(4, 7) ➜ Go Home!
@@ -24,7 +24,7 @@ This lab determines a golfer’s score label based on the hole’s par value and
     golfScore(4, 5) ➜ Bogey
 ```
 
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (Gold Score)
 
 - Conditional logic and ordered rule evaluation
 - Guard clauses for special cases
@@ -32,7 +32,7 @@ This lab determines a golfer’s score label based on the hole’s par value and
 - Using a lookup array to centralize output values
 - Ensuring clean control flow with clear fall-through behavior
 
-### 💡 Reflection
+### 💡 Reflection (Golf Score)
 
 This lab reinforced the importance of ordering conditions correctly, since the output depends entirely on rule precedence. It highlighted how real-world scoring systems can be modeled in code using structured decision trees, and how early guard conditions prevent incorrect matches later in the flow.
 
@@ -44,16 +44,16 @@ This lab searches a list of contact objects to retrieve a specific property valu
 
 Rather than iterating unnecessarily, the logic prioritizes validation and early exits to ensure predictable and readable behavior.
 
-### 📌 Example Behavior
+### 📌 Example Behavior (Contact Lookup)
 
-```
+```javascript
 lookUpProfile("Kristian", "lastName") ➜ "Vos"
 lookUpProfile("Sherlock", "likes") ➜ ["Intriguing Cases", "Violin"]
 lookUpProfile("Bob", "number") ➜ "No such contact"
 lookUpProfile("Akira", "address") ➜ "No such property"
 ```
 
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (Contact Lookup)
 
 - Conditional branching with clear precedence rules
 - Early returns to fail fast and simplify control flow
@@ -63,7 +63,7 @@ lookUpProfile("Akira", "address") ➜ "No such property"
 
 ---
 
-## 💡 Reflection
+## 💡 Reflection (Contact Lookup)
 
 This lab reinforced the importance of validating data in the correct order before attempting to access it. It highlighted how checking for the existence of a contact must come before checking for a property, and how early returns make decision logic easier to read and reason about.
 
@@ -75,13 +75,13 @@ It also demonstrated how real-world lookup behavior can be modeled in code using
 
 This exercise builds a function that returns the first element in an array that satisfies a provided truth test function.
 
-### 📌 Example Behavior
+### 📌 Example Behavior (First Element Finder)
 
-```
+```javascript
 findElement([1, 3, 5, 8, 9], num => num % 2 === 0) → 8
 ```
 
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (First Element Finder)
 
 - Higher-order functions
 - Passing functions as arguments
@@ -89,7 +89,7 @@ findElement([1, 3, 5, 8, 9], num => num % 2 === 0) → 8
 - Early returns for efficient control flow
 - Re-creating built-in behavior (`Array.prototype.find`)
 
-### 💡 Reflection
+### 💡 Reflection (First Element Finder)
 
 This lab introduced the concept of higher-order functions by allowing behavior to be passed into a function as an argument. It reinforced how control flow can be delegated using predicate functions, and how early returns can be used to efficiently stop iteration once a condition is met.
 
@@ -99,18 +99,18 @@ This lab introduced the concept of higher-order functions by allowing behavior t
 
 This exercise builds a function that generates a text-based pyramid using a specified character, number of rows, and direction flag.
 
-### 📌 Example Behavior
+### 📌 Example Behavior (Pyramid Generator)
 
+```javascript
+pyramid('o', 4, false);
+
+o;
+ooo;
+ooooo;
+ooooooo;
 ```
-pyramid("o", 4, false)
 
-   o
-  ooo
- ooooo
-ooooooo
-```
-
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (Pyramid Generator)
 
 - Nested control flow using loops and conditionals
 - Building dynamic string output
@@ -118,7 +118,7 @@ ooooooo
 - Using parameters to alter execution paths
 - Avoiding trailing whitespace in formatted output
 
-### 💡 Reflection
+### 💡 Reflection (Pyramid Generator)
 
 This lab required careful planning and incremental debugging to manage spacing, alignment, and execution order. It reinforced the importance of breaking complex output problems into smaller steps and reasoning through how control flow affects final results.
 
@@ -128,15 +128,15 @@ This lab required careful planning and incremental debugging to manage spacing, 
 
 This lab simulates a simplified Blackjack card-counting system. The program keeps track of a running count and returns a suggestion based on whether the current count is positive or not.
 
-### 📌 Example Behavior
+### 📌 Example Behavior (Card Counter)
 
-```
+```text
     2 Bet
     0 Hold
     -1 Hold
 ```
 
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (Card Counter)
 
 - Using `if / else if / else` branching
 - Tracking state using a global variable
@@ -144,7 +144,7 @@ This lab simulates a simplified Blackjack card-counting system. The program keep
 - Understanding how repeated function calls build on each other
 - Thinking about program logic instead of only math
 
-### 💡 Reflection
+### 💡 Reflection (Card Counter)
 
 This lab introduced the concept of state persistence across function calls, where each call affects the next outcome. It emphasized thinking about program flow over time rather than a single execution, and showed how simple conditional logic can drive decision-making systems.
 
@@ -154,15 +154,15 @@ This lab introduced the concept of state persistence across function calls, wher
 
 This exercise generates Fibonacci numbers up to a specified limit and calculates the sum of only the odd values in the sequence. The function builds the sequence step-by-step while ensuring numbers do not exceed the provided limit.
 
-### 📌 Example Behavior
+### 📌 Example Behavior (Sum Odd Fibonacci Numbers)
 
-```
+```javascript
 sumFibs(4) → 5        // 1 + 1 + 3
 sumFibs(10) → 10      // 1 + 1 + 3 + 5
 sumFibs(75025) → 135721
 ```
 
-### 🛠️ Concepts Practiced
+### 🛠️ Concepts Practiced (Sum Odd Fibonacci Numbers)
 
 - Generating number sequences using iterative logic
 - Controlling loop termination based on dynamic conditions
@@ -170,7 +170,7 @@ sumFibs(75025) → 135721
 - Filtering values based on numeric properties (odd numbers)
 - Accumulating totals using an accumulator variable
 
-### 💡 Reflection
+### 💡 Reflection (Sum Odd Fibonacci Numbers)
 
 This lab reinforces the importance of control flow and condition placement when generating sequences. It highlights how a small shift in where a condition is evaluated can significantly change program behavior. The exercise also demonstrates how multiple stages of logic—generation, filtering, and accumulation—can be combined to produce a final result.
 
