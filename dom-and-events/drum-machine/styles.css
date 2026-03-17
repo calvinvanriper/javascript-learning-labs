@@ -1,0 +1,110 @@
+:root {
+  /* core brand colors for this project */
+  --page-bg: #0a0a0a;
+  --panel-bg: #161b22;
+  --display-bg: #0a2342;
+
+  --pad-bg: #eceff1;
+  --pad-hover: #10b981;
+  --pad-active: #0fa371;
+
+  --text-main: #f8fafc;
+  --text-dark: #000000;
+  --text-display: #f8fafc;
+
+  --border-color: #555555;
+  --shadow-color: rgba(0, 0, 0, 0.35);
+
+  /* font sizes */
+  --root-font-size: 16px;
+  font-size: var(--root-font-size);
+
+  /* font-families */
+  --font-headline: 'Roboto Mono', monospace;
+  --font-family: 'Lato', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--page-bg);
+  color: var(--text-main);
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#drum-machine {
+  background-color: var(--panel-bg);
+  padding: 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+}
+
+#pad-bank {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#display {
+  background-color: var(--display-bg);
+  color: var(--text-display);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  padding: 0.5rem;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.drum-pad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--pad-bg);
+  color: var(--text-dark);
+  font-family: var(--font-headline);
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 6px 12px var(--shadow-color);
+  transition:
+    background-color 0.2s ease,
+    transform 0.08s ease,
+    box-shadow 0.08s ease;
+}
+
+.drum-pad:hover {
+  background-color: var(--pad-hover);
+  color: var(--text-display);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 18px var(--shadow-color);
+}
+
+.drum-pad:active {
+  background-color: var(--pad-active);
+  color: var(--text-display);
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
