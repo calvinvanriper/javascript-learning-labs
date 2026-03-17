@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-This folder contains JavaScript exercises that focus on math fundamentals and numeric operations. Each lab is built as a small, reusable function that performs a real-world style calculations. These exercises reinforce function structure, return values, and working with mathematical expressions in JavaScript.
+This folder contains JavaScript exercises that focus on math fundamentals, numeric operations, and working with number-based data such as time and dates. Each lab is built as a small, reusable function that performs a real-world style calculations. These exercises reinforce function structure, return values, and working with mathematical expressions in JavaScript.
 
 More math-focused practice labs will be added here as I continue learning 🙂
 
@@ -109,6 +109,36 @@ This lab demonstrates how mathematical operations often rely on structured itera
 
 ---
 
+---
+
+## 📆 Date Format Converter Lab
+
+This lab formats JavaScript `Date` objects into different human-readable string formats. It demonstrates how built-in date methods can be used to extract and present time-based data in standardized and localized formats.
+
+### 📌 Example Behavior (Date Format Converter)
+
+```javascript
+formatDateMMDDYYYY(new Date('2024-01-15'));
+// → "Formatted Date (MM/DD/YYYY): 1/15/2024"
+
+formatDateLong(new Date('2024-01-15'));
+// → "Formatted Date (Month Day, Year): January 15, 2024"
+```
+
+### 🛠️ Concepts Practiced (Date Format Converter)
+
+- Working with the JavaScript `Date` object
+- Converting date values into formatted strings
+- Using `toLocaleDateString()` with formatting options
+- Handling built-in object methods for real-world data representation
+- Structuring reusable formatting functions
+
+### 💡 Reflection (Date Format Converter)
+
+This lab expanded beyond basic arithmetic into working with time-based data. It reinforced how JavaScript provides built-in objects that abstract complex calculations, allowing developers to focus on formatting and presentation rather than manual computation.
+
+It also highlighted the importance of separating raw data (a `Date` object) from its displayed format, a pattern commonly used in real-world applications when presenting user-facing information.
+
 ## 💡 Topic Reflection
 
 These labs strengthened the connection between mathematical reasoning and program logic. Each exercise demonstrated how formulas and numeric rules can be implemented in code through clear function design and structured decision-making.
@@ -119,5 +149,6 @@ Together, they reinforced several foundational skills:
 - returning values rather than relying on console output
 - validating results with varied test cases
 - structuring logic so functions remain reusable
+- working with built-in objects that represent numeric data (e.g., dates and time)
 
 Although simple in scope, these labs build the precision and discipline needed before tackling more complex algorithmic problems.
