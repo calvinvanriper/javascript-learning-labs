@@ -22,9 +22,9 @@ This demonstrates real-world deployment practices and allows projects to be eval
 ## ⭐ Featured Interactive Projects
 
 - [ARIA Tabs – Planets Interface](./dom-and-events/aria-tabs)
+- [Music Player](./dom-and-events/music-player)
+- [Customer Complaint Form](./dom-and-events/customer-complaint-form)
 - [Spam Filter](./regex-and-parsing/spam-filter)
-- [Palindrome Checker](./regex-and-parsing/palindrome-checker)
-- [Regex Sandbox](./regex-and-parsing/regex-sandbox)
 - [Markdown to HTML Converter](./mini-projects/markdown-to-html-converter)
 
 ---
@@ -33,7 +33,7 @@ This demonstrates real-world deployment practices and allows projects to be eval
 
 This repository is a structured collection of JavaScript labs completed during formal programming study and independent practice.
 
-Each lab focuses on a specific language concept or programming pattern, progressing from foundational syntax to interactive, event-driven applications.
+Each lab focuses on a specific language concept or programming pattern, progressing from foundational syntax to interactive, event-driven, and state-driven applications.
 
 The purpose of this repository is to:
 
@@ -41,6 +41,7 @@ The purpose of this repository is to:
 - Document learning progression and problem-solving development
 - Establish consistent engineering standards across all exercises
 - Serve as a long-term reference and professional portfolio artifact
+- Demonstrate progression from simple scripting to state-driven application design
 
 This repository prioritizes clarity, consistency, and maintainability over optimization or abstraction.
 
@@ -85,7 +86,7 @@ Working with ordered data collections, including selection, mutation, and safe s
 
 ### 🖱️ DOM Manipulation & Events
 
-Interactive front-end applications connecting user input to dynamic interface behavior.
+Interactive front-end applications connecting user input to dynamic interface behavior, including state management, validation systems, and real-time UI updates.
 ➡️ [`Open folder`](./dom-and-events)
 
 ### 🔀 Logic & Control Flow
