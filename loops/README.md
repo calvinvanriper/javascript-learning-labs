@@ -155,6 +155,38 @@ This lab highlighted how loops can be used to compare expected versus actual seq
 
 ---
 
+## 🚀 Crew Priority Manager Lab
+
+This lab simulates managing a crew roster using iterative logic to validate, organize, and prioritize astronaut data. The program builds a squad, prevents duplicate entries, sorts members by priority, filters eligibility for EVA (Extra Vehicular Activity), and groups crew members into deployable units.
+
+### 📌 Example Behavior (Crew Priority Manager)
+
+```javascript
+getEVAReadyCrew(squad);
+// → returns only EVA-eligible crew sorted by priority (highest first)
+
+chunkCrew(EVAReadySquad, 3);
+// → splits crew into groups of 3
+```
+
+### 🛠️ Concepts Practiced (Crew Priority Manager)
+
+- Iterating through arrays using `for` and `for...of` loops
+- Preventing duplicate entries using conditional checks
+- Swapping array elements safely
+- Implementing sorting logic (bubble sort)
+- Filtering data based on object properties
+- Chunking arrays into grouped subsets
+- Working with structured object data
+
+### 💡 Reflection (Crew Priority Manager)
+
+This lab expanded beyond simple loop usage into combining multiple iteration patterns to manage structured data. Instead of solving a single problem, the program applies loops across several stages: validation, sorting, filtering, and grouping.
+
+It reinforced how loops are not just for repetition, but for orchestrating complex transformations on data. This mirrors real-world scenarios where data must be processed through multiple steps before it becomes usable.
+
+---
+
 ## 💡 Topic Reflection
 
 These labs strengthened my understanding of how loops drive program flow by enabling repeated operations over data. Each exercise demonstrated how iteration allows values to evolve over time, whether tracking a maximum, building a product, comparing datasets, or restructuring collections.
@@ -165,5 +197,6 @@ Together, they reinforced several foundational patterns:
 - detecting conditions within sequences
 - building results incrementally
 - using early exits to simplify logic
+- processing structured data through multiple transformation stages (sorting, filtering, grouping)
 
-These skills form the backbone of many real-world programs that process data in stages rather than all at once.
+These skills form the backbone of many real-world programs where data is processed through multiple transformation stages rather than handled in a single step.
