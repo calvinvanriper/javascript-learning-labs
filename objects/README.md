@@ -42,6 +42,44 @@ This lab introduces deeper interaction with structured data by moving beyond sim
 
 ---
 
+## 🗳️ Voting System
+
+This lab implements a poll system that tracks votes for different options using structured collections. It ensures that each voter can only vote once per option and maintains a count of votes for each choice.
+
+### 📌 Example Behavior (Voting System)
+
+```bash
+addOption("Turkey")
+→ Option "Turkey" added to the poll.
+
+vote("Turkey", 1)
+→ Voter 1 voted for "Turkey".
+
+vote("Turkey", 1)
+→ Voter 1 has already voted for "Turkey".
+
+displayResults()
+→
+Poll Results:
+Turkey: 2 votes
+Morocco: 1 votes
+Japan: 0 votes
+```
+
+### 🛠️ Concepts Practiced (Voting System)
+
+- Using `Map` to associate options with voters
+- Using `Set` to enforce unique values
+- Preventing duplicate actions through data structure constraints
+- Iterating over Map entries
+- Managing state in a controlled data system
+
+### 💡 Reflection (Voting System)
+
+This lab demonstrates how combining Map and Set can enforce real-world constraints such as one vote per user. Instead of relying on conditional logic alone, the data structures themselves help maintain integrity. This approach reflects practical patterns used in applications that require uniqueness, tracking, and controlled state updates.
+
+---
+
 ## 🌿 Plant Nursery Catalog
 
 This lab models a plant inventory system using object-based records and keyed collections. It tracks plant varieties and their inventory counts by size, allowing updates such as selling items, removing plants, and displaying catalog data.
