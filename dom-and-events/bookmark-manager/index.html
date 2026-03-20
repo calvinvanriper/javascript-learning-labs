@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <!-- Main Menu -->
+      <section id="main-section">
+        <h1>Bookmark Manager</h1>
+
+        <div id="dropdown">
+          <label for="category-dropdown">Select a category:</label>
+          <select id="category-dropdown" name="category">
+            <option value="news" selected>News</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="work">Work</option>
+            <option value="miscellaneous">Miscellaneous</option>
+          </select>
+        </div>
+
+        <div id="buttons">
+          <button type="button" id="view-category-button">View Category</button>
+          <button type="button" id="open-bookmark-form-btn">Add Bookmark</button>
+        </div>
+      </section>
+
+      <!-- Add Bookmark Form -->
+      <section id="form-section" class="hidden">
+        <form id="bookmark-form">
+          <h2 class="category-name"></h2>
+
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+          </div>
+
+          <div>
+            <label for="url">URL:</label>
+            <input type="url" id="url" required />
+          </div>
+
+          <div>
+            <button type="button" id="close-form-button">Go Back</button>
+            <button type="submit" id="submit-bookmark-btn">Add Bookmark</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Bookmark List -->
+      <section id="bookmark-list-section" class="hidden">
+        <h2 class="category-name"></h2>
+
+        <ul id="category-list"></ul>
+
+        <div>
+          <button type="button" id="close-list-button">Go Back</button>
+          <button type="button" id="delete-bookmark-button">Delete Bookmark</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
