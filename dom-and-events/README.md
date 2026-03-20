@@ -113,11 +113,25 @@ A stateful browser game where the player competes against the computer using rul
 ➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/rpsls-game/README.md)
 ➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/rpsls-game/)
 
+### ✅ Todo App
+
+A state-driven task management application that supports creating, editing, and deleting tasks with persistent storage using localStorage.
+
+➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/todo-app/README.md)
+➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/todo-app/)
+
+### 🔖 Bookmark Manager
+
+A category-based bookmark manager that allows users to add, view, and delete saved links with filtering and persistent storage using localStorage.
+
+➡️ 📄 [`Docs`](https://github.com/calvinvanriper/javascript-learning-labs/tree/main/dom-and-events/bookmark-manager/README.md)
+➡️ ▶️ [`Live demo`](https://calvinvanriper.dev/javascript-learning-labs/dom-and-events/bookmark-manager/)
+
 ## 💡 Topic Reflection
 
 These projects introduced event-driven programming and DOM state management. Instead of executing once and finishing, these applications respond continuously to user input and update the interface in real time.
 
-As complexity increased, the focus expanded from simple class toggling to structured UI patterns driven by data and application state, including:
+As complexity increased, the focus expanded from simple class toggling to structured UI patterns driven by data, persistent storage, and application state, including:
 
 - Real-time input tracking and validation
 - Dynamic form generation and validation logic
@@ -128,6 +142,7 @@ As complexity increased, the focus expanded from simple class toggling to struct
 - Accessible interface patterns using ARIA roles and semantic state synchronization
 - Managing accessible menu patterns and UI state using ARIA roles and expanded state synchronization
 - Stateful application logic (media players, games, and interactive tools)
+- Persistent application state using localStorage
 
 These exercises reinforced the core front-end principle of synchronizing data, logic, and presentation. Rather than hardcoding interface changes, the UI becomes a direct reflection of application state, improving scalability, maintainability, and clarity of behavior.
 

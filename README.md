@@ -21,10 +21,11 @@ This demonstrates real-world deployment practices and allows projects to be eval
 
 ## ⭐ Featured Interactive Projects
 
+- [Todo App](./dom-and-events/todo-app)
+- [Bookmark Manager](./dom-and-events/bookmark-manager)
 - [ARIA Tabs – Planets Interface](./dom-and-events/aria-tabs)
 - [Music Player](./dom-and-events/music-player)
 - [Customer Complaint Form](./dom-and-events/customer-complaint-form)
-- [Spam Filter](./regex-and-parsing/spam-filter)
 - [Markdown to HTML Converter](./mini-projects/markdown-to-html-converter)
 
 ---
@@ -86,7 +87,7 @@ Working with ordered data collections, including selection, mutation, and safe s
 
 ### 🖱️ DOM Manipulation & Events
 
-Interactive front-end applications connecting user input to dynamic interface behavior, including state management, validation systems, and real-time UI updates.
+Interactive front-end applications connecting user input to dynamic interface behavior, including state management, persistent storage, validation systems, and real-time UI updates.
 ➡️ [`Open folder`](./dom-and-events)
 
 ### 🔀 Logic & Control Flow
