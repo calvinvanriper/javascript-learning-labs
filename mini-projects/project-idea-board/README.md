@@ -86,15 +86,6 @@ Originally based on a logic-only FreeCodeCamp lab, this project was expanded int
 
 ### Final Application
 
-tation
-
-- No UI or DOM interaction
-- Console-based output
-- No persistence
-- No user interaction patterns
-
-### Final Application
-
 - Fully interactive UI with dynamic rendering
 - State-driven architecture with centralized update flow
 - Expandable project cards with real-time updates
@@ -123,4 +114,4 @@ The addition of persistent storage and keyboard interaction further emphasized h
 
 ## 🧪 CodePen Version
 
-[`CodePen – Project Idea Board`](https://codepen.io/calvinvanriper/full/myrqNmo)
+[`CodePen – Project Idea Board`](https://codepen.io/editor/calvinvanriper/pen/your-pen-id-here)
