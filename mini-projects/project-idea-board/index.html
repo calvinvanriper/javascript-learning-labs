@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Idea Board</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Project Idea Board</h1>
+    </header>
+
+    <main class="page">
+      <section class="board-toolbar">
+        <div class="board-actions">
+          <button id="new-idea-btn" class="btn new-idea-btn" type="button">New Idea</button>
+          <p class="board-summary">Ideas: <span id="idea-count">0</span></p>
+          <button id="clear-btn" class="btn clear-btn" type="button">Clear Board</button>
+        </div>
+      </section>
+
+      <form id="new-idea-form" class="new-idea-form hidden" aria-labelledby="idea-form-title">
+        <div class="idea-form-header">
+          <h2 class="idea-form-title" id="idea-form-title">New Project Idea</h2>
+          <button
+            id="close-idea-form-btn"
+            class="close-idea-form-btn"
+            type="button"
+            aria-label="Close"
+          >
+            <svg
+              class="close-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 48 48"
+              width="48px"
+              height="48px"
+            >
+              <path
+                fill="#F44336"
+                d="M21.5 4.5H26.501V43.5H21.5z"
+                transform="rotate(45.001 24 24)"
+              />
+              <path
+                fill="#F44336"
+                d="M21.5 4.5H26.5V43.501H21.5z"
+                transform="rotate(135.008 24 24)"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="idea-form-body">
+          <label class="idea-form-label" for="title-input">Title</label>
+          <input required name="title" type="text" class="form-control" id="title-input" />
+
+          <label class="idea-form-label" for="idea-status">Status</label>
+          <select name="status" id="idea-status" required>
+            <option value="">--Please choose a status--</option>
+            <option value="PENDING">Pending Execution</option>
+            <option value="SUCCESS">Executed Successfully</option>
+            <option value="FAILURE">Execution Failed</option>
+          </select>
+
+          <label class="idea-form-label" for="idea-description">Description</label>
+          <textarea
+            name="description"
+            class="form-control"
+            id="idea-description"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+
+        <div class="idea-form-actions">
+          <button type="submit" class="btn submit-btn" id="submit-btn">Add Idea</button>
+          <button type="button" class="btn cancel-btn" id="cancel-btn">Cancel</button>
+        </div>
+      </form>
+
+      <section
+        id="project-ideas-container"
+        class="project-ideas-container"
+        aria-label="Project ideas board"
+      ></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
