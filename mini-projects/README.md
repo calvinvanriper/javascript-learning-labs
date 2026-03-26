@@ -117,6 +117,68 @@ This project reinforced how important it is to think about edge cases and the or
 
 ---
 
+## 🍨 Sweet Cart
+
+An interactive shopping cart application that allows users to add items, manage cart contents, and view calculated totals in real time.
+
+### 📌 Expected Behavior (Sweet Cart)
+
+```text
+User adds items to the cart →
+Cart updates with item list, quantity, and totals →
+Cart can be cleared or closed →
+UI reflects empty and populated states dynamically
+```
+
+### 🛠️ Concepts Practiced (Sweet Cart)
+
+- State-driven UI updates
+- DOM manipulation and event handling
+- Managing collections of objects
+- Calculating derived values (subtotal, tax, total)
+- Conditional rendering based on application state
+- UI/UX patterns (empty state, disabled controls, toggles)
+
+### 💡 Reflection (Sweet Cart)
+
+This project marked a transition from logic-only exercises to building interactive user interfaces. It required thinking about application state as the source of truth and ensuring the UI consistently reflects that state.
+
+Refactoring the initial implementation into a more structured system highlighted the importance of separating logic from event listeners and centralizing UI updates. It also reinforced how small UX improvements—such as empty states, button disabling, and animations—can significantly improve usability.
+
+---
+
+## 🧠 Project Idea Board
+
+A dynamic project management interface that allows users to create, edit, and track ideas with persistent storage and real-time UI updates.
+
+### 📌 Expected Behavior (Project Idea Board)
+
+```text
+User creates a new idea →
+Idea appears as a card on the board →
+User can expand details, edit, update status, or delete →
+Changes persist after page refresh
+```
+
+### 🛠️ Concepts Practiced (Project Idea Board)
+
+- Class-based state management
+- Dynamic rendering from application state
+- Event delegation for scalable interaction handling
+- Form validation and submission workflows
+- Persistent storage using `localStorage`
+- Conditional UI rendering and state synchronization
+- Keyboard interaction and accessibility patterns
+- Component-based UI structure and styling
+
+### 💡 Reflection (Project Idea Board)
+
+This project builds on earlier work by introducing a more complete application architecture, including persistent state and more advanced interaction patterns. Expanding a logic-only lab into a full UI required careful coordination between state, rendering, and user input.
+
+It reinforced the value of treating application data as the single source of truth and using rendering functions to keep the UI predictable. The addition of features such as editing, status updates, and keyboard shortcuts highlighted how thoughtful interaction design can elevate a simple concept into a more polished application.
+
+---
+
 ## 💡 Topic Reflection
 
 These mini projects help bridge the gap between individual concept labs and more complete programs. Rather than focusing on one idea in isolation, each project requires combining multiple concepts to produce meaningful output.
