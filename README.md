@@ -21,12 +21,17 @@ This demonstrates real-world deployment practices and allows projects to be eval
 
 ## ⭐ Featured Interactive Projects
 
-- [Todo App](./dom-and-events/todo-app)
-- [Bookmark Manager](./dom-and-events/bookmark-manager)
-- [ARIA Tabs – Planets Interface](./dom-and-events/aria-tabs)
-- [Music Player](./dom-and-events/music-player)
-- [Customer Complaint Form](./dom-and-events/customer-complaint-form)
+- [Project Idea Board](./mini-projects/project-idea-board)
+  State-driven application with editing, status management, keyboard shortcuts, and persistent storage.
+
+- [Sweet Cart](./mini-projects/sweet-cart)
+  Interactive shopping cart with dynamic UI rendering, derived state calculations, and synchronized updates.
+
 - [Markdown to HTML Converter](./mini-projects/markdown-to-html-converter)
+  Custom parsing engine that transforms Markdown into structured HTML using a multi-step regex pipeline.
+
+- [ARIA Tabs – Planets Interface](./dom-and-events/aria-tabs)
+  Accessible tab system implementing ARIA roles, keyboard navigation, and controlled focus management.
 
 ---
 
