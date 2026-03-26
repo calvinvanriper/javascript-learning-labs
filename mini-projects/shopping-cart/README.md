@@ -154,7 +154,7 @@ It also reinforced how grouping logic and rendering order affect UI correctness,
 
 ## 🔗 Live Demo
 
-[Sweet Cart](https://codepen.io/calvinvanriper/full/pvEdPLO)
+[Sweet Cart](https://calvinvanriper.dev/javascript-learning-labs/mini-projects/shopping-cart/)
 
 ## 🧪 CodePen Version
 
