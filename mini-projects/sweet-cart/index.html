@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Sweet Cart</h1>
+    </header>
+    <main class="page">
+      <div class="cart-controls">
+        <button
+          id="cart-btn"
+          type="button"
+          class="btn cart-btn"
+          aria-expanded="false"
+          aria-controls="cart-container"
+        >
+          <span id="show-hide-cart">Show Cart</span>
+          <span id="cart-count-badge" class="cart-badge hidden">0</span>
+        </button>
+
+        <section id="cart-container" class="cart cart-closed" aria-labelledby="cart-heading">
+          <h2 id="cart-heading" class="cart-title">Your Cart</h2>
+
+          <div class="cart-header">
+            <button class="btn" id="clear-cart-btn" type="button">Clear Cart</button>
+          </div>
+
+          <p id="empty-cart-message" class="empty-cart">Your cart is empty</p>
+          <div id="products-container" class="cart-items"></div>
+
+          <div class="cart-summary">
+            <p>Total number of items: <span id="total-items">0</span></p>
+            <p>Subtotal: <span id="subtotal">$0</span></p>
+            <p>Taxes: <span id="taxes">$0</span></p>
+            <p>Total: <span id="total">$0</span></p>
+          </div>
+        </section>
+      </div>
+      <div id="dessert-card-container" class="dessert-card-container"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
