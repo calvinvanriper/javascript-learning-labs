@@ -34,3 +34,5 @@ coverage/
 # Misc
 *.log
 pnpm-debug.log*
+notes/
+mini-projects/bank-account-management
